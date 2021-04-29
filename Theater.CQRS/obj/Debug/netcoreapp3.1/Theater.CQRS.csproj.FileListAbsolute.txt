@@ -1,0 +1,14 @@
+C:\Users\Natthakhon.la\source\repos\Theater.Api\Theater.CQRS\bin\Debug\netcoreapp3.1\Theater.Domain.dll
+C:\Users\Natthakhon.la\source\repos\Theater.Api\Theater.CQRS\bin\Debug\netcoreapp3.1\Theater.Repository.dll
+C:\Users\Natthakhon.la\source\repos\Theater.Api\Theater.CQRS\bin\Debug\netcoreapp3.1\Theater.Domain.pdb
+C:\Users\Natthakhon.la\source\repos\Theater.Api\Theater.CQRS\obj\Debug\netcoreapp3.1\Theater.CQRS.csprojAssemblyReference.cache
+C:\Users\Natthakhon.la\source\repos\Theater.Api\Theater.CQRS\obj\Debug\netcoreapp3.1\Theater.CQRS.AssemblyInfoInputs.cache
+C:\Users\Natthakhon.la\source\repos\Theater.Api\Theater.CQRS\obj\Debug\netcoreapp3.1\Theater.CQRS.AssemblyInfo.cs
+C:\Users\Natthakhon.la\source\repos\Theater.Api\Theater.CQRS\bin\Debug\netcoreapp3.1\Theater.CQRS.deps.json
+C:\Users\Natthakhon.la\source\repos\Theater.Api\Theater.CQRS\bin\Debug\netcoreapp3.1\Theater.CQRS.dll
+C:\Users\Natthakhon.la\source\repos\Theater.Api\Theater.CQRS\bin\Debug\netcoreapp3.1\Theater.CQRS.pdb
+C:\Users\Natthakhon.la\source\repos\Theater.Api\Theater.CQRS\bin\Debug\netcoreapp3.1\Theater.Repository.pdb
+C:\Users\Natthakhon.la\source\repos\Theater.Api\Theater.CQRS\obj\Debug\netcoreapp3.1\Theater.CQRS.csproj.CoreCompileInputs.cache
+C:\Users\Natthakhon.la\source\repos\Theater.Api\Theater.CQRS\obj\Debug\netcoreapp3.1\Theater.CQRS.csproj.CopyComplete
+C:\Users\Natthakhon.la\source\repos\Theater.Api\Theater.CQRS\obj\Debug\netcoreapp3.1\Theater.CQRS.dll
+C:\Users\Natthakhon.la\source\repos\Theater.Api\Theater.CQRS\obj\Debug\netcoreapp3.1\Theater.CQRS.pdb
