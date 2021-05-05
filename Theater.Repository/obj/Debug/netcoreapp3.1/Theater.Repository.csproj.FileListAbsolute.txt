@@ -10,3 +10,15 @@ C:\Users\Natthakhon.la\source\repos\Theater.Api\Theater.Repository\obj\Debug\net
 C:\Users\Natthakhon.la\source\repos\Theater.Api\Theater.Repository\obj\Debug\netcoreapp3.1\Theater.Repository.csproj.CopyComplete
 C:\Users\Natthakhon.la\source\repos\Theater.Api\Theater.Repository\obj\Debug\netcoreapp3.1\Theater.Repository.dll
 C:\Users\Natthakhon.la\source\repos\Theater.Api\Theater.Repository\obj\Debug\netcoreapp3.1\Theater.Repository.pdb
+D:\code\Theater.Api\Theater.Repository\bin\Debug\netcoreapp3.1\Theater.Repository.deps.json
+D:\code\Theater.Api\Theater.Repository\bin\Debug\netcoreapp3.1\Theater.Repository.dll
+D:\code\Theater.Api\Theater.Repository\bin\Debug\netcoreapp3.1\Theater.Repository.pdb
+D:\code\Theater.Api\Theater.Repository\bin\Debug\netcoreapp3.1\Theater.Domain.dll
+D:\code\Theater.Api\Theater.Repository\bin\Debug\netcoreapp3.1\Theater.Domain.pdb
+D:\code\Theater.Api\Theater.Repository\obj\Debug\netcoreapp3.1\Theater.Repository.csprojAssemblyReference.cache
+D:\code\Theater.Api\Theater.Repository\obj\Debug\netcoreapp3.1\Theater.Repository.AssemblyInfoInputs.cache
+D:\code\Theater.Api\Theater.Repository\obj\Debug\netcoreapp3.1\Theater.Repository.AssemblyInfo.cs
+D:\code\Theater.Api\Theater.Repository\obj\Debug\netcoreapp3.1\Theater.Repository.csproj.CoreCompileInputs.cache
+D:\code\Theater.Api\Theater.Repository\obj\Debug\netcoreapp3.1\Theater.Repository.csproj.CopyComplete
+D:\code\Theater.Api\Theater.Repository\obj\Debug\netcoreapp3.1\Theater.Repository.dll
+D:\code\Theater.Api\Theater.Repository\obj\Debug\netcoreapp3.1\Theater.Repository.pdb

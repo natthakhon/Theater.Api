@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "Theater.CQRS/1.0.0": {
         "dependencies": {
-          "FluentValidation": "10.0.4",
+          "FluentValidation": "10.1.0",
           "MediatR": "9.0.0",
           "Theater.Domain": "1.0.0",
           "Theater.Repository": "1.0.0"
@@ -17,11 +17,11 @@
           "Theater.CQRS.dll": {}
         }
       },
-      "FluentValidation/10.0.4": {
+      "FluentValidation/10.1.0": {
         "runtime": {
           "lib/netstandard2.1/FluentValidation.dll": {
             "assemblyVersion": "9.0.0.0",
-            "fileVersion": "10.0.4.0"
+            "fileVersion": "10.1.0.0"
           }
         }
       },
@@ -35,7 +35,7 @@
       },
       "Theater.Domain/1.0.0": {
         "dependencies": {
-          "FluentValidation": "10.0.4"
+          "FluentValidation": "10.1.0"
         },
         "runtime": {
           "Theater.Domain.dll": {}
@@ -57,12 +57,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "FluentValidation/10.0.4": {
+    "FluentValidation/10.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-LqEYHuF5gXBJzG9/aUQS50TJP5cZgh/twvPLV7iTtFFGF6isGBkNXOhr9VwmSjlFRIVOqcMtkGuHwuPbU+XpoQ==",
-      "path": "fluentvalidation/10.0.4",
-      "hashPath": "fluentvalidation.10.0.4.nupkg.sha512"
+      "sha512": "sha512-RxhhfY9IcEY2qUMYjoUxegInbuE5Bwll7dVLsXpiJf25g0ztmzUK+HHqtPcub1caPemhMJsC+NwjHei+NgAkvA==",
+      "path": "fluentvalidation/10.1.0",
+      "hashPath": "fluentvalidation.10.1.0.nupkg.sha512"
     },
     "MediatR/9.0.0": {
       "type": "package",

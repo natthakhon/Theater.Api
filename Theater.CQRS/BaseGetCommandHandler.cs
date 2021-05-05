@@ -10,30 +10,31 @@ using Theater.Repository;
 
 namespace Theater.CQRS
 {
-    public abstract class BaseGetCommandHandler<TResponse> : IRequestHandler<IRequestor<TResponse>, TResponse>
+    public abstract class BaseGetCommandHandler<TRequest,TResponse> : IRequestHandler<TRequest, TResponse>
         where TResponse : class
+        where TRequest : IRequest<TResponse>
     {
-        private AbstractValidator<IRequest<TResponse>> validator;
+        private AbstractValidator<TRequest> validator;
         protected IGenericRepository<TResponse> repository;
-        protected BaseGetCommandHandler(AbstractValidator<IRequest<TResponse>> validator
+        protected BaseGetCommandHandler(AbstractValidator<TRequest> validator
             , IGenericRepository<TResponse> repository)
         {
             this.validator = validator;
             this.repository = repository;
         }
 
-        public async Task<TResponse> Handle(IRequestor<TResponse> request, CancellationToken cancellationToken)
+        public async Task<TResponse> Handle(TRequest request, CancellationToken cancellationToken)
         {
-            ValidationResult result = this.validator.Validate(request);
+            ValidationResult result = this.validator.Validate(request); ;
+
             if (result.IsValid)
             {
                 return await this.handle(request, cancellationToken);
             }
             throw new ArgumentException(String.Join(",", result.Errors));
-
         }
-        protected abstract Task<TResponse> handle(IRequestor<TResponse> request, CancellationToken cancellationToken);
 
+        protected abstract Task<TResponse> handle(TRequest request, CancellationToken cancellationToken);
         
     }
 }

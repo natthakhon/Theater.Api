@@ -7,11 +7,11 @@ using U = Theater.Domain.User;
 
 namespace Theater.CQRS.Validator.User
 {
-    public class UserValidator : BaseValidator<GetUserByEmail>
+    public class UserValidator : AbstractValidator<GetUserByEmail>  
     {
         public UserValidator()
         {
-            RuleFor()
+            RuleFor(p=>p.Email)
                 .NotEmpty()
                 .WithMessage("Email must not be empty");
             RuleFor(p => p.Email)

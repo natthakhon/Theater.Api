@@ -6,7 +6,7 @@ using System.Text;
 namespace Theater.CQRS
 {
     public interface IRequestor<TResponse> : IRequest<TResponse>
-        where TResponse :class
+        where TResponse : class
     {
         TResponse Item { set; get; }
     }

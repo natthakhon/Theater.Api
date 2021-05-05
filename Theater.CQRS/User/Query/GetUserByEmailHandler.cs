@@ -1,4 +1,5 @@
-﻿using MediatR;
+﻿using FluentValidation;
+using MediatR;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -10,17 +11,13 @@ using U = Theater.Domain.User;
 
 namespace Theater.CQRS.User.Query
 {
-    public class GetUserByEmailHandler : BaseGetCommandHandler<U.User> 
+    public class GetUserByEmailHandler : BaseGetCommandHandler<GetUserByEmail, U.User>
     {
-        public GetUserByEmailHandler(UserValidator validator
-            , IUserRepository userRepository) :base(validator,userRepository)
-        {
-            
-        }
+        public GetUserByEmailHandler(UserValidator validator, IUserRepository userRepository) : base(validator, userRepository) { }
 
-        protected override Task<U.User> handle(IRequestor<U.User> request, CancellationToken cancellationToken)
+        protected override Task<U.User> handle(GetUserByEmail request, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            return ((IUserRepository)this.repository).GetUserByEMailAsync(request.Email);
         }
     }
 }

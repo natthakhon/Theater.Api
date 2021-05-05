@@ -9,7 +9,7 @@ using System.Linq;
 using System.Threading;
 using Theater.CQRS.User.Query;
 using System;
-
+using CQ = Theater.CQRS.Validator.User;
 namespace Theater.CQRS.Test
 {
     [TestClass]
@@ -43,7 +43,9 @@ namespace Theater.CQRS.Test
             GetUserByEmail getUserByEmail = new GetUserByEmail();
             getUserByEmail.Email = user.EMail;
 
-            GetUserByEmailHandler getUserByEmailHandler = new GetUserByEmailHandler(userRepo);
+            CQ.UserValidator validator = new CQ.UserValidator();
+
+            GetUserByEmailHandler getUserByEmailHandler = new GetUserByEmailHandler(validator, userRepo);
             var getresult = await getUserByEmailHandler.Handle(getUserByEmail, new CancellationToken());
             Assert.AreEqual(getresult.EMail, user.EMail);
         }
@@ -78,9 +80,24 @@ namespace Theater.CQRS.Test
             GetUserByEmail getUserByEmail = new GetUserByEmail();
             getUserByEmail.Email = user.EMail;
 
-            GetUserByEmailHandler getUserByEmailHandler = new GetUserByEmailHandler(userRepo);
+            CQ.UserValidator validator = new CQ.UserValidator();
+
+            GetUserByEmailHandler getUserByEmailHandler = new GetUserByEmailHandler(validator, userRepo);
             var getresult = await getUserByEmailHandler.Handle(getUserByEmail, new CancellationToken());
-            //Assert.AreEqual(getresult.EMail, user.EMail);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException),
+                "Email must not be empty")]
+        public async Task TestRequestInvalidParam()
+        {
+            GetUserByEmail getUserByEmail = new GetUserByEmail();
+            getUserByEmail.Email = "";
+
+            CQ.UserValidator validator = new CQ.UserValidator();
+
+            GetUserByEmailHandler getUserByEmailHandler = new GetUserByEmailHandler(validator, new UserRepo());
+            var getresult = await getUserByEmailHandler.Handle(getUserByEmail, new CancellationToken());
         }
     }
     class UserRepo : IUserRepository

@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "/cM/2BrJmkApzaVsDUBstfzmpOh/0OvTD50Cg6dpkdKCgWHVAYqUap2RIxIHt1W0qGR88wToeWd6S8EsuF7Evg==",
+  "dgSpecHash": "sB0lGKnfKKdpRecBnSCvuppP3/RskNM6J4mV46QgOJ6X8Z2bizk/Xv24UBNF1R5Cv2DU4gD61GjuLgFrl/tzAQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Natthakhon.la\\source\\repos\\Theater.Api\\Theater.CQRS\\Theater.CQRS.csproj",
+  "projectFilePath": "D:\\code\\Theater.Api\\Theater.CQRS\\Theater.CQRS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Natthakhon.la\\.nuget\\packages\\fluentvalidation\\10.1.0\\fluentvalidation.10.1.0.nupkg.sha512",
-    "C:\\Users\\Natthakhon.la\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
+    "C:\\Users\\nattl\\.nuget\\packages\\fluentvalidation\\10.1.0\\fluentvalidation.10.1.0.nupkg.sha512",
+    "C:\\Users\\nattl\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
   ],
   "logs": []
 }

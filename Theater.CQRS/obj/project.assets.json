@@ -105,27 +105,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Natthakhon.la\\.nuget\\packages\\": {},
+    "C:\\Users\\nattl\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Natthakhon.la\\source\\repos\\Theater.Api\\Theater.CQRS\\Theater.CQRS.csproj",
+      "projectUniqueName": "D:\\code\\Theater.Api\\Theater.CQRS\\Theater.CQRS.csproj",
       "projectName": "Theater.CQRS",
-      "projectPath": "C:\\Users\\Natthakhon.la\\source\\repos\\Theater.Api\\Theater.CQRS\\Theater.CQRS.csproj",
-      "packagesPath": "C:\\Users\\Natthakhon.la\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Natthakhon.la\\source\\repos\\Theater.Api\\Theater.CQRS\\obj\\",
+      "projectPath": "D:\\code\\Theater.Api\\Theater.CQRS\\Theater.CQRS.csproj",
+      "packagesPath": "C:\\Users\\nattl\\.nuget\\packages\\",
+      "outputPath": "D:\\code\\Theater.Api\\Theater.CQRS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Natthakhon.la\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nattl\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -141,11 +139,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Natthakhon.la\\source\\repos\\Theater.Api\\Theater.Domain\\Theater.Domain.csproj": {
-              "projectPath": "C:\\Users\\Natthakhon.la\\source\\repos\\Theater.Api\\Theater.Domain\\Theater.Domain.csproj"
+            "D:\\code\\Theater.Api\\Theater.Domain\\Theater.Domain.csproj": {
+              "projectPath": "D:\\code\\Theater.Api\\Theater.Domain\\Theater.Domain.csproj"
             },
-            "C:\\Users\\Natthakhon.la\\source\\repos\\Theater.Api\\Theater.Repository\\Theater.Repository.csproj": {
-              "projectPath": "C:\\Users\\Natthakhon.la\\source\\repos\\Theater.Api\\Theater.Repository\\Theater.Repository.csproj"
+            "D:\\code\\Theater.Api\\Theater.Repository\\Theater.Repository.csproj": {
+              "projectPath": "D:\\code\\Theater.Api\\Theater.Repository\\Theater.Repository.csproj"
             }
           }
         }
@@ -184,7 +182,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
