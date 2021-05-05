@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theater.Repository", "Theat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theater.CQRS", "Theater.CQRS\Theater.CQRS.csproj", "{5B1AC617-445D-4D73-96BD-13F5882921A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theater.CQRS.Test", "Theater.CQRS.Test\Theater.CQRS.Test.csproj", "{F2494ECD-4C88-4CD2-B92F-B801459CBE59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theater.CQRS.Test", "Theater.CQRS.Test\Theater.CQRS.Test.csproj", "{F2494ECD-4C88-4CD2-B92F-B801459CBE59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theater.Data.User", "Theater.Data.User\Theater.Data.User.csproj", "{0F414F92-11C0-4EE3-BCDD-B583AB2ADBB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{F2494ECD-4C88-4CD2-B92F-B801459CBE59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2494ECD-4C88-4CD2-B92F-B801459CBE59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2494ECD-4C88-4CD2-B92F-B801459CBE59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F414F92-11C0-4EE3-BCDD-B583AB2ADBB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F414F92-11C0-4EE3-BCDD-B583AB2ADBB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F414F92-11C0-4EE3-BCDD-B583AB2ADBB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F414F92-11C0-4EE3-BCDD-B583AB2ADBB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
