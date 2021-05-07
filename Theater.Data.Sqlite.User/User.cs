@@ -36,6 +36,9 @@ namespace Theater.Data.Sqlite.User
         [Required]
         public string Password { get; set; }
 
+        [Required]
+        public string Salt { get; set; }
+
         public DateTime CreateDate { get; set; }
     }
 }

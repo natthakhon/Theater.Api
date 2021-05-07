@@ -1,0 +1,9 @@
+D:\code\Theater.Api\Theater.Security\bin\Debug\netcoreapp3.1\Theater.Security.deps.json
+D:\code\Theater.Api\Theater.Security\bin\Debug\netcoreapp3.1\Theater.Security.dll
+D:\code\Theater.Api\Theater.Security\bin\Debug\netcoreapp3.1\Theater.Security.pdb
+D:\code\Theater.Api\Theater.Security\obj\Debug\netcoreapp3.1\Theater.Security.csprojAssemblyReference.cache
+D:\code\Theater.Api\Theater.Security\obj\Debug\netcoreapp3.1\Theater.Security.AssemblyInfoInputs.cache
+D:\code\Theater.Api\Theater.Security\obj\Debug\netcoreapp3.1\Theater.Security.AssemblyInfo.cs
+D:\code\Theater.Api\Theater.Security\obj\Debug\netcoreapp3.1\Theater.Security.csproj.CoreCompileInputs.cache
+D:\code\Theater.Api\Theater.Security\obj\Debug\netcoreapp3.1\Theater.Security.dll
+D:\code\Theater.Api\Theater.Security\obj\Debug\netcoreapp3.1\Theater.Security.pdb

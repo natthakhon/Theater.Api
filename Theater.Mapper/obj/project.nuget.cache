@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "xQKkSv89K2E+RadLtbr5ulo9z5wJjTdjTV8J9X1rwG4fdY5PJ7eJB+kxGJs0LWrQpPrASZ5w0DSYt4dqUwdXaQ==",
+  "success": true,
+  "projectFilePath": "D:\\code\\Theater.Api\\Theater.Mapper\\Theater.Mapper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nattl\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\nattl\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\nattl\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

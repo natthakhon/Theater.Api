@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "J6LOMRTnnPqSRRi9s9HMifElmskjKqCDkMbuuGj3utKRfpGrZUck9RLNWfk0ZvDOnROqK/C2Ym8xPWD8NeZOrA==",
+  "dgSpecHash": "8DdhgL13trgVENiV3AiujDUTf7/2gpt4OIQdQ76ILrUhe/H6m0bvF2udf2tYeN5xJNtVlrPbNh/5DOOso06Fpg==",
   "success": true,
   "projectFilePath": "D:\\code\\Theater.Api\\Theater.Data.Sqlite.User\\Theater.Data.Sqlite.User.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\nattl\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\nattl\\.nuget\\packages\\fluentvalidation\\10.0.4\\fluentvalidation.10.0.4.nupkg.sha512",
     "C:\\Users\\nattl\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\nattl\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\nattl\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.5\\microsoft.data.sqlite.core.5.0.5.nupkg.sha512",
@@ -34,6 +36,7 @@
     "C:\\Users\\nattl\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\nattl\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
     "C:\\Users\\nattl\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\nattl\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\nattl\\.nuget\\packages\\system.text.encodings.web\\5.0.0\\system.text.encodings.web.5.0.0.nupkg.sha512",
     "C:\\Users\\nattl\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512"
   ],

@@ -8,11 +8,36 @@
     ".NETCoreApp,Version=v3.1": {
       "Theater.Data.Sqlite.User/1.0.0": {
         "dependencies": {
+          "AutoMapper": "10.1.1",
           "Microsoft.EntityFrameworkCore.Sqlite": "5.0.5",
-          "Microsoft.EntityFrameworkCore.Tools": "5.0.5"
+          "Microsoft.EntityFrameworkCore.Tools": "5.0.5",
+          "Theater.Domain": "1.0.0",
+          "Theater.Mapper": "1.0.0",
+          "Theater.Repository": "1.0.0",
+          "Theater.Security": "1.0.0"
         },
         "runtime": {
           "Theater.Data.Sqlite.User.dll": {}
+        }
+      },
+      "AutoMapper/10.1.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Reflection.Emit": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.1.1.0"
+          }
+        }
+      },
+      "FluentValidation/10.0.4": {
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "10.0.4.0"
+          }
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -364,6 +389,7 @@
         }
       },
       "System.Memory/4.5.3": {},
+      "System.Reflection.Emit/4.7.0": {},
       "System.Text.Encodings.Web/5.0.0": {
         "runtime": {
           "lib/netcoreapp3.0/System.Text.Encodings.Web.dll": {
@@ -379,6 +405,35 @@
             "fileVersion": "5.0.20.51904"
           }
         }
+      },
+      "Theater.Domain/1.0.0": {
+        "dependencies": {
+          "FluentValidation": "10.0.4"
+        },
+        "runtime": {
+          "Theater.Domain.dll": {}
+        }
+      },
+      "Theater.Mapper/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "10.1.1"
+        },
+        "runtime": {
+          "Theater.Mapper.dll": {}
+        }
+      },
+      "Theater.Repository/1.0.0": {
+        "dependencies": {
+          "Theater.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Theater.Repository.dll": {}
+        }
+      },
+      "Theater.Security/1.0.0": {
+        "runtime": {
+          "Theater.Security.dll": {}
+        }
       }
     }
   },
@@ -387,6 +442,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AutoMapper/10.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uMgbqOdu9ZG5cIOty0C85hzzayBH2i9BthnS5FlMqKtMSHDv4ts81a2jS1VFaDBVhlBeIqJ/kQKjQY95BZde9w==",
+      "path": "automapper/10.1.1",
+      "hashPath": "automapper.10.1.1.nupkg.sha512"
+    },
+    "FluentValidation/10.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LqEYHuF5gXBJzG9/aUQS50TJP5cZgh/twvPLV7iTtFFGF6isGBkNXOhr9VwmSjlFRIVOqcMtkGuHwuPbU+XpoQ==",
+      "path": "fluentvalidation/10.0.4",
+      "hashPath": "fluentvalidation.10.0.4.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",
@@ -598,6 +667,13 @@
       "path": "system.memory/4.5.3",
       "hashPath": "system.memory.4.5.3.nupkg.sha512"
     },
+    "System.Reflection.Emit/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
+      "path": "system.reflection.emit/4.7.0",
+      "hashPath": "system.reflection.emit.4.7.0.nupkg.sha512"
+    },
     "System.Text.Encodings.Web/5.0.0": {
       "type": "package",
       "serviceable": true,
@@ -611,6 +687,26 @@
       "sha512": "sha512-+luxMQNZ2WqeffBU7Ml6njIvxc8169NW2oU+ygNudXQGZiarjE7DOtN7bILiQjTZjkmwwRZGTtLzmdrSI/Ustw==",
       "path": "system.text.json/5.0.0",
       "hashPath": "system.text.json.5.0.0.nupkg.sha512"
+    },
+    "Theater.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Theater.Mapper/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Theater.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Theater.Security/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
