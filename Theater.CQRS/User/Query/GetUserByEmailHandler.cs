@@ -17,7 +17,7 @@ namespace Theater.CQRS.User.Query
 
         protected override Task<U.User> handle(GetUserByEmail request, CancellationToken cancellationToken)
         {
-            return ((IUserRepository)this.repository).GetUserByEMailAsync(request.Email);
+            return ((IUserRepository)this.repository).GetUserByEMailAsync(request.Email,request.Password);
         }
     }
 }

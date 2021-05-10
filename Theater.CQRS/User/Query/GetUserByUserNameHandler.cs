@@ -19,7 +19,7 @@ namespace Theater.CQRS.User.Query
 
         public async Task<U.User> Handle(GetUserByUserName request, CancellationToken cancellationToken)
         {
-            return await this.userRepository.GetUserByUserNameAsync(request.UserName);
+            return await this.userRepository.GetUserByUserNameAsync(request.UserName,request.Password);
         }
     }
 }

@@ -42,6 +42,7 @@ namespace Theater.CQRS.Test
 
             GetUserByEmail getUserByEmail = new GetUserByEmail();
             getUserByEmail.Email = user.EMail;
+            getUserByEmail.Password = user.Password;
 
             CQ.UserValidator validator = new CQ.UserValidator();
 
@@ -112,14 +113,14 @@ namespace Theater.CQRS.Test
             });
         }
 
-        public Task<U.User> GetUserByEMailAsync(string email)
+        public Task<U.User> GetUserByEMailAsync(string email,string password)
         {
             return Task.Run(()=>{
                 return this.users.FirstOrDefault(p=>p.EMail==email);
             });
         }
 
-        public Task<U.User> GetUserByUserNameAsync(string username)
+        public Task<U.User> GetUserByUserNameAsync(string username, string password)
         {
             throw new System.NotImplementedException();
         }

@@ -3,42 +3,34 @@ using System;
 
 namespace Theater.Mapper
 {
-    public class BaseMapper<TDomain,TData>
-        where TDomain:class
-        where TData:class
+    public abstract class BaseMapper<TSource,TDestination>
+        where TSource:class
+        where TDestination:class
     {
-        private TDomain domain;
-        private TData data;
-        protected IMappingExpression<TDomain, TData> mappingExpression;
+        private TSource source;
+        private TDestination dest;
+        protected IMappingExpression<TSource, TDestination> mappingExpression;
         protected MapperConfiguration config;
 
-        protected BaseMapper(TDomain domain)
+        protected BaseMapper(TSource domain)
         {
-            this.config = new MapperConfiguration(cfg =>
-            {
-               this.mappingExpression = cfg.CreateMap<TDomain, TData>();
-            });
+            this.source = domain;
 
-            this.Reconfig(this.mappingExpression);
-
-            this.domain = domain;
+            this.config = new MapperConfiguration(this.Reconfig);
             IMapper iMapper = config.CreateMapper();
-            this.data = iMapper.Map<TDomain, TData>(this.domain);
+            this.dest = iMapper.Map<TSource, TDestination>(this.source);
         }
 
-        public TDomain Domain
+        public TSource Source
         {
-            get { return this.domain; }
+            get { return this.source; }
         }
 
-        public TData Data
+        public TDestination Destination
         {
-            get { return this.data; }
+            get { return this.dest; }
         }
 
-        protected virtual void Reconfig(IMappingExpression<TDomain, TData> mappingExpression)
-        {
-
-        }
+        protected abstract void Reconfig(IMapperConfigurationExpression mapperConfigurationExpression);
     }
 }

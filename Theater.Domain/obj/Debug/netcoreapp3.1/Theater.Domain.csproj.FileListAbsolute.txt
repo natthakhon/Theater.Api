@@ -10,9 +10,9 @@ C:\Users\Natthakhon.la\source\repos\Theater.Api\Theater.Domain\obj\Debug\netcore
 D:\code\Theater.Api\Theater.Domain\bin\Debug\netcoreapp3.1\Theater.Domain.deps.json
 D:\code\Theater.Api\Theater.Domain\bin\Debug\netcoreapp3.1\Theater.Domain.dll
 D:\code\Theater.Api\Theater.Domain\bin\Debug\netcoreapp3.1\Theater.Domain.pdb
-D:\code\Theater.Api\Theater.Domain\obj\Debug\netcoreapp3.1\Theater.Domain.csprojAssemblyReference.cache
 D:\code\Theater.Api\Theater.Domain\obj\Debug\netcoreapp3.1\Theater.Domain.AssemblyInfoInputs.cache
 D:\code\Theater.Api\Theater.Domain\obj\Debug\netcoreapp3.1\Theater.Domain.AssemblyInfo.cs
 D:\code\Theater.Api\Theater.Domain\obj\Debug\netcoreapp3.1\Theater.Domain.csproj.CoreCompileInputs.cache
 D:\code\Theater.Api\Theater.Domain\obj\Debug\netcoreapp3.1\Theater.Domain.dll
 D:\code\Theater.Api\Theater.Domain\obj\Debug\netcoreapp3.1\Theater.Domain.pdb
+D:\code\Theater.Api\Theater.Domain\obj\Debug\netcoreapp3.1\Theater.Domain.csprojAssemblyReference.cache

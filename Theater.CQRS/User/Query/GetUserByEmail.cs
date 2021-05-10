@@ -9,5 +9,6 @@ namespace Theater.CQRS.User.Query
     public class GetUserByEmail : IRequest<U.User>
     {
         public string Email { get; set; }
+        public string Password { get; set; }
     }
 }

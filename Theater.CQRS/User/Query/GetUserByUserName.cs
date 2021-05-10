@@ -9,5 +9,6 @@ namespace Theater.CQRS.User.Query
     public class GetUserByUserName : IRequest<U.User>
     {
         public string UserName { get; set; }
+        public string Password { get; set; }
     }
 }

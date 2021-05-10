@@ -8,7 +8,7 @@ namespace Theater.Repository.User
 {
     public interface IUserRepository : IGenericRepository<U.User>
     {
-        Task<U.User> GetUserByUserNameAsync(string username);
-        Task<U.User> GetUserByEMailAsync(string email);
+        Task<U.User> GetUserByUserNameAsync(string username,string password);
+        Task<U.User> GetUserByEMailAsync(string email,string password);
     }
 }
