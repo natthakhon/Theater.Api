@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 using U = Theater.Domain.User;
 using V = Theater.Domain.Validator;
 
@@ -24,7 +25,7 @@ namespace Theater.Domain.Test.User
                 Phone = "1234567890",
                 UserName = "test"
             };
-            var result = new V.User.UserValidator().Validate(user);
+            var result = new V.User.UserValidator(Task.Run(()=> { return false; }), Task.Run(() => { return false; })).Validate(user);
             Assert.IsTrue(result.IsValid);
         }
     }

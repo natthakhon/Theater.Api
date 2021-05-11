@@ -10,5 +10,8 @@ namespace Theater.Repository.User
     {
         Task<U.User> GetUserByUserNameAsync(string username,string password);
         Task<U.User> GetUserByEMailAsync(string email,string password);
+        Task<bool> IsUserExisted(string user);
+        Task<bool> IsEmailExisted(string email);
+
     }
 }

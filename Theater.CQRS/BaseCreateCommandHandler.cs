@@ -24,7 +24,7 @@ namespace Theater.CQRS
 
         public async Task<TResponse> Handle(IRequestor<TResponse> request, CancellationToken cancellationToken)
         {
-            ValidationResult result = this.validator.Validate(request.Item); ;
+            ValidationResult result = await this.validator.ValidateAsync(request.Item); ;
             
             if (result.IsValid)
             {

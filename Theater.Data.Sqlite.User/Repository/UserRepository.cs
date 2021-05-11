@@ -64,6 +64,26 @@ namespace Theater.Data.Sqlite.User.Repository
             throw new ArgumentException("Parameter cannot be empty");
         }
 
+        public async Task<bool> IsEmailExisted(string email)
+        {
+            if (!string.IsNullOrEmpty(email))
+            {
+                var user = await this.userContext.Users.FirstOrDefaultAsync(p => p.Email == email);
+                return user == null;
+            }
+            throw new ArgumentException("Email cannot be empty");
+        }
+
+        public async Task<bool> IsUserExisted(string username)
+        {
+            if (!string.IsNullOrEmpty(username))
+            {
+                var user = await this.userContext.Users.FirstOrDefaultAsync(p => p.UserName == username);
+                return user == null;
+            }
+            throw new ArgumentException("User Name cannot be empty");
+        }
+
         public Task<Domain.User.User> UpdateAsync(Domain.User.User model)
         {
             throw new NotImplementedException();
