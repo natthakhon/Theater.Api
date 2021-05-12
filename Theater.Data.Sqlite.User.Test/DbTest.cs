@@ -101,7 +101,7 @@ namespace Theater.Data.Sqlite.User.Test
                 Phone = "1234567890",
                 UserName = "test"
             };
-            var addedUseru = await userRepository.CreateAsync(user);
+            await userRepository.CreateAsync(user);
             var getRightUser = await userRepository.GetUserByUserNameAsync(user.UserName, user.Password);
 
             Assert.AreEqual(getRightUser.UserName, user.UserName);

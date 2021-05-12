@@ -18,3 +18,8 @@ D:\code\Theater.Api\Theater.API\obj\Debug\netcoreapp3.1\Theater.API.RazorTargetA
 D:\code\Theater.Api\Theater.API\obj\Debug\netcoreapp3.1\Theater.API.dll
 D:\code\Theater.Api\Theater.API\obj\Debug\netcoreapp3.1\Theater.API.pdb
 D:\code\Theater.Api\Theater.API\obj\Debug\netcoreapp3.1\Theater.API.genruntimeconfig.cache
+D:\code\Theater.Api\Theater.API\bin\Debug\netcoreapp3.1\NLog.config
+D:\code\Theater.Api\Theater.API\bin\Debug\netcoreapp3.1\NLog.dll
+D:\code\Theater.Api\Theater.API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+D:\code\Theater.Api\Theater.API\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+D:\code\Theater.Api\Theater.API\obj\Debug\netcoreapp3.1\Theater.API.csproj.CopyComplete

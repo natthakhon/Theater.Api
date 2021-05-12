@@ -69,7 +69,7 @@ namespace Theater.Data.Sqlite.User.Repository
             if (!string.IsNullOrEmpty(email))
             {
                 var user = await this.userContext.Users.FirstOrDefaultAsync(p => p.Email == email);
-                return user == null;
+                return user != null;
             }
             throw new ArgumentException("Email cannot be empty");
         }
@@ -79,7 +79,7 @@ namespace Theater.Data.Sqlite.User.Repository
             if (!string.IsNullOrEmpty(username))
             {
                 var user = await this.userContext.Users.FirstOrDefaultAsync(p => p.UserName == username);
-                return user == null;
+                return user != null;
             }
             throw new ArgumentException("User Name cannot be empty");
         }

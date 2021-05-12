@@ -2,10 +2,13 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using NLog;
+using NLog.Web;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Theater.API.NLog;
 
 namespace Theater.API
 {
@@ -13,6 +16,10 @@ namespace Theater.API
     {
         public static void Main(string[] args)
         {
+            ConfigNlog configNlog = new ConfigNlog(Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT"));
+            LogManager.Configuration = configNlog.GetLogConfig();
+            var logger = LogManager.GetCurrentClassLogger();
+
             CreateHostBuilder(args).Build().Run();
         }
 
