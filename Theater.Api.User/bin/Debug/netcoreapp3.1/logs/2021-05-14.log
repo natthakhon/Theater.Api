@@ -1,0 +1,18 @@
+2021-05-14 09:31:19.3093||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-14 09:31:22.0831||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-14 09:31:22.1021||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-14 09:31:22.1021||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-14 09:31:29.6884||ERROR|Theater.Api.User.Controllers.UserController|System.InvalidOperationException: Not found
+   at Theater.Data.Sqlite.User.Repository.UserRepository.GetUserByUserNameAsync(String username, String password) in D:\code\Theater.Api\Theater.Data.Sqlite.User\Repository\UserRepository.cs:line 64
+   at Theater.CQRS.BaseGetCommandHandler`2.Handle(TRequest request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\BaseGetCommandHandler.cs:line 32
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Theater.Api.User.Controllers.UserController.GetUserByUserNameAsync(String username, String password) in D:\code\Theater.Api\Theater.Api.User\Controllers\UserController.cs:line 27 
+2021-05-14 09:37:42.3885||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-14 09:37:43.9560||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-14 09:37:43.9669||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-14 09:37:43.9751||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 

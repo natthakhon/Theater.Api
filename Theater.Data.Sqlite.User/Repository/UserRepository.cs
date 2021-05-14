@@ -10,11 +10,11 @@ namespace Theater.Data.Sqlite.User.Repository
 {
     public class UserRepository : IUserRepository
     {
-        private readonly UserContext userContext;
+        private UserContext userContext = new UserContext();
 
-        public UserRepository(UserContext userContext)
+        public UserRepository()
         {
-            this.userContext = userContext;
+            //this.userContext = userContext;
         }
 
         public async Task<Domain.User.User> CreateAsync(Domain.User.User model)

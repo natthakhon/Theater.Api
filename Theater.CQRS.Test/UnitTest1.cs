@@ -45,7 +45,7 @@ namespace Theater.CQRS.Test
             getUserByEmail.Email = user.EMail;
             getUserByEmail.Password = user.Password;
 
-            CQ.UserValidator validator = new CQ.UserValidator();
+            CQ.GetUserByEmailValidator validator = new CQ.GetUserByEmailValidator();
 
             GetUserByEmailHandler getUserByEmailHandler = new GetUserByEmailHandler(validator, userRepo);
             var getresult = await getUserByEmailHandler.Handle(getUserByEmail, new CancellationToken());
@@ -135,7 +135,7 @@ namespace Theater.CQRS.Test
             GetUserByEmail getUserByEmail = new GetUserByEmail();
             getUserByEmail.Email = "";
 
-            CQ.UserValidator validator = new CQ.UserValidator();
+            CQ.GetUserByEmailValidator validator = new CQ.GetUserByEmailValidator();
 
             GetUserByEmailHandler getUserByEmailHandler = new GetUserByEmailHandler(validator, new UserRepo());
             var getresult = await getUserByEmailHandler.Handle(getUserByEmail, new CancellationToken());

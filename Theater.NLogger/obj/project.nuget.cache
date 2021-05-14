@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "vY4N8AgYAJu4RIbXr8ULLagl0/geVE6A/QXrjTE0QuwDnhJVO8qluNpEmGDbJt75hh7SzoH2lYCobz/bXj3ohA==",
+  "success": true,
+  "projectFilePath": "D:\\code\\Theater.Api\\Theater.NLogger\\Theater.NLogger.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nattl\\.nuget\\packages\\nlog\\4.7.9\\nlog.4.7.9.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -91,7 +91,7 @@ namespace Theater.Data.Sqlite.User.Test
         [TestMethod]
         public async Task TestRepositoryAddUser()
         {
-            UserRepository userRepository = new UserRepository(new UserContext());
+            UserRepository userRepository = new UserRepository();
             DOM.User user = new DOM.User
             {
                 Name = "test",
@@ -112,7 +112,7 @@ namespace Theater.Data.Sqlite.User.Test
                 "Not found")]
         public async Task TestRepositoryAddUserGetWorongPassword()
         {
-            UserRepository userRepository = new UserRepository(new UserContext());
+            UserRepository userRepository = new UserRepository();
             DOM.User user = new DOM.User
             {
                 Name = "test",

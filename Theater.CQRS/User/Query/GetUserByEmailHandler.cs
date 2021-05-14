@@ -13,7 +13,7 @@ namespace Theater.CQRS.User.Query
 {
     public class GetUserByEmailHandler : BaseGetCommandHandler<GetUserByEmail, U.User>
     {
-        public GetUserByEmailHandler(UserValidator validator, IUserRepository userRepository) : base(validator, userRepository) { }
+        public GetUserByEmailHandler(IValidator<GetUserByEmail> validator, IUserRepository userRepository) : base(validator, userRepository) { }
 
         protected override Task<U.User> handle(GetUserByEmail request, CancellationToken cancellationToken)
         {
