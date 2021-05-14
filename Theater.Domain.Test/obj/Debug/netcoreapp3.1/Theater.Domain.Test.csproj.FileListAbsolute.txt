@@ -194,3 +194,5 @@ D:\code\Theater.Api\Theater.Domain.Test\obj\Debug\netcoreapp3.1\Theater.Domain.T
 D:\code\Theater.Api\Theater.Domain.Test\obj\Debug\netcoreapp3.1\Theater.Domain.Test.dll
 D:\code\Theater.Api\Theater.Domain.Test\obj\Debug\netcoreapp3.1\Theater.Domain.Test.pdb
 D:\code\Theater.Api\Theater.Domain.Test\obj\Debug\netcoreapp3.1\Theater.Domain.Test.genruntimeconfig.cache
+D:\code\Theater.Api\Theater.Domain.Test\bin\Debug\netcoreapp3.1\Theater.Repository.dll
+D:\code\Theater.Api\Theater.Domain.Test\bin\Debug\netcoreapp3.1\Theater.Repository.pdb

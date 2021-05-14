@@ -20,7 +20,6 @@ using Theater.Data.Sqlite.User;
 using Theater.Data.Sqlite.User.Repository;
 using Theater.Repository;
 using Theater.Repository.User;
-using DOM = Theater.Domain.User;
 
 namespace Theater.Api.User
 {
@@ -37,11 +36,7 @@ namespace Theater.Api.User
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMediatR(Assembly.GetExecutingAssembly());
-            services.AddTransient<IUserRepository, UserRepository>();
-            services.AddTransient<IValidator<GetUserByUserName>, GetUserByUserNameValidator>();
-
-            services.AddTransient<IRequestHandler<GetUserByUserName, DOM.User>, GetUserByUserNameHandler>();
-
+            services.Resolve();
             services.AddControllers();
         }
 

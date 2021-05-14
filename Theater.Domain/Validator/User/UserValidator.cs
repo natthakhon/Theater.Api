@@ -9,7 +9,7 @@ namespace Theater.Domain.Validator.User
 {
     public class UserValidator : AbstractValidator<U.User>
     {
-        public UserValidator(Task<bool> isemailExisted, Task<bool> isUserExisted)
+        public UserValidator(IUserChecker userChecker)
         {
             //name validation
             RuleFor(p => p.Name)
@@ -35,7 +35,7 @@ namespace Theater.Domain.Validator.User
                 .EmailAddress()
                 .WithMessage("Email is not in correct format");
             RuleFor(p => p.EMail)
-                .Must(email => !isemailExisted.Result)
+                .Must(email => !userChecker.IsEmailExisted(email).Result)
                 .WithMessage("Email is already existed");
 
             //cellphone validation
@@ -59,7 +59,7 @@ namespace Theater.Domain.Validator.User
                 .MaximumLength(25)
                 .WithMessage("User must not exceed 25 characters");
             RuleFor(p => p.UserName)
-                .Must(user => !isUserExisted.Result)
+                .Must(user => !userChecker.IsUserExisted(user).Result)
                 .WithMessage("User is already existed");
         }
     }

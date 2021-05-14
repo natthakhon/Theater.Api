@@ -2,16 +2,15 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
+using Theater.Domain.Validator.User;
 using U = Theater.Domain.User;
 
 namespace Theater.Repository.User
 {
-    public interface IUserRepository : IGenericRepository<U.User>
+    public interface IUserRepository : IGenericRepository<U.User>, IUserChecker
     {
         Task<U.User> GetUserByUserNameAsync(string username,string password);
         Task<U.User> GetUserByEMailAsync(string email,string password);
-        Task<bool> IsUserExisted(string user);
-        Task<bool> IsEmailExisted(string email);
 
     }
 }

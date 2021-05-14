@@ -16,3 +16,202 @@
 2021-05-14 09:37:43.9560||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
 2021-05-14 09:37:43.9669||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
 2021-05-14 09:37:43.9751||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-14 10:03:08.9943||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-14 10:03:14.1432||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-14 10:03:14.1504||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-14 10:03:14.1504||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-14 10:03:25.3715||ERROR|Theater.Api.User.Controllers.UserController|System.InvalidOperationException: Not found
+   at Theater.Data.Sqlite.User.Repository.UserRepository.GetUserByUserNameAsync(String username, String password) in D:\code\Theater.Api\Theater.Data.Sqlite.User\Repository\UserRepository.cs:line 64
+   at Theater.CQRS.BaseGetCommandHandler`2.Handle(TRequest request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\BaseGetCommandHandler.cs:line 32
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Theater.Api.User.Controllers.UserController.GetUserByUserNameAsync(String username, String password) in D:\code\Theater.Api\Theater.Api.User\Controllers\UserController.cs:line 27 
+2021-05-14 10:03:44.2227||ERROR|Theater.Api.User.Controllers.UserController|System.InvalidOperationException: Not found
+   at Theater.Data.Sqlite.User.Repository.UserRepository.GetUserByUserNameAsync(String username, String password) in D:\code\Theater.Api\Theater.Data.Sqlite.User\Repository\UserRepository.cs:line 64
+   at Theater.CQRS.BaseGetCommandHandler`2.Handle(TRequest request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\BaseGetCommandHandler.cs:line 32
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Theater.Api.User.Controllers.UserController.GetUserByUserNameAsync(String username, String password) in D:\code\Theater.Api\Theater.Api.User\Controllers\UserController.cs:line 27 
+2021-05-14 10:03:49.5628||ERROR|Theater.Api.User.Controllers.UserController|System.InvalidOperationException: Not found
+   at Theater.Data.Sqlite.User.Repository.UserRepository.GetUserByUserNameAsync(String username, String password) in D:\code\Theater.Api\Theater.Data.Sqlite.User\Repository\UserRepository.cs:line 64
+   at Theater.CQRS.BaseGetCommandHandler`2.Handle(TRequest request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\BaseGetCommandHandler.cs:line 32
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Theater.Api.User.Controllers.UserController.GetUserByUserNameAsync(String username, String password) in D:\code\Theater.Api\Theater.Api.User\Controllers\UserController.cs:line 27 
+2021-05-14 10:05:50.0178||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-14 10:05:51.2656||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-14 10:05:51.2764||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-14 10:05:51.2764||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-14 10:54:50.0717||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-14 10:54:51.6017||ERROR|Theater.Api.User.Program|Stopped program because of exception System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: FluentValidation.IValidator`1[Theater.Domain.User.User] Lifetime: Scoped ImplementationType: Theater.Domain.Validator.User.UserValidator': Unable to resolve service for type 'System.Threading.Tasks.Task`1[System.Boolean]' while attempting to activate 'Theater.Domain.Validator.User.UserValidator'.) (Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[Theater.CQRS.User.Command.CreateUserCommand,Theater.Domain.User.User] Lifetime: Scoped ImplementationType: Theater.CQRS.User.Command.CreateUserCommandHandler': Unable to resolve service for type 'System.Threading.Tasks.Task`1[System.Boolean]' while attempting to activate 'Theater.Domain.Validator.User.UserValidator'.) (Error while validating the service descriptor 'ServiceType: FluentValidation.IValidator`1[Theater.Domain.User.User] Lifetime: Scoped ImplementationType: Theater.Domain.Validator.User.UserValidator': Unable to resolve service for type 'System.Threading.Tasks.Task`1[System.Boolean]' while attempting to activate 'Theater.Domain.Validator.User.UserValidator'.) (Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[Theater.CQRS.User.Command.CreateUserCommand,Theater.Domain.User.User] Lifetime: Scoped ImplementationType: Theater.CQRS.User.Command.CreateUserCommandHandler': Unable to resolve service for type 'System.Threading.Tasks.Task`1[System.Boolean]' while attempting to activate 'Theater.Domain.Validator.User.UserValidator'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: FluentValidation.IValidator`1[Theater.Domain.User.User] Lifetime: Scoped ImplementationType: Theater.Domain.Validator.User.UserValidator': Unable to resolve service for type 'System.Threading.Tasks.Task`1[System.Boolean]' while attempting to activate 'Theater.Domain.Validator.User.UserValidator'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'System.Threading.Tasks.Task`1[System.Boolean]' while attempting to activate 'Theater.Domain.Validator.User.UserValidator'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[Theater.CQRS.User.Command.CreateUserCommand,Theater.Domain.User.User] Lifetime: Scoped ImplementationType: Theater.CQRS.User.Command.CreateUserCommandHandler': Unable to resolve service for type 'System.Threading.Tasks.Task`1[System.Boolean]' while attempting to activate 'Theater.Domain.Validator.User.UserValidator'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'System.Threading.Tasks.Task`1[System.Boolean]' while attempting to activate 'Theater.Domain.Validator.User.UserValidator'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.<>c__DisplayClass7_0.<GetCallSite>b__0(Type type)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+2021-05-14 13:10:08.7358||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-14 13:10:10.7736||ERROR|Theater.Api.User.Program|Stopped program because of exception System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: FluentValidation.IValidator`1[Theater.Domain.User.User] Lifetime: Scoped ImplementationType: Theater.Domain.Validator.User.UserValidator': Unable to resolve service for type 'Theater.Domain.Validator.User.IUserChecker' while attempting to activate 'Theater.Domain.Validator.User.UserValidator'.) (Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[Theater.CQRS.User.Command.CreateUserCommand,Theater.Domain.User.User] Lifetime: Scoped ImplementationType: Theater.CQRS.User.Command.CreateUserCommandHandler': Unable to resolve service for type 'Theater.Domain.Validator.User.IUserChecker' while attempting to activate 'Theater.Domain.Validator.User.UserValidator'.) (Error while validating the service descriptor 'ServiceType: FluentValidation.IValidator`1[Theater.Domain.User.User] Lifetime: Scoped ImplementationType: Theater.Domain.Validator.User.UserValidator': Unable to resolve service for type 'Theater.Domain.Validator.User.IUserChecker' while attempting to activate 'Theater.Domain.Validator.User.UserValidator'.) (Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[Theater.CQRS.User.Command.CreateUserCommand,Theater.Domain.User.User] Lifetime: Scoped ImplementationType: Theater.CQRS.User.Command.CreateUserCommandHandler': Unable to resolve service for type 'Theater.Domain.Validator.User.IUserChecker' while attempting to activate 'Theater.Domain.Validator.User.UserValidator'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: FluentValidation.IValidator`1[Theater.Domain.User.User] Lifetime: Scoped ImplementationType: Theater.Domain.Validator.User.UserValidator': Unable to resolve service for type 'Theater.Domain.Validator.User.IUserChecker' while attempting to activate 'Theater.Domain.Validator.User.UserValidator'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Theater.Domain.Validator.User.IUserChecker' while attempting to activate 'Theater.Domain.Validator.User.UserValidator'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[Theater.CQRS.User.Command.CreateUserCommand,Theater.Domain.User.User] Lifetime: Scoped ImplementationType: Theater.CQRS.User.Command.CreateUserCommandHandler': Unable to resolve service for type 'Theater.Domain.Validator.User.IUserChecker' while attempting to activate 'Theater.Domain.Validator.User.UserValidator'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Theater.Domain.Validator.User.IUserChecker' while attempting to activate 'Theater.Domain.Validator.User.UserValidator'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.<>c__DisplayClass7_0.<GetCallSite>b__0(Type type)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)<---
+
+2021-05-14 13:11:34.1967||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-14 13:11:35.4950||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-14 13:11:35.4950||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-14 13:11:35.5075||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-14 13:16:35.3633||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-14 13:16:37.1318||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-14 13:16:37.1318||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-14 13:16:37.1318||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-14 13:29:29.6183||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-14 13:29:30.9039||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-14 13:29:30.9150||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-14 13:29:30.9150||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-14 13:31:18.0489|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Theater.Api.User.Controllers.UserController.GetUserByEmailAsync (Theater.Api.User)
+Theater.Api.User.Controllers.UserController.GetUserByUserNameAsync (Theater.Api.User)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-05-14 13:31:40.1834|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Theater.Api.User.Controllers.UserController.GetUserByEmailAsync (Theater.Api.User)
+Theater.Api.User.Controllers.UserController.GetUserByUserNameAsync (Theater.Api.User)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-05-14 13:33:58.9232||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-14 13:34:00.1289||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-14 13:34:00.1344||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-14 13:34:00.1344||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-14 14:26:58.6621||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-14 14:27:00.2846||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-14 14:27:00.2917||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-14 14:27:00.2917||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-14 14:37:26.4035||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-14 14:37:27.8855||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-14 14:37:27.8855||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-14 14:37:27.9001||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-14 14:39:12.3464||ERROR|Theater.Api.User.Controllers.UserController|System.InvalidOperationException: Not found
+   at Theater.Data.Sqlite.User.Repository.UserRepository.GetUserByUserNameAsync(String username, String password) in D:\code\Theater.Api\Theater.Data.Sqlite.User\Repository\UserRepository.cs:line 61
+   at Theater.CQRS.BaseGetCommandHandler`2.Handle(TRequest request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\BaseGetCommandHandler.cs:line 32
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Theater.Api.User.Controllers.UserController.GetUserByUserNameAsync(String username, String password) in D:\code\Theater.Api\Theater.Api.User\Controllers\UserController.cs:line 27 
+2021-05-14 14:43:07.9042||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-14 14:43:09.4023||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-14 14:43:09.4023||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-14 14:43:09.4170||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-14 14:44:37.3685||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-14 14:44:38.9373||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-14 14:44:38.9610||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-14 14:44:38.9752||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-14 14:52:54.2010||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-14 14:52:55.6564||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-14 14:52:55.6639||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-14 14:52:55.6639||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-14 14:56:05.8355||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-14 14:56:07.2960||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-14 14:56:07.3023||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-14 14:56:07.3023||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-14 15:01:48.0598||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-14 15:01:50.1331||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-14 15:01:50.1331||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-14 15:01:50.1473||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-14 15:02:07.6853||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-14 15:02:09.5172||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-14 15:02:09.5248||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-14 15:02:09.5438||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-14 15:13:14.2548||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-14 15:13:15.6757||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-14 15:13:15.6835||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-14 15:13:15.6926||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-14 15:23:23.5843||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-14 15:24:27.8912||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-14 15:25:17.3101||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-14 15:25:20.0802||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-14 15:25:20.0862||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-14 15:25:20.0862||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-14 15:26:33.5091||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-14 15:28:01.5326||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-14 15:28:03.2794||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-14 15:28:03.2794||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-14 15:28:03.2918||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 

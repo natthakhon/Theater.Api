@@ -1,4 +1,5 @@
-﻿using MediatR;
+﻿using FluentValidation;
+using MediatR;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -12,7 +13,7 @@ namespace Theater.CQRS.User.Command
 {
     public class CreateUserCommandHandler : BaseCreateCommandHandler<U.User>
     {
-        public CreateUserCommandHandler(UserValidator validator, IUserRepository repository) 
+        public CreateUserCommandHandler(IValidator<U.User> validator, IUserRepository repository) 
             : base(validator,repository) { }
 
         protected override Task<U.User> handle(IRequestor<U.User> request, CancellationToken cancellationToken)

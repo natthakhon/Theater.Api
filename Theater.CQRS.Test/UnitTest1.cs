@@ -31,7 +31,7 @@ namespace Theater.CQRS.Test
                 UserName = "test"
             };
 
-            UserValidator userValidator = new UserValidator(userRepo.IsEmailExisted(user.EMail), userRepo.IsUserExisted(user.UserName));
+            UserValidator userValidator = new UserValidator(userRepo);
 
 
             CreateUserCommand createUserCommand = new CreateUserCommand();
@@ -80,7 +80,7 @@ namespace Theater.CQRS.Test
                 UserName = "test1"  // duplicated user
             };
 
-            UserValidator userValidator = new UserValidator(userRepo.IsEmailExisted(user1.EMail), userRepo.IsUserExisted(user1.UserName));
+            UserValidator userValidator = new UserValidator(userRepo);
 
             CreateUserCommand createUserCommand = new CreateUserCommand();
             createUserCommand.Item = user1;
@@ -89,7 +89,7 @@ namespace Theater.CQRS.Test
 
             var addresult1 = await createUserCommandHandler.Handle(createUserCommand, new CancellationToken());
 
-            UserValidator userValidator2 = new UserValidator(userRepo.IsEmailExisted(user2.EMail), userRepo.IsUserExisted(user2.UserName));
+            UserValidator userValidator2 = new UserValidator(userRepo);
 
 
             CreateUserCommand createUserCommand2 = new CreateUserCommand();
@@ -116,7 +116,7 @@ namespace Theater.CQRS.Test
                 UserName = "test"
             };
 
-            UserValidator userValidator = new UserValidator(userRepo.IsEmailExisted(user.EMail), userRepo.IsUserExisted(user.UserName));
+            UserValidator userValidator = new UserValidator(userRepo);
 
 
             CreateUserCommand createUserCommand = new CreateUserCommand();

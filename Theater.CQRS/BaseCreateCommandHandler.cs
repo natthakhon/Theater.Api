@@ -13,9 +13,9 @@ namespace Theater.CQRS
     public abstract class BaseCreateCommandHandler<TResponse> : IRequestHandler<IRequestor<TResponse>, TResponse>
         where TResponse : class
     {
-        private AbstractValidator<TResponse> validator;
+        private IValidator<TResponse> validator;
         protected IGenericRepository<TResponse> repository;
-        protected BaseCreateCommandHandler(AbstractValidator<TResponse> validator
+        protected BaseCreateCommandHandler(IValidator<TResponse> validator
             , IGenericRepository<TResponse> repository)
         {
             this.validator = validator;

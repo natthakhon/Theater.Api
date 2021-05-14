@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Theater.Domain\Theater.Domain.csproj" />
+    <ProjectReference Include="..\Theater.Repository\Theater.Repository.csproj" />
   </ItemGroup>
 
 </Project>

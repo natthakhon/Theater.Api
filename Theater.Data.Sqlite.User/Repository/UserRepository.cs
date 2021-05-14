@@ -12,16 +12,13 @@ namespace Theater.Data.Sqlite.User.Repository
     {
         private UserContext userContext = new UserContext();
 
-        public UserRepository()
-        {
-            //this.userContext = userContext;
-        }
+        public UserRepository() { }
 
         public async Task<Domain.User.User> CreateAsync(Domain.User.User model)
         {
             if (model != null)
             {
-                await this.userContext.AddAsync(new UserMapper(model).Destination);
+                await this.userContext.AddAsync(new UserMapper(model).Destination);                
                 await this.userContext.SaveChangesAsync();
                 return model;
             }
