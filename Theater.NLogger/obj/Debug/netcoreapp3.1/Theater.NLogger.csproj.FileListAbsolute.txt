@@ -1,0 +1,9 @@
+D:\code\Theater.Api\Theater.NLogger\bin\Debug\netcoreapp3.1\Theater.NLogger.deps.json
+D:\code\Theater.Api\Theater.NLogger\bin\Debug\netcoreapp3.1\Theater.NLogger.dll
+D:\code\Theater.Api\Theater.NLogger\bin\Debug\netcoreapp3.1\Theater.NLogger.pdb
+D:\code\Theater.Api\Theater.NLogger\obj\Debug\netcoreapp3.1\Theater.NLogger.AssemblyInfoInputs.cache
+D:\code\Theater.Api\Theater.NLogger\obj\Debug\netcoreapp3.1\Theater.NLogger.AssemblyInfo.cs
+D:\code\Theater.Api\Theater.NLogger\obj\Debug\netcoreapp3.1\Theater.NLogger.csproj.CoreCompileInputs.cache
+D:\code\Theater.Api\Theater.NLogger\obj\Debug\netcoreapp3.1\Theater.NLogger.dll
+D:\code\Theater.Api\Theater.NLogger\obj\Debug\netcoreapp3.1\Theater.NLogger.pdb
+D:\code\Theater.Api\Theater.NLogger\obj\Debug\netcoreapp3.1\Theater.NLogger.csprojAssemblyReference.cache

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "y5xXPXrV/F6aWa1We0YSbaFIt/oaDpNEzpxcmLiPXTtIklDfOnaAGOP4VwjMC/jE1rho4A9Aef6gnbMkhLdX1w==",
+  "success": true,
+  "projectFilePath": "D:\\code\\Theater.Api\\Theater.Domain\\Theater.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nattl\\.nuget\\packages\\fluentvalidation\\10.0.4\\fluentvalidation.10.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

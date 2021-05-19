@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Theater.CQRS",
+    "\\Theater.CQRS.Test",
+    "\\Theater.Domain",
+    "\\Theater.Domain.Test",
+    "\\Theater.Repository"
+  ],
+  "SelectedNode": "\\Theater.Api.sln",
+  "PreviewInSolutionExplorer": false
+}
