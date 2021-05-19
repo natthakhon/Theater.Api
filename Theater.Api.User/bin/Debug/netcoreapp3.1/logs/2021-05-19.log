@@ -10,3 +10,168 @@
 2021-05-19 14:06:50.7365||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
 2021-05-19 14:06:50.7365||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
 2021-05-19 14:06:50.7531||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-19 14:33:20.9221||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-19 14:33:22.1870||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-19 14:33:22.2031||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-19 14:33:22.2031||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-19 14:35:40.2118||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-19 14:35:41.7051||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-19 14:35:41.7051||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-19 14:35:41.7224||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-19 14:40:33.8522||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-19 14:40:35.6413||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-19 14:40:35.6615||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-19 14:40:35.6713||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-19 14:49:05.1640||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-19 14:49:06.4387||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-19 14:49:06.4387||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-19 14:49:06.4533||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-19 14:50:37.4026||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-19 14:50:38.8586||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-19 14:50:38.8586||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-19 14:50:38.8586||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-19 14:54:05.7377||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-19 14:54:07.8580||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-19 14:54:07.8697||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-19 14:54:07.8792||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-19 15:01:16.7311||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-19 15:01:18.0028||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-19 15:01:18.0028||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-19 15:01:18.0201||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-19 15:04:55.9333||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-19 15:04:57.9239||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-19 15:04:57.9239||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-19 15:04:57.9468||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-19 15:09:53.2494||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-19 15:09:54.7079||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-19 15:09:54.7079||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-19 15:09:54.7248||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-19 15:10:18.3736||ERROR|Theater.Api.User.Controllers.UserController|System.ArgumentException: Email is already existed,User is already existed
+   at Theater.CQRS.BaseCreateCommandHandler`1.Handle(IRequestor`1 request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\BaseCreateCommandHandler.cs:line 33
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Theater.Api.User.Controllers.UserController.CreateUserAsync(User user) in D:\code\Theater.Api\Theater.Api.User\Controllers\UserController.cs:line 63 
+2021-05-19 15:13:31.1862||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-19 15:13:32.6378||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-19 15:13:32.6495||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-19 15:13:32.6584||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-19 15:18:49.5772||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-19 15:18:51.0420||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-19 15:18:51.0489||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-19 15:18:51.0489||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-19 15:27:06.7071||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-19 15:27:07.8280||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-19 15:27:07.8280||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-19 15:27:07.8280||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-19 15:35:54.6945||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-19 15:35:56.2865||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-19 15:35:56.2987||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-19 15:35:56.2987||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-19 15:38:11.4645||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-19 15:38:12.6636||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-19 15:38:12.6636||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-19 15:38:12.6779||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-19 15:43:22.1025||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-19 15:43:23.2620||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-19 15:43:23.2674||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-19 15:43:23.2674||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-19 15:49:11.3349||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-19 15:49:12.7363||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-19 15:49:12.7363||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-19 15:49:12.7518||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-19 15:53:28.5317||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-19 15:53:29.7912||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-19 15:53:29.7970||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-19 15:53:29.7970||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-19 16:06:58.3007||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-19 16:07:00.0572||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-19 16:07:00.0637||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-19 16:07:00.0637||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-19 16:42:43.5715||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-19 16:42:45.0127||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-19 16:42:45.0191||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-19 16:42:45.0191||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-19 16:44:02.1498||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-19 16:44:03.3552||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-19 16:44:03.3616||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-19 16:44:03.3616||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-19 16:44:41.8425||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-19 16:44:44.0390||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-19 16:44:44.0497||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-19 16:44:44.1374||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-19 16:45:11.9201||ERROR|Theater.Api.User.Controllers.UserController|System.AggregateException: One or more errors occurred. (User Name cannot be empty)
+ ---> System.ArgumentException: User Name cannot be empty
+   at Theater.Data.Sqlite.User.Repository.UserRepository.IsUserExisted(String username) in D:\code\Theater.Api\Theater.Data.Sqlite.User\Repository\UserRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Theater.Domain.Validator.User.UserValidator.<>c__DisplayClass0_0.<.ctor>b__14(String user) in D:\code\Theater.Api\Theater.Domain\Validator\User\UserValidator.cs:line 62
+   at FluentValidation.DefaultValidatorExtensions.<>c__DisplayClass28_0`2.<Must>b__0(T x, TProperty val) in C:\Projects\FluentValidation\src\FluentValidation\DefaultValidatorExtensions.cs:line 440
+   at FluentValidation.DefaultValidatorExtensions.<>c__DisplayClass29_0`2.<Must>b__0(T x, TProperty val, ValidationContext`1 _) in C:\Projects\FluentValidation\src\FluentValidation\DefaultValidatorExtensions.cs:line 456
+   at FluentValidation.DefaultValidatorExtensions.<>c__DisplayClass30_0`2.<Must>b__0(T instance, TProperty property, ValidationContext`1 propertyValidatorContext) in C:\Projects\FluentValidation\src\FluentValidation\DefaultValidatorExtensions.cs:line 472
+   at FluentValidation.Validators.PredicateValidator`2.IsValid(ValidationContext`1 context, TProperty value) in C:\Projects\FluentValidation\src\FluentValidation\Validators\PredicateValidator.cs:line 36
+   at FluentValidation.Internal.RuleComponent`2.Validate(ValidationContext`1 context, TProperty value) in C:\Projects\FluentValidation\src\FluentValidation\Internal\RuleComponent.cs:line 98
+   at FluentValidation.Internal.PropertyRule`2.InvokePropertyValidator(ValidationContext`1 context, Lazy`1 accessor, String propertyName, RuleComponent`2 component) in C:\Projects\FluentValidation\src\FluentValidation\Internal\PropertyRule.cs:line 249
+   at FluentValidation.Internal.PropertyRule`2.ValidateAsync(ValidationContext`1 context, CancellationToken cancellation) in C:\Projects\FluentValidation\src\FluentValidation\Internal\PropertyRule.cs:line 213
+   at FluentValidation.AbstractValidator`1.ValidateAsync(ValidationContext`1 context, CancellationToken cancellation) in C:\Projects\FluentValidation\src\FluentValidation\AbstractValidator.cs:line 134
+   at Theater.CQRS.BaseCreateCommandHandler`1.Handle(IRequestor`1 request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\BaseCreateCommandHandler.cs:line 27
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Theater.Api.User.Controllers.UserController.CreateUserAsync(User user) in D:\code\Theater.Api\Theater.Api.User\Controllers\UserController.cs:line 64 
+2021-05-19 16:45:34.3568||ERROR|Theater.Api.User.Controllers.UserController|System.AggregateException: One or more errors occurred. (User Name cannot be empty)
+ ---> System.ArgumentException: User Name cannot be empty
+   at Theater.Data.Sqlite.User.Repository.UserRepository.IsUserExisted(String username) in D:\code\Theater.Api\Theater.Data.Sqlite.User\Repository\UserRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Theater.Domain.Validator.User.UserValidator.<>c__DisplayClass0_0.<.ctor>b__14(String user) in D:\code\Theater.Api\Theater.Domain\Validator\User\UserValidator.cs:line 62
+   at FluentValidation.DefaultValidatorExtensions.<>c__DisplayClass28_0`2.<Must>b__0(T x, TProperty val) in C:\Projects\FluentValidation\src\FluentValidation\DefaultValidatorExtensions.cs:line 440
+   at FluentValidation.DefaultValidatorExtensions.<>c__DisplayClass29_0`2.<Must>b__0(T x, TProperty val, ValidationContext`1 _) in C:\Projects\FluentValidation\src\FluentValidation\DefaultValidatorExtensions.cs:line 456
+   at FluentValidation.DefaultValidatorExtensions.<>c__DisplayClass30_0`2.<Must>b__0(T instance, TProperty property, ValidationContext`1 propertyValidatorContext) in C:\Projects\FluentValidation\src\FluentValidation\DefaultValidatorExtensions.cs:line 472
+   at FluentValidation.Validators.PredicateValidator`2.IsValid(ValidationContext`1 context, TProperty value) in C:\Projects\FluentValidation\src\FluentValidation\Validators\PredicateValidator.cs:line 36
+   at FluentValidation.Internal.RuleComponent`2.Validate(ValidationContext`1 context, TProperty value) in C:\Projects\FluentValidation\src\FluentValidation\Internal\RuleComponent.cs:line 98
+   at FluentValidation.Internal.PropertyRule`2.InvokePropertyValidator(ValidationContext`1 context, Lazy`1 accessor, String propertyName, RuleComponent`2 component) in C:\Projects\FluentValidation\src\FluentValidation\Internal\PropertyRule.cs:line 249
+   at FluentValidation.Internal.PropertyRule`2.ValidateAsync(ValidationContext`1 context, CancellationToken cancellation) in C:\Projects\FluentValidation\src\FluentValidation\Internal\PropertyRule.cs:line 213
+   at FluentValidation.AbstractValidator`1.ValidateAsync(ValidationContext`1 context, CancellationToken cancellation) in C:\Projects\FluentValidation\src\FluentValidation\AbstractValidator.cs:line 134
+   at Theater.CQRS.BaseCreateCommandHandler`1.Handle(IRequestor`1 request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\BaseCreateCommandHandler.cs:line 27
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Theater.Api.User.Controllers.UserController.CreateUserAsync(User user) in D:\code\Theater.Api\Theater.Api.User\Controllers\UserController.cs:line 64 
+2021-05-19 16:46:53.4900||ERROR|Theater.Api.User.Controllers.UserController|System.AggregateException: One or more errors occurred. (User Name cannot be empty)
+ ---> System.ArgumentException: User Name cannot be empty
+   at Theater.Data.Sqlite.User.Repository.UserRepository.IsUserExisted(String username) in D:\code\Theater.Api\Theater.Data.Sqlite.User\Repository\UserRepository.cs:line 81
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Theater.Domain.Validator.User.UserValidator.<>c__DisplayClass0_0.<.ctor>b__14(String user) in D:\code\Theater.Api\Theater.Domain\Validator\User\UserValidator.cs:line 62
+   at FluentValidation.DefaultValidatorExtensions.<>c__DisplayClass28_0`2.<Must>b__0(T x, TProperty val) in C:\Projects\FluentValidation\src\FluentValidation\DefaultValidatorExtensions.cs:line 440
+   at FluentValidation.DefaultValidatorExtensions.<>c__DisplayClass29_0`2.<Must>b__0(T x, TProperty val, ValidationContext`1 _) in C:\Projects\FluentValidation\src\FluentValidation\DefaultValidatorExtensions.cs:line 456
+   at FluentValidation.DefaultValidatorExtensions.<>c__DisplayClass30_0`2.<Must>b__0(T instance, TProperty property, ValidationContext`1 propertyValidatorContext) in C:\Projects\FluentValidation\src\FluentValidation\DefaultValidatorExtensions.cs:line 472
+   at FluentValidation.Validators.PredicateValidator`2.IsValid(ValidationContext`1 context, TProperty value) in C:\Projects\FluentValidation\src\FluentValidation\Validators\PredicateValidator.cs:line 36
+   at FluentValidation.Internal.RuleComponent`2.Validate(ValidationContext`1 context, TProperty value) in C:\Projects\FluentValidation\src\FluentValidation\Internal\RuleComponent.cs:line 98
+   at FluentValidation.Internal.PropertyRule`2.InvokePropertyValidator(ValidationContext`1 context, Lazy`1 accessor, String propertyName, RuleComponent`2 component) in C:\Projects\FluentValidation\src\FluentValidation\Internal\PropertyRule.cs:line 249
+   at FluentValidation.Internal.PropertyRule`2.ValidateAsync(ValidationContext`1 context, CancellationToken cancellation) in C:\Projects\FluentValidation\src\FluentValidation\Internal\PropertyRule.cs:line 213
+   at FluentValidation.AbstractValidator`1.ValidateAsync(ValidationContext`1 context, CancellationToken cancellation) in C:\Projects\FluentValidation\src\FluentValidation\AbstractValidator.cs:line 134
+   at Theater.CQRS.BaseCreateCommandHandler`1.Handle(IRequestor`1 request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\BaseCreateCommandHandler.cs:line 27
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Theater.Api.User.Controllers.UserController.CreateUserAsync(User user) in D:\code\Theater.Api\Theater.Api.User\Controllers\UserController.cs:line 64 

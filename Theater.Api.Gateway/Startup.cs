@@ -30,11 +30,7 @@ namespace Theater.Api.Gateway
             services.AddOcelot();
             services.AddCors(options =>
             {
-                options.AddPolicy("standard",
-                    builder =>
-                    {
-                        builder.WithOrigins("http://localhost:4200/");
-                    });
+                options.AddDefaultPolicy(builder => { builder.AllowAnyOrigin(); });
             });
             services.AddControllers();
         }

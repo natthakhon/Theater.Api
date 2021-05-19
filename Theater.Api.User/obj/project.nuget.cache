@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "keN2OG4PrYsdoecpkP85Rj8CS97MP7P4+cSuAsDa5bH2BnTMQxRPM0OPzbP7hK2MljPw/OGjAs3ucD10eqbIPA==",
+  "dgSpecHash": "yoX809kEk/tliGBOknTcuwyzRY0MIHLPPmiHUMx0AoybVUZCW7EUfi5kF3lB+rnF/mau23+R8WspCSZG4wrJVA==",
   "success": true,
   "projectFilePath": "D:\\code\\Theater.Api\\Theater.Api.User\\Theater.Api.User.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\nattl\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "C:\\Users\\nattl\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
     "C:\\Users\\nattl\\.nuget\\packages\\microsoft.aspnetcore.authorization.policy\\2.2.0\\microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512",
+    "C:\\Users\\nattl\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
     "C:\\Users\\nattl\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\nattl\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.server.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\nattl\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.0\\microsoft.aspnetcore.http.2.2.0.nupkg.sha512",

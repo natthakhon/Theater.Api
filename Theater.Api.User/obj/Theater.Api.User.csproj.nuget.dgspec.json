@@ -143,6 +143,10 @@
               "target": "Package",
               "version": "[9.0.0, )"
             },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "NLog": {
               "target": "Package",
               "version": "[4.7.9, )"
