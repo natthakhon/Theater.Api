@@ -28,9 +28,14 @@ namespace Theater.Api.Gateway
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddOcelot();
-            services.AddCors(options =>
+            services.AddCors(c =>
             {
-                options.AddDefaultPolicy(builder => { builder.AllowAnyOrigin(); });
+                c.AddPolicy("AllowOrigin", options => {
+                    options.AllowAnyOrigin();
+                    options.AllowAnyHeader();
+                    options.AllowAnyMethod();
+                }
+                );
             });
             services.AddControllers();
         }
@@ -47,7 +52,11 @@ namespace Theater.Api.Gateway
 
             app.UseRouting();
 
-            app.UseCors();
+            app.UseCors(options => {
+                options.AllowAnyOrigin();
+                options.AllowAnyHeader();
+                options.AllowAnyMethod();
+            });
 
             app.UseAuthorization();
 
