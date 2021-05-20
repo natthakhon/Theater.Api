@@ -41,3 +41,28 @@
 2021-05-20 09:43:12.9885||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
 2021-05-20 09:43:12.9885||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
 2021-05-20 09:43:13.0051||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-20 14:25:06.5712||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-20 14:25:11.8955||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-20 14:25:11.9142||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-20 14:25:11.9236||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-20 14:27:38.1093||ERROR|Theater.Api.User.Controllers.UserController|System.ArgumentException: Phone is not in correct format
+   at Theater.CQRS.BaseCreateCommandHandler`1.Handle(IRequestor`1 request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\BaseCreateCommandHandler.cs:line 33
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Theater.Api.User.Controllers.UserController.CreateUserAsync(User user) in D:\code\Theater.Api\Theater.Api.User\Controllers\UserController.cs:line 64 
+2021-05-20 14:30:25.9610||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-20 14:30:29.8487||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-20 14:30:29.8663||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-20 14:30:29.8757||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-20 14:37:41.9085||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-20 14:37:44.0514||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-20 14:37:44.0632||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-20 14:37:44.0632||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-20 15:20:53.8056||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-20 15:20:55.5297||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-20 15:20:55.5678||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-20 15:20:55.5925||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 

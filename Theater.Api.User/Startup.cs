@@ -37,15 +37,6 @@ namespace Theater.Api.User
         {
             services.AddMediatR(Assembly.GetExecutingAssembly());
             services.Resolve();
-            //services.AddCors(c =>
-            //{
-            //    c.AddPolicy("AllowOrigin", options => {
-            //        options.AllowAnyOrigin();
-            //        options.AllowAnyHeader();
-            //        options.AllowAnyMethod();
-            //        }
-            //    );
-            //});
             services.AddControllers();
         }
 
@@ -60,12 +51,6 @@ namespace Theater.Api.User
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
-            //app.UseCors(options => { 
-            //    options.AllowAnyOrigin();
-            //    options.AllowAnyHeader();
-            //    options.AllowAnyMethod();
-            //});
 
             app.UseAuthorization();
 
