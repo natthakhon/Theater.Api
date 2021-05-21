@@ -14,9 +14,6 @@ namespace Theater.CQRS.Validator.User
             RuleFor(p=>p.Email)
                 .NotEmpty()
                 .WithMessage("Email must not be empty");
-            RuleFor(p => p.Email)
-                .EmailAddress()
-                .WithMessage("Email is not in correct format");
 
             RuleFor(p => p.Password)
                 .NotEmpty()
