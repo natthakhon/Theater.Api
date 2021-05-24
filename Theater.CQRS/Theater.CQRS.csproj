@@ -14,4 +14,9 @@
     <ProjectReference Include="..\Theater.Repository\Theater.Repository.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Movie\Query\" />
+    <Folder Include="Validator\Movie\" />
+  </ItemGroup>
+
 </Project>

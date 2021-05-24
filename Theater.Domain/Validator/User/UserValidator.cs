@@ -11,22 +11,6 @@ namespace Theater.Domain.Validator.User
     {
         public UserValidator(IUserChecker userChecker)
         {
-            //name validation
-            //RuleFor(p => p.Name)
-            //    .NotEmpty()
-            //    .WithMessage("Name must not be empty");
-            //RuleFor(p => p.Name)
-            //    .MaximumLength(25)
-            //    .WithMessage("Name must not exceed 25 characters");
-
-            //lastname validation
-            //RuleFor(p => p.LastName)
-            //    .NotEmpty()
-            //    .WithMessage("LastName must not be empty");
-            //RuleFor(p => p.Name)
-            //    .MaximumLength(25)
-            //    .WithMessage("LastName must not exceed 25 characters");
-
             //email validation
             RuleFor(p => p.EMail)
                 .NotEmpty()
@@ -38,10 +22,6 @@ namespace Theater.Domain.Validator.User
                 .Must(email => !userChecker.IsEmailExisted(email).Result)
                 .WithMessage("Email is already existed");
 
-            //cellphone validation
-            //RuleFor(p => p.Phone)
-            //    .NotEmpty()
-            //    .WithMessage("Cell phone must not be empty");
             RuleFor(p => p.Phone)
                 .Matches(@"^$|^\d{10}$")
                 .WithMessage("Phone is not in correct format");
