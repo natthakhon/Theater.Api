@@ -9,6 +9,7 @@ namespace Theater.Data.Sqlite.Movie
     public class MovieContext : DbContext
     {
         public DbSet<Movie> Movies { get; set; }
+        public DbSet<Theater> Theaters { get; set; }
 
         public MovieContext() : base() { }
 

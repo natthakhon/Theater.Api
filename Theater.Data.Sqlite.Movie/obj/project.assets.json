@@ -470,6 +470,19 @@
           "bin/placeholder/Theater.Domain.dll": {}
         }
       },
+      "Theater.Mapper/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "AutoMapper": "10.1.1"
+        },
+        "compile": {
+          "bin/placeholder/Theater.Mapper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Theater.Mapper.dll": {}
+        }
+      },
       "Theater.Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -1322,6 +1335,11 @@
       "path": "../Theater.Domain/Theater.Domain.csproj",
       "msbuildProject": "../Theater.Domain/Theater.Domain.csproj"
     },
+    "Theater.Mapper/1.0.0": {
+      "type": "project",
+      "path": "../Theater.Mapper/Theater.Mapper.csproj",
+      "msbuildProject": "../Theater.Mapper/Theater.Mapper.csproj"
+    },
     "Theater.Repository/1.0.0": {
       "type": "project",
       "path": "../Theater.Repository/Theater.Repository.csproj",
@@ -1333,6 +1351,7 @@
       "AutoMapper >= 10.1.1",
       "Microsoft.EntityFrameworkCore.Sqlite >= 5.0.6",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.6",
+      "Theater.Mapper >= 1.0.0",
       "Theater.Repository >= 1.0.0"
     ]
   },
@@ -1371,6 +1390,9 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "D:\\code\\Theater.Api\\Theater.Mapper\\Theater.Mapper.csproj": {
+              "projectPath": "D:\\code\\Theater.Api\\Theater.Mapper\\Theater.Mapper.csproj"
+            },
             "D:\\code\\Theater.Api\\Theater.Repository\\Theater.Repository.csproj": {
               "projectPath": "D:\\code\\Theater.Api\\Theater.Repository\\Theater.Repository.csproj"
             }

@@ -12,9 +12,9 @@ namespace Theater.Mapper
         protected IMappingExpression<TSource, TDestination> mappingExpression;
         protected MapperConfiguration config;
 
-        protected BaseMapper(TSource domain)
+        protected BaseMapper(TSource source)
         {
-            this.source = domain;
+            this.source = source;
 
             this.config = new MapperConfiguration(this.Reconfig);
             IMapper iMapper = config.CreateMapper();

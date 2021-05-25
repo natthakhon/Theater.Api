@@ -11,6 +11,7 @@
           "AutoMapper": "10.1.1",
           "Microsoft.EntityFrameworkCore.Sqlite": "5.0.6",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.6",
+          "Theater.Mapper": "1.0.0",
           "Theater.Repository": "1.0.0"
         },
         "runtime": {
@@ -411,6 +412,14 @@
           "Theater.Domain.dll": {}
         }
       },
+      "Theater.Mapper/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "10.1.1"
+        },
+        "runtime": {
+          "Theater.Mapper.dll": {}
+        }
+      },
       "Theater.Repository/1.0.0": {
         "dependencies": {
           "Theater.Domain": "1.0.0"
@@ -673,6 +682,11 @@
       "hashPath": "system.text.json.5.0.0.nupkg.sha512"
     },
     "Theater.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Theater.Mapper/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

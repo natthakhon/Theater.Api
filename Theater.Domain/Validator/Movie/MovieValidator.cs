@@ -6,9 +6,9 @@ using M = Theater.Domain.Movie;
 
 namespace Theater.Domain.Validator.Movie
 {
-    public class MovieValidation : AbstractValidator<M.Movie>
+    public class MovieValidator : AbstractValidator<M.Movie>
     {
-        public MovieValidation(IMovieChecker movieCheck)
+        public MovieValidator(IMovieChecker movieCheck)
         {
             RuleFor(p=>p.MovieName)
                 .NotEmpty()

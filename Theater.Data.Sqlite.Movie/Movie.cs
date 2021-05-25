@@ -9,8 +9,11 @@ namespace Theater.Data.Sqlite.Movie
     [Table("Movie")]
     public class Movie
     {
+        [Key]
         [Required]
         [MaxLength(50)]
         public string Name { get; set; }
+        public DateTime CreateDate { get; set; }
+        public DateTime? UpdateDate { get; set; }
     }
 }
