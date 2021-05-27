@@ -179,7 +179,7 @@ namespace Theater.CQRS.Test
             });
         }
 
-        public Task<U.User> UpdateAsync(U.User model)
+        public Task<U.User> UpdateAsync(U.User old, U.User modify)
         {
             throw new System.NotImplementedException();
         }

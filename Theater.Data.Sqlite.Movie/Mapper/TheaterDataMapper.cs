@@ -13,7 +13,7 @@ namespace Theater.Data.Sqlite.Movie.Mapper
 
         protected override void Reconfig(IMapperConfigurationExpression mapperConfigurationExpression)
         {
-            
+            mapperConfigurationExpression.CreateMap<Theater, DOM.Theater>();
         }
     }
 }

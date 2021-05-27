@@ -16,7 +16,6 @@ D:\code\Theater.Api\Theater.Api.Gateway\bin\Debug\netcoreapp3.1\Microsoft.Extens
 D:\code\Theater.Api\Theater.Api.Gateway\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 D:\code\Theater.Api\Theater.Api.Gateway\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 D:\code\Theater.Api\Theater.Api.Gateway\bin\Debug\netcoreapp3.1\Ocelot.dll
-D:\code\Theater.Api\Theater.Api.Gateway\obj\Debug\netcoreapp3.1\Theater.Api.Gateway.csprojAssemblyReference.cache
 D:\code\Theater.Api\Theater.Api.Gateway\obj\Debug\netcoreapp3.1\Theater.Api.Gateway.AssemblyInfoInputs.cache
 D:\code\Theater.Api\Theater.Api.Gateway\obj\Debug\netcoreapp3.1\Theater.Api.Gateway.AssemblyInfo.cs
 D:\code\Theater.Api\Theater.Api.Gateway\obj\Debug\netcoreapp3.1\Theater.Api.Gateway.csproj.CoreCompileInputs.cache
@@ -30,3 +29,4 @@ D:\code\Theater.Api\Theater.Api.Gateway\obj\Debug\netcoreapp3.1\Theater.Api.Gate
 D:\code\Theater.Api\Theater.Api.Gateway\obj\Debug\netcoreapp3.1\Theater.Api.Gateway.dll
 D:\code\Theater.Api\Theater.Api.Gateway\obj\Debug\netcoreapp3.1\Theater.Api.Gateway.pdb
 D:\code\Theater.Api\Theater.Api.Gateway\obj\Debug\netcoreapp3.1\Theater.Api.Gateway.genruntimeconfig.cache
+D:\code\Theater.Api\Theater.Api.Gateway\obj\Debug\netcoreapp3.1\Theater.Api.Gateway.csprojAssemblyReference.cache

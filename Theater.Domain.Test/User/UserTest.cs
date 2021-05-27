@@ -64,7 +64,7 @@ namespace Theater.Domain.Test.User
             });
         }
 
-        public Task<U.User> UpdateAsync(U.User model)
+        public Task<U.User> UpdateAsync(U.User old, U.User modify)
         {
             throw new NotImplementedException();
         }

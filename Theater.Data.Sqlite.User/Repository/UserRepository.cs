@@ -81,7 +81,7 @@ namespace Theater.Data.Sqlite.User.Repository
             throw new ArgumentException("User Name cannot be empty");
         }
 
-        public Task<Domain.User.User> UpdateAsync(Domain.User.User model)
+        public Task<Domain.User.User> UpdateAsync(Domain.User.User old, Domain.User.User modify)
         {
             throw new NotImplementedException();
         }

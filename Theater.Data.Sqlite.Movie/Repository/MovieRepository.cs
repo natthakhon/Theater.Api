@@ -51,7 +51,7 @@ namespace Theater.Data.Sqlite.Movie.Repository
                 movies = await this.movieContext.Movies.ToListAsync();
             }
 
-            Task<List<Domain.Movie.Movie>> task = new Task<List<Domain.Movie.Movie>>(() =>
+            return await Task<List<Domain.Movie.Movie>>.Run(() =>
             {
                 if (movies != null)
                 {
@@ -62,8 +62,6 @@ namespace Theater.Data.Sqlite.Movie.Repository
                 }
                 return result;
             });
-
-            return await task;
         }
 
         public async Task<List<Domain.Movie.Theater>> GetTheaters(string theater)
@@ -80,7 +78,7 @@ namespace Theater.Data.Sqlite.Movie.Repository
                 theaters = await this.movieContext.Theaters.ToListAsync();
             }
 
-            Task<List<Domain.Movie.Theater>> task = new Task<List<Domain.Movie.Theater>>(() =>
+            return await Task<List<Domain.Movie.Theater>>.Run(() =>
             {
                 if (theaters != null)
                 {
@@ -91,8 +89,6 @@ namespace Theater.Data.Sqlite.Movie.Repository
                 }
                 return result;
             });            
-
-            return await task;
         }
 
         public async Task<bool> IsMovieExisted(string movie)
@@ -115,26 +111,14 @@ namespace Theater.Data.Sqlite.Movie.Repository
             throw new ArgumentException("Theater cannot be empty");
         }
 
-        public async Task<Domain.Movie.Movie> UpdateAsync(Domain.Movie.Movie model)
+        public Task<Domain.Movie.Movie> UpdateAsync(Domain.Movie.Movie old, Domain.Movie.Movie modify)
         {
-            if (model != null)
-            {
-                this.movieContext.Movies.Update(new MovieMapper(model).Destination);
-                await this.movieContext.SaveChangesAsync();
-                return model;
-            }
-            throw new ArgumentException("Model is null");
+            throw new NotImplementedException();
         }
 
-        public async Task<Domain.Movie.Theater> UpdateAsync(Domain.Movie.Theater model)
+        public Task<Domain.Movie.Theater> UpdateAsync(Domain.Movie.Theater old, Domain.Movie.Theater modify)
         {
-            if (model != null)
-            {
-                this.movieContext.Theaters.Update(new TheaterMapper(model).Destination);
-                await this.movieContext.SaveChangesAsync();
-                return model;
-            }
-            throw new ArgumentException("Model is null");
+            throw new NotImplementedException();
         }
     }
 }

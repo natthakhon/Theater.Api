@@ -9,6 +9,6 @@ namespace Theater.Repository
         where TModel :class
     {
         Task<TModel> CreateAsync(TModel model);
-        Task<TModel> UpdateAsync(TModel model);
+        Task<TModel> UpdateAsync(TModel old, TModel modify);
     }
 }
