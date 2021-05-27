@@ -19,7 +19,8 @@ namespace Theater.Data.Sqlite.User.Mapper
             this.password = new Password(this.Source.Password, 64);
             mapperConfigurationExpression.CreateMap<DOM.User, User>()
                 .ForMember(dest => dest.Password, act => act.MapFrom(source => this.password.Hash))
-                .ForMember(dest => dest.Salt, act => act.MapFrom(source => this.password.Salt));
+                .ForMember(dest => dest.Salt, act => act.MapFrom(source => this.password.Salt))
+                .ForMember(dest => dest.CreateDate, act => act.MapFrom(source => DateTime.Now));
         }
     }
 }

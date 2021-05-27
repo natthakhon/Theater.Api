@@ -13,7 +13,8 @@ namespace Theater.Data.Sqlite.Movie.Mapper
 
         protected override void Reconfig(IMapperConfigurationExpression mapperConfigurationExpression)
         {
-            mapperConfigurationExpression.CreateMap<DOM.Theater, Theater>();
+            mapperConfigurationExpression.CreateMap<DOM.Theater, Theater>()
+                .ForMember(dest => dest.CreateDate, act => act.MapFrom(source => DateTime.Now));
         }
     }
 }

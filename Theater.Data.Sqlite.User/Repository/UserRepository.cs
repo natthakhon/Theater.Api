@@ -63,22 +63,14 @@ namespace Theater.Data.Sqlite.User.Repository
 
         public async Task<bool> IsEmailExisted(string email)
         {
-            if (!string.IsNullOrEmpty(email))
-            {
-                var user = await this.userContext.Users.FirstOrDefaultAsync(p => p.Email == email);
-                return user != null;
-            }
-            throw new ArgumentException("Email cannot be empty");
+            var user = await this.userContext.Users.FirstOrDefaultAsync(p => p.Email == email);
+            return user != null;
         }
 
         public async Task<bool> IsUserExisted(string username)
         {
-            if (!string.IsNullOrEmpty(username))
-            {
-                var user = await this.userContext.Users.FirstOrDefaultAsync(p => p.UserName == username);
-                return user != null;
-            }
-            throw new ArgumentException("User Name cannot be empty");
+            var user = await this.userContext.Users.FirstOrDefaultAsync(p => p.UserName == username);
+            return user != null;
         }
 
         public Task<Domain.User.User> UpdateAsync(Domain.User.User old, Domain.User.User modify)

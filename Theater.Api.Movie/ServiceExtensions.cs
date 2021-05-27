@@ -19,6 +19,7 @@ namespace Theater.Api.Movie
         {
             resolveRepository(services);
             resolveCreateMovie(services);
+            resolveCreateTheater(services);
         }
 
         private static void resolveRepository(IServiceCollection services)
@@ -33,6 +34,12 @@ namespace Theater.Api.Movie
         {
             services.AddScoped<IValidator<DOM.Movie>, MovieValidator>();
             services.AddScoped<IRequestHandler<CreateMovieCommand, DOM.Movie>, CreateMovieCommandHandler>();
+        }
+
+        private static void resolveCreateTheater(IServiceCollection services)
+        {
+            services.AddScoped<IValidator<DOM.Theater>, TheaterValidator>();
+            services.AddScoped<IRequestHandler<CreateTheaterCommand, DOM.Theater>, CreateTheaterCommandHandler>();
         }
     }
 }

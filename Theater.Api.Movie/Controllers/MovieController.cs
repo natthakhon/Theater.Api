@@ -34,5 +34,22 @@ namespace Theater.Api.Movie.Controllers
             }
         }
 
+        [HttpPost("{theater}")]
+        public async Task<ActionResult<DOM.Theater>> CreateTheaterAsync(DOM.Theater theater)
+        {
+            try
+            {
+                return await this.mediator.Send(new CreateTheaterCommand
+                {
+                    Item = theater
+                }); ;
+            }
+            catch (Exception e)
+            {
+                this.logger.LogError(e.ToString());
+                return BadRequest(e.Message);
+            }
+        }
+
     }
 }

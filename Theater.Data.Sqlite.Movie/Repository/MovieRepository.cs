@@ -93,22 +93,14 @@ namespace Theater.Data.Sqlite.Movie.Repository
 
         public async Task<bool> IsMovieExisted(string movie)
         {
-            if (!string.IsNullOrEmpty(movie))
-            {
-                var m = await this.movieContext.Movies.FirstOrDefaultAsync(p => p.Name == movie);
-                return m != null;
-            }
-            throw new ArgumentException("Movie cannot be empty");
+            var m = await this.movieContext.Movies.FirstOrDefaultAsync(p => p.Name == movie);
+            return m != null;
         }
 
         public async Task<bool> IsTheaterExisted(string theater)
         {
-            if (!string.IsNullOrEmpty(theater))
-            {
-                var t = await this.movieContext.Theaters.FirstOrDefaultAsync(p => p.Name == theater);
-                return t != null;
-            }
-            throw new ArgumentException("Theater cannot be empty");
+            var t = await this.movieContext.Theaters.FirstOrDefaultAsync(p => p.Name == theater);
+            return t != null;
         }
 
         public Task<Domain.Movie.Movie> UpdateAsync(Domain.Movie.Movie old, Domain.Movie.Movie modify)

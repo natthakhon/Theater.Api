@@ -2,3 +2,23 @@
 2021-05-27 11:28:44.6350||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
 2021-05-27 11:28:44.6484||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
 2021-05-27 11:28:44.6567||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-27 13:03:59.0549||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-27 13:04:01.9996||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-27 13:04:02.0232||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-27 13:04:02.0326||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-27 13:17:24.6819||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-27 13:17:28.4982||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-27 13:17:28.5321||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-27 13:17:28.5456||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-27 13:21:31.0301||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-27 13:21:33.1972||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-27 13:21:33.2045||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-27 13:21:33.2045||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-27 13:41:51.2032||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-27 13:41:53.3686||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-27 13:41:53.3766||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-27 13:41:53.3766||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-05-27 13:53:08.3154||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-05-27 13:53:10.3254||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-05-27 13:53:10.3386||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-05-27 13:53:10.3490||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
