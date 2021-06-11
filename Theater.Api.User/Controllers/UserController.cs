@@ -64,7 +64,7 @@ namespace Theater.Api.User.Controllers
                 return await this.mediator.Send(new CreateUserCommand
                 {
                     Item = user
-                }); ;
+                }); 
             }
             catch (Exception e)
             {

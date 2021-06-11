@@ -11,7 +11,6 @@ D:\code\Theater.Api\Theater.Api.User\bin\Debug\netcoreapp3.1\NLog.Extensions.Log
 D:\code\Theater.Api\Theater.Api.User\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
 D:\code\Theater.Api\Theater.Api.User\bin\Debug\netcoreapp3.1\Theater.NLogger.dll
 D:\code\Theater.Api\Theater.Api.User\bin\Debug\netcoreapp3.1\Theater.NLogger.pdb
-D:\code\Theater.Api\Theater.Api.User\obj\Debug\netcoreapp3.1\Theater.Api.User.csprojAssemblyReference.cache
 D:\code\Theater.Api\Theater.Api.User\obj\Debug\netcoreapp3.1\Theater.Api.User.AssemblyInfoInputs.cache
 D:\code\Theater.Api\Theater.Api.User\obj\Debug\netcoreapp3.1\Theater.Api.User.AssemblyInfo.cs
 D:\code\Theater.Api\Theater.Api.User\obj\Debug\netcoreapp3.1\Theater.Api.User.csproj.CoreCompileInputs.cache
@@ -83,3 +82,4 @@ D:\code\Theater.Api\Theater.Api.User\bin\Debug\netcoreapp3.1\Theater.Mapper.pdb
 D:\code\Theater.Api\Theater.Api.User\bin\Debug\netcoreapp3.1\Theater.Security.pdb
 D:\code\Theater.Api\Theater.Api.User\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
 D:\code\Theater.Api\Theater.Api.User\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+D:\code\Theater.Api\Theater.Api.User\obj\Debug\netcoreapp3.1\Theater.Api.User.csproj.AssemblyReference.cache

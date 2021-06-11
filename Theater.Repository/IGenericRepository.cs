@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 
 namespace Theater.Repository
 {
-    public interface IGenericRepository<TModel>
+    public interface IGenericRepository<TModel> 
         where TModel :class
     {
         Task<TModel> CreateAsync(TModel model);
-        Task<TModel> UpdateAsync(TModel old, TModel modify);
+        Task<TModel> UpdateAsync(TModel modify);
     }
 }

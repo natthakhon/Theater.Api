@@ -16,9 +16,9 @@ namespace Theater.CQRS.User.Command
         public CreateUserCommandHandler(IValidator<U.User> validator, IUserRepository repository) 
             : base(validator,repository) { }
 
-        protected override Task<U.User> handle(IRequestor<U.User> request, CancellationToken cancellationToken)
+        protected override async Task<U.User> handle(IRequestor<U.User> request, CancellationToken cancellationToken)
         {
-            return this.repository.CreateAsync(request.Item);
+            return await this.repository.CreateAsync(request.Item);
         }
     }
 }

@@ -12,10 +12,17 @@ namespace Theater.CQRS
 {
     public abstract class BaseGetCommandHandler<TRequest,TResponse> : IRequestHandler<TRequest, TResponse>
         where TResponse : class
-        where TRequest : IRequest<TResponse>
+        where TRequest : IRequest<TResponse> 
     {
         private IValidator<TRequest> validator;
         protected IGenericRepository<TResponse> repository;
+        protected IGetData<TResponse> getrepository;
+
+        public BaseGetCommandHandler(IGetData<TResponse> repository)
+        {
+            this.getrepository = repository;
+        }
+
         protected BaseGetCommandHandler(IValidator<TRequest> validator
             , IGenericRepository<TResponse> repository)
         {
@@ -25,13 +32,20 @@ namespace Theater.CQRS
 
         public async Task<TResponse> Handle(TRequest request, CancellationToken cancellationToken)
         {
-            ValidationResult result = this.validator.Validate(request); ;
+            if (this.validator != null)
+            {
+                ValidationResult result = this.validator.Validate(request); ;
 
-            if (result.IsValid)
+                if (result.IsValid)
+                {
+                    return await this.handle(request, cancellationToken);
+                }
+                throw new ArgumentException(String.Join(",", result.Errors));
+            }
+            else
             {
                 return await this.handle(request, cancellationToken);
             }
-            throw new ArgumentException(String.Join(",", result.Errors));
         }
 
         protected abstract Task<TResponse> handle(TRequest request, CancellationToken cancellationToken);

@@ -186,7 +186,6 @@ D:\code\Theater.Api\Theater.Domain.Test\bin\Debug\netcoreapp3.1\zh-Hant\Microsof
 D:\code\Theater.Api\Theater.Domain.Test\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 D:\code\Theater.Api\Theater.Domain.Test\bin\Debug\netcoreapp3.1\Theater.Domain.dll
 D:\code\Theater.Api\Theater.Domain.Test\bin\Debug\netcoreapp3.1\Theater.Domain.pdb
-D:\code\Theater.Api\Theater.Domain.Test\obj\Debug\netcoreapp3.1\Theater.Domain.Test.csprojAssemblyReference.cache
 D:\code\Theater.Api\Theater.Domain.Test\obj\Debug\netcoreapp3.1\Theater.Domain.Test.AssemblyInfoInputs.cache
 D:\code\Theater.Api\Theater.Domain.Test\obj\Debug\netcoreapp3.1\Theater.Domain.Test.AssemblyInfo.cs
 D:\code\Theater.Api\Theater.Domain.Test\obj\Debug\netcoreapp3.1\Theater.Domain.Test.csproj.CoreCompileInputs.cache
@@ -196,3 +195,4 @@ D:\code\Theater.Api\Theater.Domain.Test\obj\Debug\netcoreapp3.1\Theater.Domain.T
 D:\code\Theater.Api\Theater.Domain.Test\obj\Debug\netcoreapp3.1\Theater.Domain.Test.genruntimeconfig.cache
 D:\code\Theater.Api\Theater.Domain.Test\bin\Debug\netcoreapp3.1\Theater.Repository.dll
 D:\code\Theater.Api\Theater.Domain.Test\bin\Debug\netcoreapp3.1\Theater.Repository.pdb
+D:\code\Theater.Api\Theater.Domain.Test\obj\Debug\netcoreapp3.1\Theater.Domain.Test.csproj.AssemblyReference.cache

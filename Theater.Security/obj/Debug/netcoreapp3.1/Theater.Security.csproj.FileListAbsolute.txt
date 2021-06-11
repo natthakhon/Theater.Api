@@ -6,4 +6,4 @@ D:\code\Theater.Api\Theater.Security\obj\Debug\netcoreapp3.1\Theater.Security.As
 D:\code\Theater.Api\Theater.Security\obj\Debug\netcoreapp3.1\Theater.Security.csproj.CoreCompileInputs.cache
 D:\code\Theater.Api\Theater.Security\obj\Debug\netcoreapp3.1\Theater.Security.dll
 D:\code\Theater.Api\Theater.Security\obj\Debug\netcoreapp3.1\Theater.Security.pdb
-D:\code\Theater.Api\Theater.Security\obj\Debug\netcoreapp3.1\Theater.Security.csprojAssemblyReference.cache
+D:\code\Theater.Api\Theater.Security\obj\Debug\netcoreapp3.1\Theater.Security.csproj.AssemblyReference.cache

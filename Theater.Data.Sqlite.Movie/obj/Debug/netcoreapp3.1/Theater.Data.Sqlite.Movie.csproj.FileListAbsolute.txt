@@ -7,7 +7,6 @@ D:\code\Theater.Api\Theater.Data.Sqlite.Movie\bin\Debug\netcoreapp3.1\Theater.Do
 D:\code\Theater.Api\Theater.Data.Sqlite.Movie\bin\Debug\netcoreapp3.1\Theater.Repository.dll
 D:\code\Theater.Api\Theater.Data.Sqlite.Movie\bin\Debug\netcoreapp3.1\Theater.Repository.pdb
 D:\code\Theater.Api\Theater.Data.Sqlite.Movie\bin\Debug\netcoreapp3.1\Theater.Domain.pdb
-D:\code\Theater.Api\Theater.Data.Sqlite.Movie\obj\Debug\netcoreapp3.1\Theater.Data.Sqlite.Movie.csprojAssemblyReference.cache
 D:\code\Theater.Api\Theater.Data.Sqlite.Movie\obj\Debug\netcoreapp3.1\Theater.Data.Sqlite.Movie.AssemblyInfoInputs.cache
 D:\code\Theater.Api\Theater.Data.Sqlite.Movie\obj\Debug\netcoreapp3.1\Theater.Data.Sqlite.Movie.AssemblyInfo.cs
 D:\code\Theater.Api\Theater.Data.Sqlite.Movie\obj\Debug\netcoreapp3.1\Theater.Data.Sqlite.Movie.csproj.CoreCompileInputs.cache
@@ -17,3 +16,4 @@ D:\code\Theater.Api\Theater.Data.Sqlite.Movie\obj\Debug\netcoreapp3.1\Theater.Da
 D:\code\Theater.Api\Theater.Data.Sqlite.Movie\obj\Debug\netcoreapp3.1\Theater.Data.Sqlite.Movie.genruntimeconfig.cache
 D:\code\Theater.Api\Theater.Data.Sqlite.Movie\bin\Debug\netcoreapp3.1\Theater.Mapper.dll
 D:\code\Theater.Api\Theater.Data.Sqlite.Movie\bin\Debug\netcoreapp3.1\Theater.Mapper.pdb
+D:\code\Theater.Api\Theater.Data.Sqlite.Movie\obj\Debug\netcoreapp3.1\Theater.Data.Sqlite.Movie.csproj.AssemblyReference.cache

@@ -29,4 +29,4 @@ D:\code\Theater.Api\Theater.Api.Gateway\obj\Debug\netcoreapp3.1\Theater.Api.Gate
 D:\code\Theater.Api\Theater.Api.Gateway\obj\Debug\netcoreapp3.1\Theater.Api.Gateway.dll
 D:\code\Theater.Api\Theater.Api.Gateway\obj\Debug\netcoreapp3.1\Theater.Api.Gateway.pdb
 D:\code\Theater.Api\Theater.Api.Gateway\obj\Debug\netcoreapp3.1\Theater.Api.Gateway.genruntimeconfig.cache
-D:\code\Theater.Api\Theater.Api.Gateway\obj\Debug\netcoreapp3.1\Theater.Api.Gateway.csprojAssemblyReference.cache
+D:\code\Theater.Api\Theater.Api.Gateway\obj\Debug\netcoreapp3.1\Theater.Api.Gateway.csproj.AssemblyReference.cache

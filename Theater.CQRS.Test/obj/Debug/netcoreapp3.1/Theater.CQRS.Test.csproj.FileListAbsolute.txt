@@ -101,7 +101,6 @@ C:\Users\Natthakhon.la\source\repos\Theater.Api\Theater.CQRS.Test\obj\Debug\netc
 C:\Users\Natthakhon.la\source\repos\Theater.Api\Theater.CQRS.Test\obj\Debug\netcoreapp3.1\Theater.CQRS.Test.dll
 C:\Users\Natthakhon.la\source\repos\Theater.Api\Theater.CQRS.Test\obj\Debug\netcoreapp3.1\Theater.CQRS.Test.pdb
 C:\Users\Natthakhon.la\source\repos\Theater.Api\Theater.CQRS.Test\obj\Debug\netcoreapp3.1\Theater.CQRS.Test.genruntimeconfig.cache
-D:\code\Theater.Api\Theater.CQRS.Test\obj\Debug\netcoreapp3.1\Theater.CQRS.Test.csprojAssemblyReference.cache
 D:\code\Theater.Api\Theater.CQRS.Test\obj\Debug\netcoreapp3.1\Theater.CQRS.Test.AssemblyInfoInputs.cache
 D:\code\Theater.Api\Theater.CQRS.Test\obj\Debug\netcoreapp3.1\Theater.CQRS.Test.AssemblyInfo.cs
 D:\code\Theater.Api\Theater.CQRS.Test\obj\Debug\netcoreapp3.1\Theater.CQRS.Test.csproj.CoreCompileInputs.cache
@@ -204,3 +203,4 @@ D:\code\Theater.Api\Theater.CQRS.Test\bin\Debug\netcoreapp3.1\Theater.Domain.pdb
 D:\code\Theater.Api\Theater.CQRS.Test\bin\Debug\netcoreapp3.1\Theater.Repository.pdb
 D:\code\Theater.Api\Theater.CQRS.Test\obj\Debug\netcoreapp3.1\Theater.CQRS.Test.csproj.CopyComplete
 D:\code\Theater.Api\Theater.CQRS.Test\obj\Debug\netcoreapp3.1\Theater.CQRS.Test.genruntimeconfig.cache
+D:\code\Theater.Api\Theater.CQRS.Test\obj\Debug\netcoreapp3.1\Theater.CQRS.Test.csproj.AssemblyReference.cache

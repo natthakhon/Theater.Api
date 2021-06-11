@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kmv+kS+3/R0tfivKgCBpumu1TKG0mUGbeDI2XqBj2Zoy0xT8SkTsbRQGH8Yu7QGBPupmLUXBm5EWBN1F/4Tblw==",
+  "dgSpecHash": "fg0qiSFmCSxkT1XxMQDIU0uE0vUN49uf94jSsoH//yB/M4C+lzZFRWHNWsTr0ymVpstIXQ5fCD0CcLIhZxOo2w==",
   "success": true,
   "projectFilePath": "D:\\code\\Theater.Api\\Theater.CQRS.Test\\Theater.CQRS.Test.csproj",
   "expectedPackageFiles": [

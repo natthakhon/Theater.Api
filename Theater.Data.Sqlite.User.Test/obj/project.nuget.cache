@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wAkhChifiwLvp5Ufpe8zUqZsnmKlYxBl15/M4VCVTs6TuVUYTQzoCq/cmTEISMZbuOxOgl42A7y8z7qX2KWFMg==",
+  "dgSpecHash": "kIyYr1unjtIL2FE4zyh1Y+N0OLANdOXHXfjfRlpNj7SCuN/55cC+b6i51zhEfJYCiWfMMvNFgXULVss+rGjVnw==",
   "success": true,
   "projectFilePath": "D:\\code\\Theater.Api\\Theater.Data.Sqlite.User.Test\\Theater.Data.Sqlite.User.Test.csproj",
   "expectedPackageFiles": [

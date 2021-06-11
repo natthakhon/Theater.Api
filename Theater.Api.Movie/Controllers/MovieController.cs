@@ -7,6 +7,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Theater.Api.Base;
 using Theater.CQRS.Movie.Command;
+using Theater.CQRS.Movie.Query;
 using DOM = Theater.Domain.Movie;
 
 namespace Theater.Api.Movie.Controllers
@@ -43,6 +44,20 @@ namespace Theater.Api.Movie.Controllers
                 {
                     Item = theater
                 }); ;
+            }
+            catch (Exception e)
+            {
+                this.logger.LogError(e.ToString());
+                return BadRequest(e.Message);
+            }
+        }
+
+        [HttpGet()]
+        public async Task<ActionResult<List<DOM.Movie>>> GetAllMoviesAsync()
+        {
+            try
+            {
+                return await this.mediator.Send(new GetAllMovies());
             }
             catch (Exception e)
             {

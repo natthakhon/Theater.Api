@@ -73,7 +73,7 @@ namespace Theater.Data.Sqlite.User.Repository
             return user != null;
         }
 
-        public Task<Domain.User.User> UpdateAsync(Domain.User.User old, Domain.User.User modify)
+        public Task<Domain.User.User> UpdateAsync(Domain.User.User modify)
         {
             throw new NotImplementedException();
         }

@@ -6,8 +6,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Theater.CQRS.Movie.Command;
+using Theater.CQRS.Movie.Query;
 using Theater.Data.Sqlite.Movie.Repository;
 using Theater.Domain.Validator.Movie;
+using Theater.Repository;
 using Theater.Repository.Movie;
 using DOM = Theater.Domain.Movie;
 
@@ -20,6 +22,7 @@ namespace Theater.Api.Movie
             resolveRepository(services);
             resolveCreateMovie(services);
             resolveCreateTheater(services);
+            resolveGetAllMovies(services);
         }
 
         private static void resolveRepository(IServiceCollection services)
@@ -28,6 +31,7 @@ namespace Theater.Api.Movie
             services.AddScoped<IMovieChecker, MovieRepository>();
             services.AddScoped<ITheaterRepository, MovieRepository>();
             services.AddScoped<ITheaterChecker, MovieRepository>();
+            services.AddScoped<IGetData<List<DOM.Movie>>, MovieRepository>();
         }
 
         private static void resolveCreateMovie(IServiceCollection services)
@@ -40,6 +44,11 @@ namespace Theater.Api.Movie
         {
             services.AddScoped<IValidator<DOM.Theater>, TheaterValidator>();
             services.AddScoped<IRequestHandler<CreateTheaterCommand, DOM.Theater>, CreateTheaterCommandHandler>();
+        }
+
+        private static void resolveGetAllMovies(IServiceCollection services)
+        {
+            services.AddScoped<IRequestHandler<GetAllMovies, List<DOM.Movie>>, GetAllMoviesHandler>();
         }
     }
 }

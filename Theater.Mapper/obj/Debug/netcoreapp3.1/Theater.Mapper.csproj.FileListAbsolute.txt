@@ -6,4 +6,4 @@ D:\code\Theater.Api\Theater.Mapper\obj\Debug\netcoreapp3.1\Theater.Mapper.Assemb
 D:\code\Theater.Api\Theater.Mapper\obj\Debug\netcoreapp3.1\Theater.Mapper.csproj.CoreCompileInputs.cache
 D:\code\Theater.Api\Theater.Mapper\obj\Debug\netcoreapp3.1\Theater.Mapper.dll
 D:\code\Theater.Api\Theater.Mapper\obj\Debug\netcoreapp3.1\Theater.Mapper.pdb
-D:\code\Theater.Api\Theater.Mapper\obj\Debug\netcoreapp3.1\Theater.Mapper.csprojAssemblyReference.cache
+D:\code\Theater.Api\Theater.Mapper\obj\Debug\netcoreapp3.1\Theater.Mapper.csproj.AssemblyReference.cache

@@ -6,6 +6,8 @@ using Theater.Data.Sqlite.Movie.Mapper;
 using Theater.Repository.Movie;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
+using Theater.Repository;
+using dom = Theater.Domain;
 
 namespace Theater.Data.Sqlite.Movie.Repository
 {
@@ -35,6 +37,24 @@ namespace Theater.Data.Sqlite.Movie.Repository
                 return model;
             }
             throw new ArgumentException("Model is null");
+        }
+
+        public async Task<List<dom.Movie.Movie>> GetAll()
+        {
+            List<Domain.Movie.Movie> result = new List<Domain.Movie.Movie>();
+            List<Movie> movies = await this.movieContext.Movies.ToListAsync(); ;
+
+            return await Task<List<Domain.Movie.Movie>>.Run(() =>
+            {
+                if (movies != null)
+                {
+                    foreach (var m in movies)
+                    {
+                        result.Add(new MovieDataMapper(m).Destination);
+                    }
+                }
+                return result;
+            });
         }
 
         public async Task<List<Domain.Movie.Movie>> GetMovies(string movie)
@@ -103,12 +123,12 @@ namespace Theater.Data.Sqlite.Movie.Repository
             return t != null;
         }
 
-        public Task<Domain.Movie.Movie> UpdateAsync(Domain.Movie.Movie old, Domain.Movie.Movie modify)
+        public Task<Domain.Movie.Movie> UpdateAsync(Domain.Movie.Movie modify)
         {
             throw new NotImplementedException();
         }
 
-        public Task<Domain.Movie.Theater> UpdateAsync(Domain.Movie.Theater old, Domain.Movie.Theater modify)
+        public Task<Domain.Movie.Theater> UpdateAsync(Domain.Movie.Theater modify)
         {
             throw new NotImplementedException();
         }
