@@ -1,0 +1,285 @@
+2021-06-18 10:39:53.5095||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-06-18 10:39:57.8665||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-18 10:39:57.8665||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-18 10:39:57.8819||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-06-18 11:07:10.4075||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-06-18 11:07:15.6370||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-18 11:07:15.6517||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-18 11:07:15.6773||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-06-18 11:07:50.7914||ERROR|Theater.Api.User.Controllers.UserController|System.InvalidOperationException: Not found
+   at Theater.Data.Sqlite.User.Repository.UserRepository.GetUserByUserNameAsync(String username, String password) in D:\code\Theater.Api\Theater.Data.Sqlite.User\Repository\UserRepository.cs:line 73
+   at Theater.CQRS.BaseGetCommandHandler`2.Handle(TRequest request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\BaseGetCommandHandler.cs:line 41
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Theater.Api.User.Controllers.UserController.GetUserByUserNameAsync(String username, String password) in D:\code\Theater.Api\Theater.Api.User\Controllers\UserController.cs:line 28 
+2021-06-18 11:08:25.4195||ERROR|Theater.Api.User.Controllers.UserController|System.ArgumentException: Email is already existed,User is already existed
+   at Theater.CQRS.BaseCreateCommandHandler`1.Handle(IRequestor`1 request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\BaseCreateCommandHandler.cs:line 33
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Theater.Api.User.Controllers.UserController.CreateUserAsync(User user) in D:\code\Theater.Api\Theater.Api.User\Controllers\UserController.cs:line 64 
+2021-06-18 11:08:57.9313||ERROR|Theater.Api.User.Controllers.UserController|System.ArgumentException: Email is already existed,User is already existed
+   at Theater.CQRS.BaseCreateCommandHandler`1.Handle(IRequestor`1 request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\BaseCreateCommandHandler.cs:line 33
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Theater.Api.User.Controllers.UserController.CreateUserAsync(User user) in D:\code\Theater.Api\Theater.Api.User\Controllers\UserController.cs:line 64 
+2021-06-18 11:14:41.9069||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-06-18 11:14:44.2123||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-18 11:14:44.2123||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-18 11:14:44.2123||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-06-18 11:15:28.1038||ERROR|Theater.Api.User.Controllers.UserController|System.ArgumentException: Email is already existed,User is already existed
+   at Theater.CQRS.BaseCreateCommandHandler`1.Handle(IRequestor`1 request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\BaseCreateCommandHandler.cs:line 33
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Theater.Api.User.Controllers.UserController.CreateUserAsync(User user) in D:\code\Theater.Api\Theater.Api.User\Controllers\UserController.cs:line 64 
+2021-06-18 11:16:26.1774||ERROR|Theater.Api.User.Controllers.UserController|System.InvalidOperationException: Not found
+   at Theater.Data.Sqlite.User.Repository.UserRepository.GetUserByUserNameAsync(String username, String password) in D:\code\Theater.Api\Theater.Data.Sqlite.User\Repository\UserRepository.cs:line 73
+   at Theater.CQRS.BaseGetCommandHandler`2.Handle(TRequest request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\BaseGetCommandHandler.cs:line 41
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Theater.Api.User.Controllers.UserController.GetUserByUserNameAsync(String username, String password) in D:\code\Theater.Api\Theater.Api.User\Controllers\UserController.cs:line 28 
+2021-06-18 11:16:39.6616||ERROR|Theater.Api.User.Controllers.UserController|System.ArgumentException: User is already existed
+   at Theater.CQRS.BaseCreateCommandHandler`1.Handle(IRequestor`1 request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\BaseCreateCommandHandler.cs:line 33
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Theater.Api.User.Controllers.UserController.CreateUserAsync(User user) in D:\code\Theater.Api\Theater.Api.User\Controllers\UserController.cs:line 64 
+2021-06-18 11:17:57.5803||ERROR|Theater.Api.User.Controllers.UserController|System.InvalidOperationException: Not found
+   at Theater.Data.Sqlite.User.Repository.UserRepository.GetUserByUserNameAsync(String username, String password) in D:\code\Theater.Api\Theater.Data.Sqlite.User\Repository\UserRepository.cs:line 73
+   at Theater.CQRS.BaseGetCommandHandler`2.Handle(TRequest request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\BaseGetCommandHandler.cs:line 41
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Theater.Api.User.Controllers.UserController.GetUserByUserNameAsync(String username, String password) in D:\code\Theater.Api\Theater.Api.User\Controllers\UserController.cs:line 28 
+2021-06-18 11:19:03.1672||ERROR|Theater.Api.User.Controllers.UserController|System.InvalidOperationException: Not found
+   at Theater.Data.Sqlite.User.Repository.UserRepository.GetUserByUserNameAsync(String username, String password) in D:\code\Theater.Api\Theater.Data.Sqlite.User\Repository\UserRepository.cs:line 73
+   at Theater.CQRS.BaseGetCommandHandler`2.Handle(TRequest request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\BaseGetCommandHandler.cs:line 41
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Theater.Api.User.Controllers.UserController.GetUserByUserNameAsync(String username, String password) in D:\code\Theater.Api\Theater.Api.User\Controllers\UserController.cs:line 28 
+2021-06-18 11:19:39.0005||ERROR|Theater.Api.User.Controllers.UserController|System.InvalidOperationException: Not found
+   at Theater.Data.Sqlite.User.Repository.UserRepository.GetUserByUserNameAsync(String username, String password) in D:\code\Theater.Api\Theater.Data.Sqlite.User\Repository\UserRepository.cs:line 73
+   at Theater.CQRS.BaseGetCommandHandler`2.Handle(TRequest request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\BaseGetCommandHandler.cs:line 41
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Theater.Api.User.Controllers.UserController.GetUserByUserNameAsync(String username, String password) in D:\code\Theater.Api\Theater.Api.User\Controllers\UserController.cs:line 28 
+2021-06-18 11:20:55.4005||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-06-18 11:20:58.1985||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-18 11:20:58.1985||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-18 11:20:58.2135||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-06-18 11:24:01.0325||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-06-18 11:24:03.7391||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-18 11:24:03.7500||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-18 11:24:03.7580||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-06-18 11:24:49.1236||ERROR|Theater.Api.User.Controllers.UserController|System.InvalidOperationException: Not found
+   at Theater.Data.Sqlite.User.Repository.UserRepository.GetUserByUserNameAsync(String username, String password) in D:\code\Theater.Api\Theater.Data.Sqlite.User\Repository\UserRepository.cs:line 73
+   at Theater.CQRS.BaseGetCommandHandler`2.Handle(TRequest request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\BaseGetCommandHandler.cs:line 41
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Theater.Api.User.Controllers.UserController.GetUserByUserNameAsync(String username, String password) in D:\code\Theater.Api\Theater.Api.User\Controllers\UserController.cs:line 28 
+2021-06-18 11:25:12.3113||ERROR|Theater.Api.User.Controllers.UserController|System.InvalidOperationException: Not found
+   at Theater.Data.Sqlite.User.Repository.UserRepository.GetUserByUserNameAsync(String username, String password) in D:\code\Theater.Api\Theater.Data.Sqlite.User\Repository\UserRepository.cs:line 73
+   at Theater.CQRS.BaseGetCommandHandler`2.Handle(TRequest request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\BaseGetCommandHandler.cs:line 41
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Theater.Api.User.Controllers.UserController.GetUserByUserNameAsync(String username, String password) in D:\code\Theater.Api\Theater.Api.User\Controllers\UserController.cs:line 28 
+2021-06-18 11:28:15.3286||ERROR|Theater.Api.User.Controllers.UserController|System.InvalidOperationException: Not found
+   at Theater.Data.Sqlite.User.Repository.UserRepository.GetUserByUserNameAsync(String username, String password) in D:\code\Theater.Api\Theater.Data.Sqlite.User\Repository\UserRepository.cs:line 73
+   at Theater.CQRS.BaseGetCommandHandler`2.Handle(TRequest request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\BaseGetCommandHandler.cs:line 41
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Theater.Api.User.Controllers.UserController.GetUserByUserNameAsync(String username, String password) in D:\code\Theater.Api\Theater.Api.User\Controllers\UserController.cs:line 28 
+2021-06-18 11:33:18.9599||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-06-18 11:33:20.5371||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-18 11:33:20.5431||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-18 11:33:20.5431||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-06-18 14:42:40.8763||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-06-18 14:42:43.4397||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-18 14:42:43.4466||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-18 14:42:43.4466||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-06-18 14:47:57.3302||ERROR|Theater.Api.User.Controllers.LoginController|AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Login -> Login
+Theater.Domain.User.Login -> Theater.Data.Sqlite.User.Login
+
+Type Map configuration:
+Login -> Login
+Theater.Domain.User.Login -> Theater.Data.Sqlite.User.Login
+
+Destination Member:
+User
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+User -> User
+Theater.Domain.User.User -> Theater.Data.Sqlite.User.User
+   at lambda_method(Closure , User , User , ResolutionContext )
+   at lambda_method(Closure , Login , Login , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Login , Login , ResolutionContext )
+   at Theater.Mapper.BaseMapper`2..ctor(TSource source) in D:\code\Theater.Api\Theater.Mapper\BaseMapper.cs:line 21
+   at Theater.Data.Sqlite.User.Mapper.LoginDomtoDataMapper..ctor(Login login) in D:\code\Theater.Api\Theater.Data.Sqlite.User\Mapper\LoginDomtoDataMapper.cs:line 12
+   at Theater.Data.Sqlite.User.Repository.LoginRepository.CreateAsync(Login model) in D:\code\Theater.Api\Theater.Data.Sqlite.User\Repository\LoginRepository.cs:line 22
+   at Theater.CQRS.User.Command.CreateLoginCommandHandler.handle(IRequestor`1 request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\User\Command\CreateLoginCommandHandler.cs:line 20
+   at Theater.CQRS.BaseCreateCommandHandler`1.Handle(IRequestor`1 request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\BaseCreateCommandHandler.cs:line 31
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Theater.Api.User.Controllers.LoginController.CreateLoginAsync(Login login) in D:\code\Theater.Api\Theater.Api.User\Controllers\LoginController.cs:line 28 
+2021-06-18 14:50:13.8740||ERROR|Theater.Api.User.Controllers.LoginController|AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Login -> Login
+Theater.Domain.User.Login -> Theater.Data.Sqlite.User.Login
+
+Type Map configuration:
+Login -> Login
+Theater.Domain.User.Login -> Theater.Data.Sqlite.User.Login
+
+Destination Member:
+User
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+User -> User
+Theater.Domain.User.User -> Theater.Data.Sqlite.User.User
+   at lambda_method(Closure , User , User , ResolutionContext )
+   at lambda_method(Closure , Login , Login , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Login , Login , ResolutionContext )
+   at Theater.Mapper.BaseMapper`2..ctor(TSource source) in D:\code\Theater.Api\Theater.Mapper\BaseMapper.cs:line 21
+   at Theater.Data.Sqlite.User.Mapper.LoginDomtoDataMapper..ctor(Login login) in D:\code\Theater.Api\Theater.Data.Sqlite.User\Mapper\LoginDomtoDataMapper.cs:line 12
+   at Theater.Data.Sqlite.User.Repository.LoginRepository.CreateAsync(Login model) in D:\code\Theater.Api\Theater.Data.Sqlite.User\Repository\LoginRepository.cs:line 22
+   at Theater.CQRS.User.Command.CreateLoginCommandHandler.handle(IRequestor`1 request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\User\Command\CreateLoginCommandHandler.cs:line 20
+   at Theater.CQRS.BaseCreateCommandHandler`1.Handle(IRequestor`1 request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\BaseCreateCommandHandler.cs:line 31
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Theater.Api.User.Controllers.LoginController.CreateLoginAsync(Login login) in D:\code\Theater.Api\Theater.Api.User\Controllers\LoginController.cs:line 28 
+2021-06-18 14:54:58.3204||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-06-18 14:55:00.4986||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-18 14:55:00.5132||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-18 14:55:00.5132||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-06-18 14:57:35.9998||ERROR|Theater.Api.User.Controllers.LoginController|Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: User.Salt'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Theater.Data.Sqlite.User.Repository.LoginRepository.CreateAsync(Login model) in D:\code\Theater.Api\Theater.Data.Sqlite.User\Repository\LoginRepository.cs:line 23
+   at Theater.CQRS.User.Command.CreateLoginCommandHandler.handle(IRequestor`1 request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\User\Command\CreateLoginCommandHandler.cs:line 20
+   at Theater.CQRS.BaseCreateCommandHandler`1.Handle(IRequestor`1 request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\BaseCreateCommandHandler.cs:line 31
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Theater.Api.User.Controllers.LoginController.CreateLoginAsync(Login login) in D:\code\Theater.Api\Theater.Api.User\Controllers\LoginController.cs:line 28 
+2021-06-18 15:01:17.5251||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-06-18 15:01:19.2427||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-18 15:01:19.2750||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-18 15:01:19.3336||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-06-18 15:09:28.5630||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-06-18 15:09:30.3788||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-18 15:09:30.4073||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-18 15:09:30.4165||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-06-18 15:10:08.9993||ERROR|Theater.Api.User.Controllers.LoginController|Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at Microsoft.Data.Sqlite.SqliteConnectionExtensions.ExecuteNonQuery(SqliteConnection connection, String commandText, SqliteParameter[] parameters)
+   at Microsoft.Data.Sqlite.SqliteTransaction..ctor(SqliteConnection connection, IsolationLevel isolationLevel, Boolean deferred)
+   at Microsoft.Data.Sqlite.SqliteConnection.BeginTransaction(IsolationLevel isolationLevel, Boolean deferred)
+   at Microsoft.Data.Sqlite.SqliteConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.Data.Sqlite.SqliteConnection.BeginDbTransaction(IsolationLevel isolationLevel)
+   at System.Data.Common.DbConnection.BeginDbTransactionAsync(IsolationLevel isolationLevel, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransactionAsync(IsolationLevel isolationLevel, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransactionAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Theater.Data.Sqlite.User.Repository.LoginRepository.CreateAsync(Login model) in D:\code\Theater.Api\Theater.Data.Sqlite.User\Repository\LoginRepository.cs:line 26
+   at Theater.CQRS.User.Command.CreateLoginCommandHandler.handle(IRequestor`1 request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\User\Command\CreateLoginCommandHandler.cs:line 20
+   at Theater.CQRS.BaseCreateCommandHandler`1.Handle(IRequestor`1 request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\BaseCreateCommandHandler.cs:line 31
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Theater.Api.User.Controllers.LoginController.CreateLoginAsync(Login login) in D:\code\Theater.Api\Theater.Api.User\Controllers\LoginController.cs:line 28 

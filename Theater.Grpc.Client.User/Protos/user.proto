@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option csharp_namespace = "Theater.Grpc.Client.User";
+
+package Theater.Grpc.User;
+
+service User {
+	rpc GetUserByUserName(GetUserByUserNameRequest) returns (UserReply);
+	rpc GetAllUsers(GetAllUsersRequest) returns (stream UserReply);
+}
+
+message GetUserByUserNameRequest{
+	string username = 1;
+	string password = 2;
+}
+
+message GetAllUsersRequest{}
+
+message UserReply{
+	int32 id = 1;
+	string name = 2;
+	string lastname = 3;
+	string email = 4;
+	string phone = 5;
+	string username = 6;
+}

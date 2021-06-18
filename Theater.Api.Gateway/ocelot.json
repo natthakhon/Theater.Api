@@ -25,6 +25,18 @@
       "UpstreamHttpMethod": [ "POST" ]
     },
     {
+      "DownstreamPathTemplate": "/api/login",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44340
+        }
+      ],
+      "UpstreamPathTemplate": "/api/login",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
       "DownstreamPathTemplate": "/api/movie/{everything}",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [

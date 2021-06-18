@@ -153,6 +153,11 @@ namespace Theater.CQRS.Test
             });
         }
 
+        public Task<List<U.User>> GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
         public Task<U.User> GetUserByEMailAsync(string email,string password)
         {
             return Task.Run(()=>{

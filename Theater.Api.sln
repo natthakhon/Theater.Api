@@ -35,9 +35,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theater.Api.Gateway", "Thea
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theater.Data.Sqlite.Movie", "Theater.Data.Sqlite.Movie\Theater.Data.Sqlite.Movie.csproj", "{815CD1D2-0546-42B4-9723-739EBDF63161}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theater.Data.Sqlite.Movie.Test", "Theater.Data.Sqlite.Movie.Test\Theater.Data.Sqlite.Movie.Test.csproj", "{429C8694-AF39-4CEC-B106-70EB9EFF73D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theater.Data.Sqlite.Movie.Test", "Theater.Data.Sqlite.Movie.Test\Theater.Data.Sqlite.Movie.Test.csproj", "{429C8694-AF39-4CEC-B106-70EB9EFF73D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theater.Api.Movie", "Theater.Api.Movie\Theater.Api.Movie.csproj", "{D8B0C276-9986-45DA-9A01-F93C4B5E5459}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theater.Api.Movie", "Theater.Api.Movie\Theater.Api.Movie.csproj", "{D8B0C276-9986-45DA-9A01-F93C4B5E5459}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Grpc", "Grpc", "{56E49ADF-777B-48FB-BDF4-9C7EC0313CD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{3F57F52F-5BDD-43AE-B7BD-AC475D33527F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{505B4F19-0D16-43C1-809B-C7197D8BD261}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "User", "User", "{F4C293B3-5388-4EA5-84E2-19A6F6C2D2CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theater.Grpc.Server.User", "Theater.Grpc.Server.User\Theater.Grpc.Server.User.csproj", "{601A4921-E410-48FB-B129-4455974EC02C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "User", "User", "{0A59F7B3-19FC-403F-8D4A-DABFCE4C0D1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theater.Grpc.Client.User", "Theater.Grpc.Client.User\Theater.Grpc.Client.User.csproj", "{222E0EFE-0793-4770-A02F-BB15EF7996A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theater.Grpc.Client.User.Test", "Theater.Grpc.Client.User.Test\Theater.Grpc.Client.User.Test.csproj", "{F014AAAE-FB1B-4A23-8521-22384D6E73D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,9 +133,30 @@ Global
 		{D8B0C276-9986-45DA-9A01-F93C4B5E5459}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8B0C276-9986-45DA-9A01-F93C4B5E5459}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8B0C276-9986-45DA-9A01-F93C4B5E5459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{601A4921-E410-48FB-B129-4455974EC02C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{601A4921-E410-48FB-B129-4455974EC02C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{601A4921-E410-48FB-B129-4455974EC02C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{601A4921-E410-48FB-B129-4455974EC02C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{222E0EFE-0793-4770-A02F-BB15EF7996A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{222E0EFE-0793-4770-A02F-BB15EF7996A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{222E0EFE-0793-4770-A02F-BB15EF7996A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{222E0EFE-0793-4770-A02F-BB15EF7996A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F014AAAE-FB1B-4A23-8521-22384D6E73D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F014AAAE-FB1B-4A23-8521-22384D6E73D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F014AAAE-FB1B-4A23-8521-22384D6E73D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F014AAAE-FB1B-4A23-8521-22384D6E73D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F57F52F-5BDD-43AE-B7BD-AC475D33527F} = {56E49ADF-777B-48FB-BDF4-9C7EC0313CD7}
+		{505B4F19-0D16-43C1-809B-C7197D8BD261} = {56E49ADF-777B-48FB-BDF4-9C7EC0313CD7}
+		{F4C293B3-5388-4EA5-84E2-19A6F6C2D2CA} = {3F57F52F-5BDD-43AE-B7BD-AC475D33527F}
+		{601A4921-E410-48FB-B129-4455974EC02C} = {F4C293B3-5388-4EA5-84E2-19A6F6C2D2CA}
+		{0A59F7B3-19FC-403F-8D4A-DABFCE4C0D1F} = {505B4F19-0D16-43C1-809B-C7197D8BD261}
+		{222E0EFE-0793-4770-A02F-BB15EF7996A3} = {0A59F7B3-19FC-403F-8D4A-DABFCE4C0D1F}
+		{F014AAAE-FB1B-4A23-8521-22384D6E73D2} = {0A59F7B3-19FC-403F-8D4A-DABFCE4C0D1F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {92CED9AB-4D9C-4524-AB4B-49103408642E}

@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Theater.Repository.User;
 using Theater.Security;
 using Theater.Data.Sqlite.User.Mapper;
+using System.Collections.Generic;
 
 namespace Theater.Data.Sqlite.User.Repository
 {
@@ -23,6 +24,17 @@ namespace Theater.Data.Sqlite.User.Repository
                 return model;
             }
             throw new ArgumentException("Model is null");
+        }
+
+        public async Task<List<Domain.User.User>> GetAll()
+        {
+            var users = await this.userContext.Users.ToListAsync();
+            List<Domain.User.User> allusers = new List<Domain.User.User>();
+            foreach(var user in users)
+            {
+                allusers.Add(new UserDataMapper(user).Destination);
+            }
+            return allusers;
         }
 
         public async Task<Domain.User.User> GetUserByEMailAsync(string email, string password)

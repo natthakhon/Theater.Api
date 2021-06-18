@@ -23,12 +23,15 @@ namespace Theater.Api.User
             resolveGetUserByUserName(services);
             resolveGetUserByEmail(services);
             resolveCreateUser(services);
+            resolveGetLoginById(services);
+            resolveCreateLogin(services);
         }
 
         private static void resolveRepository(IServiceCollection services)
         {
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IUserChecker, UserRepository>();
+            services.AddScoped<ILoginRepository, LoginRepository>();
         }
 
         private static void resolveGetUserByUserName(IServiceCollection services)
@@ -47,6 +50,18 @@ namespace Theater.Api.User
         {
             services.AddScoped<IValidator<DOM.User>, UserValidator>();
             services.AddScoped<IRequestHandler<CreateUserCommand, DOM.User>, CreateUserCommandHandler>();
+        }
+
+        private static void resolveGetLoginById(IServiceCollection services)
+        {
+            services.AddScoped<IValidator<GetLoginById>, GetLoginByIdValidator>();
+            services.AddScoped<IRequestHandler<GetLoginById, DOM.Login>, GetLoginByIdHandler>();
+        }
+
+        private static void resolveCreateLogin(IServiceCollection services)
+        {
+            services.AddScoped<IValidator<DOM.Login>, LoginValidator>();
+            services.AddScoped<IRequestHandler<CreateLoginCommand, DOM.Login>, CreateLoginCommandHandler>();
         }
     }
 }

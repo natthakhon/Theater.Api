@@ -9,6 +9,7 @@ namespace Theater.Data.Sqlite.User
     public class UserContext : DbContext
     {
         public DbSet<User> Users { get; set; }
+        public DbSet<Login> Logins { set; get; }
 
         public UserContext() : base() { }
 

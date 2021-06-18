@@ -7,7 +7,7 @@ using U = Theater.Domain.User;
 
 namespace Theater.Repository.User
 {
-    public interface IUserRepository : IGenericRepository<U.User>, IUserChecker
+    public interface IUserRepository : IGenericRepository<U.User>, IUserChecker, IGetData<List<U.User>>
     {
         Task<U.User> GetUserByUserNameAsync(string username,string password);
         Task<U.User> GetUserByEMailAsync(string email,string password);

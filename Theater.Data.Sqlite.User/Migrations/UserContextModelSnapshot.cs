@@ -16,6 +16,27 @@ namespace Theater.Data.Sqlite.User.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "5.0.5");
 
+            modelBuilder.Entity("Theater.Data.Sqlite.User.Login", b =>
+                {
+                    b.Property<string>("LoginId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("IsOff")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("LogDate")
+                        .HasColumnType("TEXT");
+
+                    b.Property<long?>("UserID")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("LoginId");
+
+                    b.HasIndex("UserID");
+
+                    b.ToTable("Login");
+                });
+
             modelBuilder.Entity("Theater.Data.Sqlite.User.User", b =>
                 {
                     b.Property<long>("UserID")
@@ -61,6 +82,15 @@ namespace Theater.Data.Sqlite.User.Migrations
                     b.HasKey("UserID");
 
                     b.ToTable("User");
+                });
+
+            modelBuilder.Entity("Theater.Data.Sqlite.User.Login", b =>
+                {
+                    b.HasOne("Theater.Data.Sqlite.User.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserID");
+
+                    b.Navigation("User");
                 });
 #pragma warning restore 612, 618
         }

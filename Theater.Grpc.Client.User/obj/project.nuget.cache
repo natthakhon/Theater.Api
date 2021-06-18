@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "JxnM9DctA0MS/e0vA/zh5dg2viHbLywJFhAoDXwKSP5a5zD+Qu2xlV7q2SXo6T9vXRa3lt6YsJ2dySTIjKpPHw==",
+  "success": true,
+  "projectFilePath": "D:\\code\\Theater.Api\\Theater.Grpc.Client.User\\Theater.Grpc.Client.User.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nattl\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\nattl\\.nuget\\packages\\fluentvalidation\\10.0.4\\fluentvalidation.10.0.4.nupkg.sha512",
+    "C:\\Users\\nattl\\.nuget\\packages\\google.protobuf\\3.17.3\\google.protobuf.3.17.3.nupkg.sha512",
+    "C:\\Users\\nattl\\.nuget\\packages\\grpc.core.api\\2.37.0\\grpc.core.api.2.37.0.nupkg.sha512",
+    "C:\\Users\\nattl\\.nuget\\packages\\grpc.net.client\\2.38.0\\grpc.net.client.2.38.0.nupkg.sha512",
+    "C:\\Users\\nattl\\.nuget\\packages\\grpc.net.common\\2.38.0\\grpc.net.common.2.38.0.nupkg.sha512",
+    "C:\\Users\\nattl\\.nuget\\packages\\grpc.tools\\2.38.0\\grpc.tools.2.38.0.nupkg.sha512",
+    "C:\\Users\\nattl\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\nattl\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
+    "C:\\Users\\nattl\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.5.1\\system.diagnostics.diagnosticsource.4.5.1.nupkg.sha512",
+    "C:\\Users\\nattl\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\nattl\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\nattl\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}
