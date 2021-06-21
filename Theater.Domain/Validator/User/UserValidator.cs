@@ -28,8 +28,8 @@ namespace Theater.Domain.Validator.User
 
             //password validation
             RuleFor(p => p.Password)
-                .Matches("^(?=.*[A-Z])(?=.*[!@#$&*])(?=.*[0-9])(?=.*[a-z].*[a-z].*[a-z]).{10}$")
-                .WithMessage("Password must contain at least 1 number, 1 special character, 1 capital with total of 10 character length");
+                .Matches(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})")
+                .WithMessage("Password must contain at least 1 lower character, 1 number, 1 special character, 1 capital with at least 8 characters length");
 
             //user validation
             RuleFor(p => p.UserName)

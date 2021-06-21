@@ -1,0 +1,86 @@
+2021-06-21 13:48:23.3416||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-06-21 13:48:27.5124||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-21 13:48:27.5208||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-21 13:48:27.5586||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-06-21 13:48:31.2152||ERROR|Theater.Api.User.Controllers.UserController|System.InvalidOperationException: Not found
+   at Theater.Data.Sqlite.User.Repository.UserRepository.GetUserByEMailAsync(String email, String password) in D:\code\Theater.Api\Theater.Data.Sqlite.User\Repository\UserRepository.cs:line 55
+   at Theater.CQRS.BaseGetCommandHandler`2.Handle(TRequest request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\BaseGetCommandHandler.cs:line 41
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Theater.Api.User.Controllers.UserController.GetUserByEmailAsync(String email, String password, Int32 mail) in D:\code\Theater.Api\Theater.Api.User\Controllers\UserController.cs:line 46 
+2021-06-21 13:48:34.9003||ERROR|Theater.Api.User.Controllers.UserController|System.InvalidOperationException: Not found
+   at Theater.Data.Sqlite.User.Repository.UserRepository.GetUserByEMailAsync(String email, String password) in D:\code\Theater.Api\Theater.Data.Sqlite.User\Repository\UserRepository.cs:line 55
+   at Theater.CQRS.BaseGetCommandHandler`2.Handle(TRequest request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\BaseGetCommandHandler.cs:line 41
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Theater.Api.User.Controllers.UserController.GetUserByEmailAsync(String email, String password, Int32 mail) in D:\code\Theater.Api\Theater.Api.User\Controllers\UserController.cs:line 46 
+2021-06-21 13:51:02.7131||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-06-21 13:51:04.6042||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-21 13:51:04.6042||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-21 13:51:04.6191||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-06-21 15:35:00.3298||DEBUG|Theater.Api.User.Program|Application Starting Up 
+2021-06-21 15:35:03.8402||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-21 15:35:03.8547||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-21 15:35:03.8629||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Api.User 
+2021-06-21 15:35:25.4680||ERROR|Theater.Api.User.Controllers.UserController|System.ArgumentException: Email is already existed
+   at Theater.CQRS.BaseCreateCommandHandler`1.Handle(IRequestor`1 request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\BaseCreateCommandHandler.cs:line 33
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Theater.Api.User.Controllers.UserController.CreateUserAsync(User user) in D:\code\Theater.Api\Theater.Api.User\Controllers\UserController.cs:line 64 
+2021-06-21 15:36:17.4628||ERROR|Theater.Api.User.Controllers.UserController|System.ArgumentException: Email is already existed
+   at Theater.CQRS.BaseCreateCommandHandler`1.Handle(IRequestor`1 request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\BaseCreateCommandHandler.cs:line 33
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Theater.Api.User.Controllers.UserController.CreateUserAsync(User user) in D:\code\Theater.Api\Theater.Api.User\Controllers\UserController.cs:line 64 
+2021-06-21 15:38:43.4347||ERROR|Theater.Api.User.Controllers.UserController|System.ArgumentException: Email is already existed
+   at Theater.CQRS.BaseCreateCommandHandler`1.Handle(IRequestor`1 request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\BaseCreateCommandHandler.cs:line 33
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Theater.Api.User.Controllers.UserController.CreateUserAsync(User user) in D:\code\Theater.Api\Theater.Api.User\Controllers\UserController.cs:line 64 
+2021-06-21 15:39:38.6540||ERROR|Theater.Api.User.Controllers.UserController|System.ArgumentException: Email is already existed
+   at Theater.CQRS.BaseCreateCommandHandler`1.Handle(IRequestor`1 request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\BaseCreateCommandHandler.cs:line 33
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Theater.Api.User.Controllers.UserController.CreateUserAsync(User user) in D:\code\Theater.Api\Theater.Api.User\Controllers\UserController.cs:line 64 
+2021-06-21 15:40:20.4884||ERROR|Theater.Api.User.Controllers.UserController|System.ArgumentException: Email is already existed
+   at Theater.CQRS.BaseCreateCommandHandler`1.Handle(IRequestor`1 request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\BaseCreateCommandHandler.cs:line 33
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Theater.Api.User.Controllers.UserController.CreateUserAsync(User user) in D:\code\Theater.Api\Theater.Api.User\Controllers\UserController.cs:line 64 
+2021-06-21 15:41:29.1872||ERROR|Theater.Api.User.Controllers.UserController|System.ArgumentException: Email is already existed
+   at Theater.CQRS.BaseCreateCommandHandler`1.Handle(IRequestor`1 request, CancellationToken cancellationToken) in D:\code\Theater.Api\Theater.CQRS\BaseCreateCommandHandler.cs:line 33
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Theater.Api.User.Controllers.UserController.CreateUserAsync(User user) in D:\code\Theater.Api\Theater.Api.User\Controllers\UserController.cs:line 64 

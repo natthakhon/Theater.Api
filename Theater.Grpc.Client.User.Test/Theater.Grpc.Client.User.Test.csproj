@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Theater.Grpc.Client.User\Theater.Grpc.Client.User.csproj" />
+    <ProjectReference Include="..\Theater.Grpc.Server.User\Theater.Grpc.Server.User.csproj" />
   </ItemGroup>
 
 </Project>

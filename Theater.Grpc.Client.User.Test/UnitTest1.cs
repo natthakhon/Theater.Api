@@ -1,7 +1,10 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
+using System.Diagnostics;
 using System.IO;
 using System.Reflection;
 using System.Threading.Tasks;
+using Theater.Grpc.Server.User;
 
 namespace Theater.Grpc.Client.User.Test
 {
@@ -17,5 +20,6 @@ namespace Theater.Grpc.Client.User.Test
             var users = await userClient.GetAllUsersAsync();
             Assert.IsTrue(users.Count > 0);
         }
+
     }
 }
