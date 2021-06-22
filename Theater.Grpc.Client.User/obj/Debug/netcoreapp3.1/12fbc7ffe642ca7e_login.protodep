@@ -1,0 +1,4 @@
+obj\Debug\netcoreapp3.1\Protos/Login.cs \
+obj\Debug\netcoreapp3.1\Protos/LoginGrpc.cs: Protos/user.proto\
+ C:/Users/nattl/.nuget/packages/grpc.tools/2.38.0/build/native/include/google/protobuf/timestamp.proto\
+ Protos/login.proto

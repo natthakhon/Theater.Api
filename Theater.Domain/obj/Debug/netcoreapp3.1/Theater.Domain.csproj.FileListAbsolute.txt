@@ -15,4 +15,3 @@ D:\code\Theater.Api\Theater.Domain\obj\Debug\netcoreapp3.1\Theater.Domain.Assemb
 D:\code\Theater.Api\Theater.Domain\obj\Debug\netcoreapp3.1\Theater.Domain.csproj.CoreCompileInputs.cache
 D:\code\Theater.Api\Theater.Domain\obj\Debug\netcoreapp3.1\Theater.Domain.dll
 D:\code\Theater.Api\Theater.Domain\obj\Debug\netcoreapp3.1\Theater.Domain.pdb
-D:\code\Theater.Api\Theater.Domain\obj\Debug\netcoreapp3.1\Theater.Domain.csproj.AssemblyReference.cache

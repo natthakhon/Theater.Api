@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option csharp_namespace = "Theater.Grpc.Client.Login";
+
+package Theater.Grpc.Login;
+import "Protos/user.proto";
+import "google/protobuf/timestamp.proto";
+
+service Login {
+	rpc GetLoginById(GetLoginByIdRequest) returns (LoginReply);
+}
+
+message GetLoginByIdRequest{
+	string id = 1;
+}
+
+message LoginReply{
+	string loginid = 1;
+	Theater.Grpc.User.UserReply user = 2;
+	google.protobuf.Timestamp logdate = 3;
+	bool isoff = 4;
+}

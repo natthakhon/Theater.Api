@@ -15,10 +15,10 @@ D:\code\Theater.Api\Theater.Repository\bin\Debug\netcoreapp3.1\Theater.Repositor
 D:\code\Theater.Api\Theater.Repository\bin\Debug\netcoreapp3.1\Theater.Repository.pdb
 D:\code\Theater.Api\Theater.Repository\bin\Debug\netcoreapp3.1\Theater.Domain.dll
 D:\code\Theater.Api\Theater.Repository\bin\Debug\netcoreapp3.1\Theater.Domain.pdb
+D:\code\Theater.Api\Theater.Repository\obj\Debug\netcoreapp3.1\Theater.Repository.csproj.AssemblyReference.cache
 D:\code\Theater.Api\Theater.Repository\obj\Debug\netcoreapp3.1\Theater.Repository.AssemblyInfoInputs.cache
 D:\code\Theater.Api\Theater.Repository\obj\Debug\netcoreapp3.1\Theater.Repository.AssemblyInfo.cs
 D:\code\Theater.Api\Theater.Repository\obj\Debug\netcoreapp3.1\Theater.Repository.csproj.CoreCompileInputs.cache
 D:\code\Theater.Api\Theater.Repository\obj\Debug\netcoreapp3.1\Theater.Repository.csproj.CopyComplete
 D:\code\Theater.Api\Theater.Repository\obj\Debug\netcoreapp3.1\Theater.Repository.dll
 D:\code\Theater.Api\Theater.Repository\obj\Debug\netcoreapp3.1\Theater.Repository.pdb
-D:\code\Theater.Api\Theater.Repository\obj\Debug\netcoreapp3.1\Theater.Repository.csproj.AssemblyReference.cache

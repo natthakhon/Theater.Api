@@ -53,7 +53,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "User", "User", "{0A59F7B3-1
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theater.Grpc.Client.User", "Theater.Grpc.Client.User\Theater.Grpc.Client.User.csproj", "{222E0EFE-0793-4770-A02F-BB15EF7996A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theater.Grpc.Client.User.Test", "Theater.Grpc.Client.User.Test\Theater.Grpc.Client.User.Test.csproj", "{F014AAAE-FB1B-4A23-8521-22384D6E73D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theater.Grpc.Client.User.Test", "Theater.Grpc.Client.User.Test\Theater.Grpc.Client.User.Test.csproj", "{F014AAAE-FB1B-4A23-8521-22384D6E73D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

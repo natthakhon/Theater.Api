@@ -1,0 +1,9 @@
+2021-06-22 15:45:02.1234||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-22 15:45:03.8947||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-22 15:45:03.8947||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-22 15:45:03.8947||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-22 15:45:03.8947||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-22 15:46:11.3767|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.User.User/GetAllUsers application/grpc  
+2021-06-22 15:46:11.4172|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.User.User/GetAllUsers' 
+2021-06-22 15:46:13.8174|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.User.User/GetAllUsers' 
+2021-06-22 15:46:13.8174|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 2448.3718ms 200 application/grpc 

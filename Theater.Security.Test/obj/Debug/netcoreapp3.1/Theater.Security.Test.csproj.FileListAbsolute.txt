@@ -87,6 +87,7 @@ D:\code\Theater.Api\Theater.Security.Test\bin\Debug\netcoreapp3.1\zh-Hant\Micros
 D:\code\Theater.Api\Theater.Security.Test\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 D:\code\Theater.Api\Theater.Security.Test\bin\Debug\netcoreapp3.1\Theater.Security.dll
 D:\code\Theater.Api\Theater.Security.Test\bin\Debug\netcoreapp3.1\Theater.Security.pdb
+D:\code\Theater.Api\Theater.Security.Test\obj\Debug\netcoreapp3.1\Theater.Security.Test.csproj.AssemblyReference.cache
 D:\code\Theater.Api\Theater.Security.Test\obj\Debug\netcoreapp3.1\Theater.Security.Test.AssemblyInfoInputs.cache
 D:\code\Theater.Api\Theater.Security.Test\obj\Debug\netcoreapp3.1\Theater.Security.Test.AssemblyInfo.cs
 D:\code\Theater.Api\Theater.Security.Test\obj\Debug\netcoreapp3.1\Theater.Security.Test.csproj.CoreCompileInputs.cache
@@ -94,4 +95,3 @@ D:\code\Theater.Api\Theater.Security.Test\obj\Debug\netcoreapp3.1\Theater.Securi
 D:\code\Theater.Api\Theater.Security.Test\obj\Debug\netcoreapp3.1\Theater.Security.Test.dll
 D:\code\Theater.Api\Theater.Security.Test\obj\Debug\netcoreapp3.1\Theater.Security.Test.pdb
 D:\code\Theater.Api\Theater.Security.Test\obj\Debug\netcoreapp3.1\Theater.Security.Test.genruntimeconfig.cache
-D:\code\Theater.Api\Theater.Security.Test\obj\Debug\netcoreapp3.1\Theater.Security.Test.csproj.AssemblyReference.cache

@@ -2254,6 +2254,7 @@
           "NLog.Web.AspNetCore": "4.12.0",
           "Theater.Data.Sqlite.User": "1.0.0",
           "Theater.Domain": "1.0.0",
+          "Theater.Mapper": "1.0.0",
           "Theater.NLogger": "1.0.0",
           "Theater.Repository": "1.0.0"
         },

@@ -44,17 +44,14 @@ namespace Theater.Data.Sqlite.Movie.Repository
             List<Domain.Movie.Movie> result = new List<Domain.Movie.Movie>();
             List<Movie> movies = await this.movieContext.Movies.ToListAsync(); ;
 
-            return await Task<List<Domain.Movie.Movie>>.Run(() =>
+            if (movies != null)
             {
-                if (movies != null)
+                foreach (var m in movies)
                 {
-                    foreach (var m in movies)
-                    {
-                        result.Add(new MovieDataMapper(m).Destination);
-                    }
+                    result.Add(new MovieDataMapper(m).Destination);
                 }
-                return result;
-            });
+            }
+            return result;
         }
 
         public async Task<List<Domain.Movie.Movie>> GetMovies(string movie)
@@ -71,17 +68,14 @@ namespace Theater.Data.Sqlite.Movie.Repository
                 movies = await this.movieContext.Movies.ToListAsync();
             }
 
-            return await Task<List<Domain.Movie.Movie>>.Run(() =>
+            if (movies != null)
             {
-                if (movies != null)
+                foreach (var m in movies)
                 {
-                    foreach (var m in movies)
-                    {
-                        result.Add(new MovieDataMapper(m).Destination);
-                    }
+                    result.Add(new MovieDataMapper(m).Destination);
                 }
-                return result;
-            });
+            }
+            return result;
         }
 
         public async Task<List<Domain.Movie.Theater>> GetTheaters(string theater)
@@ -98,17 +92,14 @@ namespace Theater.Data.Sqlite.Movie.Repository
                 theaters = await this.movieContext.Theaters.ToListAsync();
             }
 
-            return await Task<List<Domain.Movie.Theater>>.Run(() =>
+            if (theaters != null)
             {
-                if (theaters != null)
+                foreach (var t in theaters)
                 {
-                    foreach (var t in theaters)
-                    {
-                        result.Add(new TheaterDataMapper(t).Destination);
-                    }
+                    result.Add(new TheaterDataMapper(t).Destination);
                 }
-                return result;
-            });            
+            }
+            return result;
         }
 
         public async Task<bool> IsMovieExisted(string movie)

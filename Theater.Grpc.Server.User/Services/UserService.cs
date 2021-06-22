@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Theater.Grpc.Server.User.Mapper.User;
 using Theater.Repository.User;
 
 namespace Theater.Grpc.Server.User.Services
@@ -21,19 +22,7 @@ namespace Theater.Grpc.Server.User.Services
         public override async Task<UserReply> GetUserByUserName(GetUserByUserNameRequest request, ServerCallContext context)
         {
             var user = await this.userRepository.GetUserByUserNameAsync(request.Username, request.Password);
-            return await Task<UserReply>.Run(() =>
-            {
-                UserReply userReply = new UserReply
-                {
-                    Id = user.Id,
-                    Email = user.EMail,
-                    Name = user.Name,
-                    Lastname = user.LastName,
-                    Phone = user.Phone,
-                    Username = user.UserName
-                };
-                return userReply;
-            });
+            return new UserToGUserMapper(user).Destination;
         }
 
         public override async Task GetAllUsers(GetAllUsersRequest request, IServerStreamWriter<UserReply> responseStream, ServerCallContext context)
@@ -42,15 +31,7 @@ namespace Theater.Grpc.Server.User.Services
 
             foreach(var user in users)
             {
-                await responseStream.WriteAsync(new UserReply
-                {
-                    Id = user.Id,
-                    Email = user.EMail,
-                    Name = user.Name,
-                    Lastname = user.LastName,
-                    Phone = user.Phone,
-                    Username = user.UserName
-                });
+                await responseStream.WriteAsync(new UserToGUserMapper(user).Destination);
             }
         }
     }

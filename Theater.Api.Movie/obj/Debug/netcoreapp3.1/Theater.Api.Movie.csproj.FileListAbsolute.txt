@@ -65,6 +65,7 @@ D:\code\Theater.Api\Theater.Api.Movie\bin\Debug\netcoreapp3.1\Theater.Data.Sqlit
 D:\code\Theater.Api\Theater.Api.Movie\bin\Debug\netcoreapp3.1\Theater.Domain.pdb
 D:\code\Theater.Api\Theater.Api.Movie\bin\Debug\netcoreapp3.1\Theater.Mapper.pdb
 D:\code\Theater.Api\Theater.Api.Movie\bin\Debug\netcoreapp3.1\Theater.Repository.pdb
+D:\code\Theater.Api\Theater.Api.Movie\obj\Debug\netcoreapp3.1\Theater.Api.Movie.csproj.AssemblyReference.cache
 D:\code\Theater.Api\Theater.Api.Movie\obj\Debug\netcoreapp3.1\Theater.Api.Movie.AssemblyInfoInputs.cache
 D:\code\Theater.Api\Theater.Api.Movie\obj\Debug\netcoreapp3.1\Theater.Api.Movie.AssemblyInfo.cs
 D:\code\Theater.Api\Theater.Api.Movie\obj\Debug\netcoreapp3.1\Theater.Api.Movie.csproj.CoreCompileInputs.cache
@@ -78,4 +79,3 @@ D:\code\Theater.Api\Theater.Api.Movie\obj\Debug\netcoreapp3.1\Theater.Api.Movie.
 D:\code\Theater.Api\Theater.Api.Movie\obj\Debug\netcoreapp3.1\Theater.Api.Movie.dll
 D:\code\Theater.Api\Theater.Api.Movie\obj\Debug\netcoreapp3.1\Theater.Api.Movie.pdb
 D:\code\Theater.Api\Theater.Api.Movie\obj\Debug\netcoreapp3.1\Theater.Api.Movie.genruntimeconfig.cache
-D:\code\Theater.Api\Theater.Api.Movie\obj\Debug\netcoreapp3.1\Theater.Api.Movie.csproj.AssemblyReference.cache

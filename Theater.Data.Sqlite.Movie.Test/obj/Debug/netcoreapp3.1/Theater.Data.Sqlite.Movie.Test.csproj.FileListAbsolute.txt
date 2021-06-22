@@ -133,6 +133,7 @@ D:\code\Theater.Api\Theater.Data.Sqlite.Movie.Test\bin\Debug\netcoreapp3.1\Theat
 D:\code\Theater.Api\Theater.Data.Sqlite.Movie.Test\bin\Debug\netcoreapp3.1\Theater.Domain.pdb
 D:\code\Theater.Api\Theater.Data.Sqlite.Movie.Test\bin\Debug\netcoreapp3.1\Theater.Mapper.pdb
 D:\code\Theater.Api\Theater.Data.Sqlite.Movie.Test\bin\Debug\netcoreapp3.1\Theater.Repository.pdb
+D:\code\Theater.Api\Theater.Data.Sqlite.Movie.Test\obj\Debug\netcoreapp3.1\Theater.Data.Sqlite.Movie.Test.csproj.AssemblyReference.cache
 D:\code\Theater.Api\Theater.Data.Sqlite.Movie.Test\obj\Debug\netcoreapp3.1\Theater.Data.Sqlite.Movie.Test.AssemblyInfoInputs.cache
 D:\code\Theater.Api\Theater.Data.Sqlite.Movie.Test\obj\Debug\netcoreapp3.1\Theater.Data.Sqlite.Movie.Test.AssemblyInfo.cs
 D:\code\Theater.Api\Theater.Data.Sqlite.Movie.Test\obj\Debug\netcoreapp3.1\Theater.Data.Sqlite.Movie.Test.csproj.CoreCompileInputs.cache
@@ -140,4 +141,3 @@ D:\code\Theater.Api\Theater.Data.Sqlite.Movie.Test\obj\Debug\netcoreapp3.1\Theat
 D:\code\Theater.Api\Theater.Data.Sqlite.Movie.Test\obj\Debug\netcoreapp3.1\Theater.Data.Sqlite.Movie.Test.dll
 D:\code\Theater.Api\Theater.Data.Sqlite.Movie.Test\obj\Debug\netcoreapp3.1\Theater.Data.Sqlite.Movie.Test.pdb
 D:\code\Theater.Api\Theater.Data.Sqlite.Movie.Test\obj\Debug\netcoreapp3.1\Theater.Data.Sqlite.Movie.Test.genruntimeconfig.cache
-D:\code\Theater.Api\Theater.Data.Sqlite.Movie.Test\obj\Debug\netcoreapp3.1\Theater.Data.Sqlite.Movie.Test.csproj.AssemblyReference.cache

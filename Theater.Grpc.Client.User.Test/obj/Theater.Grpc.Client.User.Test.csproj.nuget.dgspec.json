@@ -366,6 +366,9 @@
               "D:\\code\\Theater.Api\\Theater.Domain\\Theater.Domain.csproj": {
                 "projectPath": "D:\\code\\Theater.Api\\Theater.Domain\\Theater.Domain.csproj"
               },
+              "D:\\code\\Theater.Api\\Theater.Mapper\\Theater.Mapper.csproj": {
+                "projectPath": "D:\\code\\Theater.Api\\Theater.Mapper\\Theater.Mapper.csproj"
+              },
               "D:\\code\\Theater.Api\\Theater.NLogger\\Theater.NLogger.csproj": {
                 "projectPath": "D:\\code\\Theater.Api\\Theater.NLogger\\Theater.NLogger.csproj"
               },

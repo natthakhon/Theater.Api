@@ -12,11 +12,6 @@ C:\Users\Natthakhon.la\source\repos\Theater.Api\Theater.CQRS\obj\Debug\netcoreap
 C:\Users\Natthakhon.la\source\repos\Theater.Api\Theater.CQRS\obj\Debug\netcoreapp3.1\Theater.CQRS.csproj.CopyComplete
 C:\Users\Natthakhon.la\source\repos\Theater.Api\Theater.CQRS\obj\Debug\netcoreapp3.1\Theater.CQRS.dll
 C:\Users\Natthakhon.la\source\repos\Theater.Api\Theater.CQRS\obj\Debug\netcoreapp3.1\Theater.CQRS.pdb
-D:\code\Theater.Api\Theater.CQRS\obj\Debug\netcoreapp3.1\Theater.CQRS.AssemblyInfoInputs.cache
-D:\code\Theater.Api\Theater.CQRS\obj\Debug\netcoreapp3.1\Theater.CQRS.AssemblyInfo.cs
-D:\code\Theater.Api\Theater.CQRS\obj\Debug\netcoreapp3.1\Theater.CQRS.csproj.CoreCompileInputs.cache
-D:\code\Theater.Api\Theater.CQRS\obj\Debug\netcoreapp3.1\Theater.CQRS.dll
-D:\code\Theater.Api\Theater.CQRS\obj\Debug\netcoreapp3.1\Theater.CQRS.pdb
 D:\code\Theater.Api\Theater.CQRS\bin\Debug\netcoreapp3.1\Theater.CQRS.deps.json
 D:\code\Theater.Api\Theater.CQRS\bin\Debug\netcoreapp3.1\Theater.CQRS.dll
 D:\code\Theater.Api\Theater.CQRS\bin\Debug\netcoreapp3.1\Theater.CQRS.pdb
@@ -24,5 +19,10 @@ D:\code\Theater.Api\Theater.CQRS\bin\Debug\netcoreapp3.1\Theater.Domain.dll
 D:\code\Theater.Api\Theater.CQRS\bin\Debug\netcoreapp3.1\Theater.Repository.dll
 D:\code\Theater.Api\Theater.CQRS\bin\Debug\netcoreapp3.1\Theater.Domain.pdb
 D:\code\Theater.Api\Theater.CQRS\bin\Debug\netcoreapp3.1\Theater.Repository.pdb
-D:\code\Theater.Api\Theater.CQRS\obj\Debug\netcoreapp3.1\Theater.CQRS.csproj.CopyComplete
 D:\code\Theater.Api\Theater.CQRS\obj\Debug\netcoreapp3.1\Theater.CQRS.csproj.AssemblyReference.cache
+D:\code\Theater.Api\Theater.CQRS\obj\Debug\netcoreapp3.1\Theater.CQRS.AssemblyInfoInputs.cache
+D:\code\Theater.Api\Theater.CQRS\obj\Debug\netcoreapp3.1\Theater.CQRS.AssemblyInfo.cs
+D:\code\Theater.Api\Theater.CQRS\obj\Debug\netcoreapp3.1\Theater.CQRS.csproj.CoreCompileInputs.cache
+D:\code\Theater.Api\Theater.CQRS\obj\Debug\netcoreapp3.1\Theater.CQRS.csproj.CopyComplete
+D:\code\Theater.Api\Theater.CQRS\obj\Debug\netcoreapp3.1\Theater.CQRS.dll
+D:\code\Theater.Api\Theater.CQRS\obj\Debug\netcoreapp3.1\Theater.CQRS.pdb

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5uWJSK9KeoiUh2Ki+GVR/Cgnwd9LmLqeLWpTce33iPgiIULie9fpSbWSbDDFc9Nhqqx+AdKQ2jhEj4AVxATavg==",
+  "dgSpecHash": "WRyVXCDBn5rZlYXUWeSo2gEYco3LGXTOKFQ3HM3grR6JGiUsnHazAwJBv36Ws2RQ5xKn5rmGUPT9Zin+aEwjEA==",
   "success": true,
   "projectFilePath": "D:\\code\\Theater.Api\\Theater.Grpc.Client.User.Test\\Theater.Grpc.Client.User.Test.csproj",
   "expectedPackageFiles": [

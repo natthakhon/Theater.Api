@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Protos\login.proto" />
     <None Remove="Protos\user.proto" />
   </ItemGroup>
 
@@ -17,11 +18,13 @@
   <ItemGroup>
     <ProjectReference Include="..\Theater.Data.Sqlite.User\Theater.Data.Sqlite.User.csproj" />
     <ProjectReference Include="..\Theater.Domain\Theater.Domain.csproj" />
+    <ProjectReference Include="..\Theater.Mapper\Theater.Mapper.csproj" />
     <ProjectReference Include="..\Theater.NLogger\Theater.NLogger.csproj" />
     <ProjectReference Include="..\Theater.Repository\Theater.Repository.csproj" />
   </ItemGroup>
 
   <ItemGroup>
+    <Protobuf Include="Protos\login.proto" GrpcServices="Server" />
     <Protobuf Include="Protos\user.proto" GrpcServices="Server" />
   </ItemGroup>
 

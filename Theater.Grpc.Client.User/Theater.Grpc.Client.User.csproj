@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Protos\login.proto" />
     <None Remove="Protos\user.proto" />
   </ItemGroup>
 
@@ -24,6 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Protobuf Include="Protos\login.proto" GrpcServices="Client" />
     <Protobuf Include="Protos\user.proto">
       <GrpcServices>Client</GrpcServices>
     </Protobuf>
