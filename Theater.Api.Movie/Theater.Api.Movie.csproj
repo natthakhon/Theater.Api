@@ -17,6 +17,7 @@
     <ProjectReference Include="..\Theater.CQRS\Theater.CQRS.csproj" />
     <ProjectReference Include="..\Theater.Data.Sqlite.Movie\Theater.Data.Sqlite.Movie.csproj" />
     <ProjectReference Include="..\Theater.Domain\Theater.Domain.csproj" />
+    <ProjectReference Include="..\Theater.Grpc.Client.User\Theater.Grpc.Client.User.csproj" />
   </ItemGroup>
 
 

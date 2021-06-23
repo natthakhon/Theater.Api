@@ -16,7 +16,8 @@ namespace Theater.Api.Movie.Controllers
     [ApiController]
     public class MovieController : BaseController<MovieController>
     {
-        public MovieController(IMediator mediator, ILogger<MovieController> logger) : base(mediator, logger) { }
+        public MovieController(IMediator mediator
+            , ILogger<MovieController> logger) : base(mediator, logger) { }
 
         [HttpPost]
         public async Task<ActionResult<DOM.Movie>> CreateMovieAsync(DOM.Movie movie)
@@ -66,5 +67,6 @@ namespace Theater.Api.Movie.Controllers
             }
         }
 
+        
     }
 }

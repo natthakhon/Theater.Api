@@ -18,6 +18,7 @@ namespace Theater.Grpc.Server.User
         private static void resolveRepository(IServiceCollection services)
         {
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<ILoginRepository, LoginRepository>();
         }
     }
 }

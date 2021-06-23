@@ -1,4 +1,5 @@
-﻿using Grpc.Core;
+﻿using Google.Protobuf.WellKnownTypes;
+using Grpc.Core;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -24,7 +25,6 @@ namespace Theater.Grpc.Server.User.Services
         public override async Task<LoginReply> GetLoginById(GetLoginByIdRequest request, ServerCallContext context)
         {
             var login = await this.loginRepository.GetLoginById(request.Id);
-
             return new LoginToGLoginMapper(login).Destination;
         }
     }

@@ -33,7 +33,7 @@ namespace Theater.Data.Sqlite.User.Repository
         {
             if (!string.IsNullOrEmpty(loginid))
             {
-                var login = await this.userContext.Logins.FirstOrDefaultAsync(p => p.LoginId == loginid);
+                var login = await this.userContext.Logins.Include(P=>P.User).FirstOrDefaultAsync(p => p.LoginId == loginid);
                 return new LoginDatatoDomMapper(login).Destination;
             }
             throw new ArgumentException("loginid is null");

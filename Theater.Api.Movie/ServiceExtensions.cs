@@ -9,8 +9,10 @@ using Theater.CQRS.Movie.Command;
 using Theater.CQRS.Movie.Query;
 using Theater.Data.Sqlite.Movie.Repository;
 using Theater.Domain.Validator.Movie;
+using Theater.Grpc.Client.User;
 using Theater.Repository;
 using Theater.Repository.Movie;
+using Theater.Repository.User;
 using DOM = Theater.Domain.Movie;
 
 namespace Theater.Api.Movie
@@ -30,6 +32,8 @@ namespace Theater.Api.Movie
             services.AddScoped<IMovieRepository, MovieRepository>();
             services.AddScoped<IMovieChecker, MovieRepository>();
             services.AddScoped<ITheaterRepository, MovieRepository>();
+            services.AddScoped<IClientConnection, GrpcClientConnection>();
+            services.AddScoped<ILoginRepository, Theater.Grpc.Client.User.LoginClient>();
             services.AddScoped<ITheaterChecker, MovieRepository>();
             services.AddScoped<IGetData<List<DOM.Movie>>, MovieRepository>();
         }

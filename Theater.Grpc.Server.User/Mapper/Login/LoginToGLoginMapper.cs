@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Google.Protobuf.WellKnownTypes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +15,9 @@ namespace Theater.Grpc.Server.User.Mapper.Login
 
         protected override void Reconfig(IMapperConfigurationExpression mapperConfigurationExpression)
         {
-            mapperConfigurationExpression.CreateMap<dom.User.Login, LoginReply>();
+            mapperConfigurationExpression.CreateMap<dom.User.Login, LoginReply>()
+                .ForMember(dest => dest.Logdate, 
+                    act => act.MapFrom(source => Timestamp.FromDateTime(DateTime.SpecifyKind(source.LogDate, DateTimeKind.Utc))));
             mapperConfigurationExpression.CreateMap<dom.User.User, UserReply>();
         }
     }

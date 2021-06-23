@@ -1,0 +1,908 @@
+2021-06-23 10:58:50.4336||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 10:58:54.4001||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 10:58:54.4142||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 10:58:54.4142||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 10:58:54.4142||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 11:12:43.6923||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 11:12:45.8960||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 11:12:45.8960||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 11:12:45.9099||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 11:12:45.9099||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 11:16:39.8021||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 11:16:44.2347||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 11:16:44.2501||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 11:16:44.2501||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 11:16:44.2501||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 11:20:53.3300||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 11:20:56.0004||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 11:20:56.0204||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 11:20:56.0204||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 11:20:56.0204||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 11:24:15.3839||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 11:24:19.4767||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 11:24:19.4966||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 11:24:19.4966||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 11:24:19.5081||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 11:24:41.1678|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 11:24:41.2261|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - Unimplemented service' 
+2021-06-23 11:24:41.2261|1|INFO|Grpc.AspNetCore.Server.Internal.ServerCallHandlerFactory|Service 'Theater.Grpc.Login.Login' is unimplemented. 
+2021-06-23 11:24:41.2261|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - Unimplemented service' 
+2021-06-23 11:24:41.2481|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 80.5272ms 200 application/grpc 
+2021-06-23 11:30:32.3972||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 11:30:35.6922||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 11:30:35.6922||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 11:30:35.6922||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 11:30:35.6922||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 11:31:06.5408|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 11:31:06.5888|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - Unimplemented service' 
+2021-06-23 11:31:06.5888|1|INFO|Grpc.AspNetCore.Server.Internal.ServerCallHandlerFactory|Service 'Theater.Grpc.Login.Login' is unimplemented. 
+2021-06-23 11:31:06.5980|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - Unimplemented service' 
+2021-06-23 11:31:06.5980|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 64.0864ms 200 application/grpc 
+2021-06-23 11:32:50.8977||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 11:32:54.3892||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 11:32:54.4064||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 11:32:54.4064||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 11:32:54.4120||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 11:33:17.9889|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 11:33:18.0452|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 11:33:20.9633|6|ERROR|Grpc.AspNetCore.Server.ServerCallHandler|Error when executing service method 'GetLoginById'. AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Login -> LoginReply
+Theater.Domain.User.Login -> Theater.Grpc.Server.Login.LoginReply
+
+Type Map configuration:
+Login -> LoginReply
+Theater.Domain.User.Login -> Theater.Grpc.Server.Login.LoginReply
+
+Destination Member:
+Logdate
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+DateTime -> Timestamp
+System.DateTime -> Google.Protobuf.WellKnownTypes.Timestamp
+   at lambda_method(Closure , DateTime , Timestamp , ResolutionContext )
+   at lambda_method(Closure , Login , LoginReply , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Login , LoginReply , ResolutionContext )
+   at Theater.Mapper.BaseMapper`2..ctor(TSource source) in D:\code\Theater.Api\Theater.Mapper\BaseMapper.cs:line 21
+   at Theater.Grpc.Server.User.Mapper.Login.LoginToGLoginMapper..ctor(Login login) in D:\code\Theater.Api\Theater.Grpc.Server.User\Mapper\Login\LoginToGLoginMapper.cs:line 13
+   at Theater.Grpc.Server.User.Services.LoginService.GetLoginById(GetLoginByIdRequest request, ServerCallContext context) in D:\code\Theater.Api\Theater.Grpc.Server.User\Services\LoginService.cs:line 28
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.UnaryServerCallHandler`3.HandleCallAsyncCore(HttpContext httpContext, HttpContextServerCallContext serverCallContext)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.ServerCallHandlerBase`3.<HandleCallAsync>g__AwaitHandleCall|8_0(HttpContextServerCallContext serverCallContext, Method`2 method, Task handleCall)
+2021-06-23 11:33:21.0324|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 11:33:21.0427|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 3053.9022ms 200 application/grpc 
+2021-06-23 11:41:09.1609||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 11:41:15.3175||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 11:41:15.3524||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 11:41:15.3660||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 11:41:15.3660||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 11:44:08.3143||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 11:44:08.9034||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 11:44:08.9502||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 11:44:08.9646||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 11:44:08.9646||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 11:45:13.0164|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 11:45:13.0653|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 11:45:15.8436|6|ERROR|Grpc.AspNetCore.Server.ServerCallHandler|Error when executing service method 'GetLoginById'. AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Login -> LoginReply
+Theater.Domain.User.Login -> Theater.Grpc.Server.Login.LoginReply
+
+Type Map configuration:
+Login -> LoginReply
+Theater.Domain.User.Login -> Theater.Grpc.Server.Login.LoginReply
+
+Destination Member:
+Logdate
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+DateTime -> Timestamp
+System.DateTime -> Google.Protobuf.WellKnownTypes.Timestamp
+   at lambda_method(Closure , DateTime , Timestamp , ResolutionContext )
+   at lambda_method(Closure , Login , LoginReply , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Login , LoginReply , ResolutionContext )
+   at Theater.Mapper.BaseMapper`2..ctor(TSource source) in D:\code\Theater.Api\Theater.Mapper\BaseMapper.cs:line 21
+   at Theater.Grpc.Server.User.Mapper.Login.LoginToGLoginMapper..ctor(Login login) in D:\code\Theater.Api\Theater.Grpc.Server.User\Mapper\Login\LoginToGLoginMapper.cs:line 13
+   at Theater.Grpc.Server.User.Services.LoginService.GetLoginById(GetLoginByIdRequest request, ServerCallContext context) in D:\code\Theater.Api\Theater.Grpc.Server.User\Services\LoginService.cs:line 28
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.UnaryServerCallHandler`3.HandleCallAsyncCore(HttpContext httpContext, HttpContextServerCallContext serverCallContext)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.ServerCallHandlerBase`3.<HandleCallAsync>g__AwaitHandleCall|8_0(HttpContextServerCallContext serverCallContext, Method`2 method, Task handleCall)
+2021-06-23 11:45:15.9550|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 11:45:15.9609|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 2947.0056ms 200 application/grpc 
+2021-06-23 11:47:14.8560|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 11:47:14.8560|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 11:47:14.9226|6|ERROR|Grpc.AspNetCore.Server.ServerCallHandler|Error when executing service method 'GetLoginById'. AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Login -> LoginReply
+Theater.Domain.User.Login -> Theater.Grpc.Server.Login.LoginReply
+
+Type Map configuration:
+Login -> LoginReply
+Theater.Domain.User.Login -> Theater.Grpc.Server.Login.LoginReply
+
+Destination Member:
+Logdate
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+DateTime -> Timestamp
+System.DateTime -> Google.Protobuf.WellKnownTypes.Timestamp
+   at lambda_method(Closure , DateTime , Timestamp , ResolutionContext )
+   at lambda_method(Closure , Login , LoginReply , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Login , LoginReply , ResolutionContext )
+   at Theater.Mapper.BaseMapper`2..ctor(TSource source) in D:\code\Theater.Api\Theater.Mapper\BaseMapper.cs:line 21
+   at Theater.Grpc.Server.User.Mapper.Login.LoginToGLoginMapper..ctor(Login login) in D:\code\Theater.Api\Theater.Grpc.Server.User\Mapper\Login\LoginToGLoginMapper.cs:line 13
+   at Theater.Grpc.Server.User.Services.LoginService.GetLoginById(GetLoginByIdRequest request, ServerCallContext context) in D:\code\Theater.Api\Theater.Grpc.Server.User\Services\LoginService.cs:line 28
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.UnaryServerCallHandler`3.HandleCallAsyncCore(HttpContext httpContext, HttpContextServerCallContext serverCallContext)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.ServerCallHandlerBase`3.<HandleCallAsync>g__AwaitHandleCall|8_0(HttpContextServerCallContext serverCallContext, Method`2 method, Task handleCall)
+2021-06-23 11:47:14.9226|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 11:47:14.9262|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 70.2014ms 200 application/grpc 
+2021-06-23 11:49:37.4039|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 11:49:37.4039|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 11:49:37.4407|6|ERROR|Grpc.AspNetCore.Server.ServerCallHandler|Error when executing service method 'GetLoginById'. AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Login -> LoginReply
+Theater.Domain.User.Login -> Theater.Grpc.Server.Login.LoginReply
+
+Type Map configuration:
+Login -> LoginReply
+Theater.Domain.User.Login -> Theater.Grpc.Server.Login.LoginReply
+
+Destination Member:
+Logdate
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+DateTime -> Timestamp
+System.DateTime -> Google.Protobuf.WellKnownTypes.Timestamp
+   at lambda_method(Closure , DateTime , Timestamp , ResolutionContext )
+   at lambda_method(Closure , Login , LoginReply , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Login , LoginReply , ResolutionContext )
+   at Theater.Mapper.BaseMapper`2..ctor(TSource source) in D:\code\Theater.Api\Theater.Mapper\BaseMapper.cs:line 21
+   at Theater.Grpc.Server.User.Mapper.Login.LoginToGLoginMapper..ctor(Login login) in D:\code\Theater.Api\Theater.Grpc.Server.User\Mapper\Login\LoginToGLoginMapper.cs:line 13
+   at Theater.Grpc.Server.User.Services.LoginService.GetLoginById(GetLoginByIdRequest request, ServerCallContext context) in D:\code\Theater.Api\Theater.Grpc.Server.User\Services\LoginService.cs:line 28
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.UnaryServerCallHandler`3.HandleCallAsyncCore(HttpContext httpContext, HttpContextServerCallContext serverCallContext)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.ServerCallHandlerBase`3.<HandleCallAsync>g__AwaitHandleCall|8_0(HttpContextServerCallContext serverCallContext, Method`2 method, Task handleCall)
+2021-06-23 11:49:37.4427|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 11:49:37.4427|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 40.5931ms 200 application/grpc 
+2021-06-23 11:52:05.7494|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 11:52:05.7541|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 11:52:05.8113|6|ERROR|Grpc.AspNetCore.Server.ServerCallHandler|Error when executing service method 'GetLoginById'. AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Login -> LoginReply
+Theater.Domain.User.Login -> Theater.Grpc.Server.Login.LoginReply
+
+Type Map configuration:
+Login -> LoginReply
+Theater.Domain.User.Login -> Theater.Grpc.Server.Login.LoginReply
+
+Destination Member:
+Logdate
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+DateTime -> Timestamp
+System.DateTime -> Google.Protobuf.WellKnownTypes.Timestamp
+   at lambda_method(Closure , DateTime , Timestamp , ResolutionContext )
+   at lambda_method(Closure , Login , LoginReply , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Login , LoginReply , ResolutionContext )
+   at Theater.Mapper.BaseMapper`2..ctor(TSource source) in D:\code\Theater.Api\Theater.Mapper\BaseMapper.cs:line 21
+   at Theater.Grpc.Server.User.Mapper.Login.LoginToGLoginMapper..ctor(Login login) in D:\code\Theater.Api\Theater.Grpc.Server.User\Mapper\Login\LoginToGLoginMapper.cs:line 13
+   at Theater.Grpc.Server.User.Services.LoginService.GetLoginById(GetLoginByIdRequest request, ServerCallContext context) in D:\code\Theater.Api\Theater.Grpc.Server.User\Services\LoginService.cs:line 28
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.UnaryServerCallHandler`3.HandleCallAsyncCore(HttpContext httpContext, HttpContextServerCallContext serverCallContext)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.ServerCallHandlerBase`3.<HandleCallAsync>g__AwaitHandleCall|8_0(HttpContextServerCallContext serverCallContext, Method`2 method, Task handleCall)
+2021-06-23 11:52:05.8113|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 11:52:05.8113|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 65.349ms 200 application/grpc 
+2021-06-23 11:52:10.1662||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 11:52:16.8038||FATAL|Microsoft.AspNetCore.Server.Kestrel|Unable to start Kestrel. System.IO.IOException: Failed to bind to address https://127.0.0.1:5001: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+2021-06-23 11:52:16.9335||ERROR|Theater.Grpc.Server.User.Program|Stopped program because of exception System.IO.IOException: Failed to bind to address https://127.0.0.1:5001: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Theater.Grpc.Server.User.Program.Main(String[] args) in D:\code\Theater.Api\Theater.Grpc.Server.User\Program.cs:line 25
+2021-06-23 11:54:08.2413|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 11:54:08.2413|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 11:54:08.2722|6|ERROR|Grpc.AspNetCore.Server.ServerCallHandler|Error when executing service method 'GetLoginById'. AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Login -> LoginReply
+Theater.Domain.User.Login -> Theater.Grpc.Server.Login.LoginReply
+
+Type Map configuration:
+Login -> LoginReply
+Theater.Domain.User.Login -> Theater.Grpc.Server.Login.LoginReply
+
+Destination Member:
+Logdate
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+DateTime -> Timestamp
+System.DateTime -> Google.Protobuf.WellKnownTypes.Timestamp
+   at lambda_method(Closure , DateTime , Timestamp , ResolutionContext )
+   at lambda_method(Closure , Login , LoginReply , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Login , LoginReply , ResolutionContext )
+   at Theater.Mapper.BaseMapper`2..ctor(TSource source) in D:\code\Theater.Api\Theater.Mapper\BaseMapper.cs:line 21
+   at Theater.Grpc.Server.User.Mapper.Login.LoginToGLoginMapper..ctor(Login login) in D:\code\Theater.Api\Theater.Grpc.Server.User\Mapper\Login\LoginToGLoginMapper.cs:line 13
+   at Theater.Grpc.Server.User.Services.LoginService.GetLoginById(GetLoginByIdRequest request, ServerCallContext context) in D:\code\Theater.Api\Theater.Grpc.Server.User\Services\LoginService.cs:line 28
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.UnaryServerCallHandler`3.HandleCallAsyncCore(HttpContext httpContext, HttpContextServerCallContext serverCallContext)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.ServerCallHandlerBase`3.<HandleCallAsync>g__AwaitHandleCall|8_0(HttpContextServerCallContext serverCallContext, Method`2 method, Task handleCall)
+2021-06-23 11:54:08.2722|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 11:54:08.2722|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 34.0997ms 200 application/grpc 
+2021-06-23 11:56:04.1989|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.User.User/GetAllUsers application/grpc  
+2021-06-23 11:56:04.1989|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.User.User/GetAllUsers' 
+2021-06-23 11:56:05.0499|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.User.User/GetAllUsers' 
+2021-06-23 11:56:05.0526|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 853.6844ms 200 application/grpc 
+2021-06-23 11:58:41.8251|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.User.User/GetUserByUserName application/grpc  
+2021-06-23 11:58:41.8912|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.User.User/GetUserByUserName' 
+2021-06-23 11:58:42.1442|6|ERROR|Grpc.AspNetCore.Server.ServerCallHandler|Error when executing service method 'GetUserByUserName'. System.InvalidOperationException: Not found
+   at Theater.Data.Sqlite.User.Repository.UserRepository.GetUserByUserNameAsync(String username, String password) in D:\code\Theater.Api\Theater.Data.Sqlite.User\Repository\UserRepository.cs:line 73
+   at Theater.Grpc.Server.User.Services.UserService.GetUserByUserName(GetUserByUserNameRequest request, ServerCallContext context) in D:\code\Theater.Api\Theater.Grpc.Server.User\Services\UserService.cs:line 24
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.UnaryServerCallHandler`3.HandleCallAsyncCore(HttpContext httpContext, HttpContextServerCallContext serverCallContext)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.ServerCallHandlerBase`3.<HandleCallAsync>g__AwaitHandleCall|8_0(HttpContextServerCallContext serverCallContext, Method`2 method, Task handleCall)
+2021-06-23 11:58:42.1530|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.User.User/GetUserByUserName' 
+2021-06-23 11:58:42.1530|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 330.8847ms 200 application/grpc 
+2021-06-23 12:00:16.1828|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.User.User/GetUserByUserName application/grpc  
+2021-06-23 12:00:16.1828|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.User.User/GetUserByUserName' 
+2021-06-23 12:00:16.1968|6|ERROR|Grpc.AspNetCore.Server.ServerCallHandler|Error when executing service method 'GetUserByUserName'. System.InvalidOperationException: Not found
+   at Theater.Data.Sqlite.User.Repository.UserRepository.GetUserByUserNameAsync(String username, String password) in D:\code\Theater.Api\Theater.Data.Sqlite.User\Repository\UserRepository.cs:line 73
+   at Theater.Grpc.Server.User.Services.UserService.GetUserByUserName(GetUserByUserNameRequest request, ServerCallContext context) in D:\code\Theater.Api\Theater.Grpc.Server.User\Services\UserService.cs:line 24
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.UnaryServerCallHandler`3.HandleCallAsyncCore(HttpContext httpContext, HttpContextServerCallContext serverCallContext)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.ServerCallHandlerBase`3.<HandleCallAsync>g__AwaitHandleCall|8_0(HttpContextServerCallContext serverCallContext, Method`2 method, Task handleCall)
+2021-06-23 12:00:16.1968|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.User.User/GetUserByUserName' 
+2021-06-23 12:00:16.1968|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 17.285ms 200 application/grpc 
+2021-06-23 12:01:59.2834|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.User.User/GetUserByUserName application/grpc  
+2021-06-23 12:01:59.2853|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.User.User/GetUserByUserName' 
+2021-06-23 12:01:59.2853|6|ERROR|Grpc.AspNetCore.Server.ServerCallHandler|Error when executing service method 'GetUserByUserName'. System.InvalidOperationException: Not found
+   at Theater.Data.Sqlite.User.Repository.UserRepository.GetUserByUserNameAsync(String username, String password) in D:\code\Theater.Api\Theater.Data.Sqlite.User\Repository\UserRepository.cs:line 73
+   at Theater.Grpc.Server.User.Services.UserService.GetUserByUserName(GetUserByUserNameRequest request, ServerCallContext context) in D:\code\Theater.Api\Theater.Grpc.Server.User\Services\UserService.cs:line 24
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.UnaryServerCallHandler`3.HandleCallAsyncCore(HttpContext httpContext, HttpContextServerCallContext serverCallContext)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.ServerCallHandlerBase`3.<HandleCallAsync>g__AwaitHandleCall|8_0(HttpContextServerCallContext serverCallContext, Method`2 method, Task handleCall)
+2021-06-23 12:01:59.2853|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.User.User/GetUserByUserName' 
+2021-06-23 12:01:59.2853|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 11.0927ms 200 application/grpc 
+2021-06-23 12:05:37.7101|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.User.User/GetUserByUserName application/grpc  
+2021-06-23 12:05:37.7101|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.User.User/GetUserByUserName' 
+2021-06-23 12:05:37.7101|6|ERROR|Grpc.AspNetCore.Server.ServerCallHandler|Error when executing service method 'GetUserByUserName'. System.InvalidOperationException: Not found
+   at Theater.Data.Sqlite.User.Repository.UserRepository.GetUserByUserNameAsync(String username, String password) in D:\code\Theater.Api\Theater.Data.Sqlite.User\Repository\UserRepository.cs:line 73
+   at Theater.Grpc.Server.User.Services.UserService.GetUserByUserName(GetUserByUserNameRequest request, ServerCallContext context) in D:\code\Theater.Api\Theater.Grpc.Server.User\Services\UserService.cs:line 24
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.UnaryServerCallHandler`3.HandleCallAsyncCore(HttpContext httpContext, HttpContextServerCallContext serverCallContext)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.ServerCallHandlerBase`3.<HandleCallAsync>g__AwaitHandleCall|8_0(HttpContextServerCallContext serverCallContext, Method`2 method, Task handleCall)
+2021-06-23 12:05:37.7230|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.User.User/GetUserByUserName' 
+2021-06-23 12:05:37.7230|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 14.5292ms 200 application/grpc 
+2021-06-23 12:54:08.5733|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.User.User/GetAllUsers application/grpc  
+2021-06-23 12:54:08.6670|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.User.User/GetAllUsers' 
+2021-06-23 12:54:09.7104|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.User.User/GetAllUsers' 
+2021-06-23 12:54:09.7104|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 1138.8977ms 200 application/grpc 
+2021-06-23 13:01:34.4291||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 13:01:36.7467||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 13:01:36.7660||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 13:01:36.7697||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 13:01:36.7697||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 13:06:21.8786||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 13:06:22.5101||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 13:06:22.5288||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 13:06:22.5288||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 13:06:22.5288||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 13:08:32.2400|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.User.User/GetUserByUserName application/grpc  
+2021-06-23 13:08:32.6384|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.User.User/GetUserByUserName' 
+2021-06-23 13:08:34.1061|6|ERROR|Grpc.AspNetCore.Server.ServerCallHandler|Error when executing service method 'GetUserByUserName'. System.InvalidOperationException: Not found
+   at Theater.Data.Sqlite.User.Repository.UserRepository.GetUserByUserNameAsync(String username, String password) in D:\code\Theater.Api\Theater.Data.Sqlite.User\Repository\UserRepository.cs:line 73
+   at Theater.Grpc.Server.User.Services.UserService.GetUserByUserName(GetUserByUserNameRequest request, ServerCallContext context) in D:\code\Theater.Api\Theater.Grpc.Server.User\Services\UserService.cs:line 24
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.UnaryServerCallHandler`3.HandleCallAsyncCore(HttpContext httpContext, HttpContextServerCallContext serverCallContext)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.ServerCallHandlerBase`3.<HandleCallAsync>g__AwaitHandleCall|8_0(HttpContextServerCallContext serverCallContext, Method`2 method, Task handleCall)
+2021-06-23 13:08:34.1658|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.User.User/GetUserByUserName' 
+2021-06-23 13:08:34.1658|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 1932.788ms 200 application/grpc 
+2021-06-23 13:27:19.5946||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 13:27:21.6625||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 13:27:21.6625||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 13:27:21.6771||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 13:27:21.6771||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 13:28:26.2191|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.User.User/GetUserByUserName application/grpc  
+2021-06-23 13:28:26.2708|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.User.User/GetUserByUserName' 
+2021-06-23 13:28:29.0942|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.User.User/GetUserByUserName' 
+2021-06-23 13:28:29.1000|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 2881.9277ms 200 application/grpc 
+2021-06-23 13:34:40.1861||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 13:34:41.6594||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 13:34:41.6682||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 13:34:41.6682||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 13:34:41.6682||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 13:37:14.7980||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 13:37:17.2903||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 13:37:17.5977||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 13:37:17.5977||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 13:37:17.5977||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 13:37:51.6527|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 13:37:51.8096|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 13:42:39.6755||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 13:42:42.0413||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 13:42:42.0550||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 13:42:42.0550||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 13:42:42.0550||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 13:43:25.4562|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 13:43:25.5297|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 13:43:47.8131|6|ERROR|Grpc.AspNetCore.Server.ServerCallHandler|Error when executing service method 'GetLoginById'. AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Login -> Login
+Theater.Data.Sqlite.User.Login -> Theater.Domain.User.Login
+
+Type Map configuration:
+Login -> Login
+Theater.Data.Sqlite.User.Login -> Theater.Domain.User.Login
+
+Destination Member:
+User
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+User -> User
+Theater.Data.Sqlite.User.User -> Theater.Domain.User.User
+   at lambda_method(Closure , User , User , ResolutionContext )
+   at lambda_method(Closure , Login , Login , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Login , Login , ResolutionContext )
+   at Theater.Mapper.BaseMapper`2..ctor(TSource source) in D:\code\Theater.Api\Theater.Mapper\BaseMapper.cs:line 21
+   at Theater.Data.Sqlite.User.Mapper.LoginDatatoDomMapper..ctor(Login login) in D:\code\Theater.Api\Theater.Data.Sqlite.User\Mapper\LoginDatatoDomMapper.cs:line 12
+   at Theater.Data.Sqlite.User.Repository.LoginRepository.GetLoginById(String loginid) in D:\code\Theater.Api\Theater.Data.Sqlite.User\Repository\LoginRepository.cs:line 37
+   at Theater.Grpc.Server.User.Services.LoginService.GetLoginById(GetLoginByIdRequest request, ServerCallContext context) in D:\code\Theater.Api\Theater.Grpc.Server.User\Services\LoginService.cs:line 26
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.UnaryServerCallHandler`3.HandleCallAsyncCore(HttpContext httpContext, HttpContextServerCallContext serverCallContext)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.ServerCallHandlerBase`3.<HandleCallAsync>g__AwaitHandleCall|8_0(HttpContextServerCallContext serverCallContext, Method`2 method, Task handleCall)
+2021-06-23 13:43:47.8826|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 13:43:47.8962|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 22440.9736ms 200 application/grpc 
+2021-06-23 13:43:59.6838|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 13:43:59.6838|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 13:44:08.7569|6|ERROR|Grpc.AspNetCore.Server.ServerCallHandler|Error when executing service method 'GetLoginById'. AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Login -> Login
+Theater.Data.Sqlite.User.Login -> Theater.Domain.User.Login
+
+Type Map configuration:
+Login -> Login
+Theater.Data.Sqlite.User.Login -> Theater.Domain.User.Login
+
+Destination Member:
+User
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+User -> User
+Theater.Data.Sqlite.User.User -> Theater.Domain.User.User
+   at lambda_method(Closure , User , User , ResolutionContext )
+   at lambda_method(Closure , Login , Login , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Login , Login , ResolutionContext )
+   at Theater.Mapper.BaseMapper`2..ctor(TSource source) in D:\code\Theater.Api\Theater.Mapper\BaseMapper.cs:line 21
+   at Theater.Data.Sqlite.User.Mapper.LoginDatatoDomMapper..ctor(Login login) in D:\code\Theater.Api\Theater.Data.Sqlite.User\Mapper\LoginDatatoDomMapper.cs:line 12
+   at Theater.Data.Sqlite.User.Repository.LoginRepository.GetLoginById(String loginid) in D:\code\Theater.Api\Theater.Data.Sqlite.User\Repository\LoginRepository.cs:line 37
+   at Theater.Grpc.Server.User.Services.LoginService.GetLoginById(GetLoginByIdRequest request, ServerCallContext context) in D:\code\Theater.Api\Theater.Grpc.Server.User\Services\LoginService.cs:line 26
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.UnaryServerCallHandler`3.HandleCallAsyncCore(HttpContext httpContext, HttpContextServerCallContext serverCallContext)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.ServerCallHandlerBase`3.<HandleCallAsync>g__AwaitHandleCall|8_0(HttpContextServerCallContext serverCallContext, Method`2 method, Task handleCall)
+2021-06-23 13:44:08.7569|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 13:44:08.7569|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 9077.0519ms 200 application/grpc 
+2021-06-23 13:44:38.2326|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 13:44:38.2326|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 13:46:26.9441||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 13:46:32.3424||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 13:46:32.3583||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 13:46:32.3643||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 13:46:32.3643||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 13:46:42.2158|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 13:46:42.3379|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 13:47:16.5456|6|ERROR|Grpc.AspNetCore.Server.ServerCallHandler|Error when executing service method 'GetLoginById'. AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Login -> LoginReply
+Theater.Domain.User.Login -> Theater.Grpc.Server.Login.LoginReply
+
+Type Map configuration:
+Login -> LoginReply
+Theater.Domain.User.Login -> Theater.Grpc.Server.Login.LoginReply
+
+Destination Member:
+Logdate
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+DateTime -> Timestamp
+System.DateTime -> Google.Protobuf.WellKnownTypes.Timestamp
+   at lambda_method(Closure , DateTime , Timestamp , ResolutionContext )
+   at lambda_method(Closure , Login , LoginReply , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Login , LoginReply , ResolutionContext )
+   at Theater.Mapper.BaseMapper`2..ctor(TSource source) in D:\code\Theater.Api\Theater.Mapper\BaseMapper.cs:line 21
+   at Theater.Grpc.Server.User.Mapper.Login.LoginToGLoginMapper..ctor(Login login) in D:\code\Theater.Api\Theater.Grpc.Server.User\Mapper\Login\LoginToGLoginMapper.cs:line 13
+   at Theater.Grpc.Server.User.Services.LoginService.GetLoginById(GetLoginByIdRequest request, ServerCallContext context) in D:\code\Theater.Api\Theater.Grpc.Server.User\Services\LoginService.cs:line 28
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.UnaryServerCallHandler`3.HandleCallAsyncCore(HttpContext httpContext, HttpContextServerCallContext serverCallContext)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.ServerCallHandlerBase`3.<HandleCallAsync>g__AwaitHandleCall|8_0(HttpContextServerCallContext serverCallContext, Method`2 method, Task handleCall)
+2021-06-23 13:47:16.6664|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 13:47:16.7171|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 34502.9687ms 200 application/grpc 
+2021-06-23 13:47:23.9515|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 13:47:23.9515|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 13:49:41.1570||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 13:49:44.9029||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 13:49:44.9187||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 13:49:44.9187||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 13:49:44.9187||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 13:50:15.2312|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 13:50:15.3039|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 13:51:19.2564|6|ERROR|Grpc.AspNetCore.Server.ServerCallHandler|Error when executing service method 'GetLoginById'. AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Login -> LoginReply
+Theater.Domain.User.Login -> Theater.Grpc.Server.Login.LoginReply
+
+Type Map configuration:
+Login -> LoginReply
+Theater.Domain.User.Login -> Theater.Grpc.Server.Login.LoginReply
+
+Destination Member:
+Logdate
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+DateTime -> Timestamp
+System.DateTime -> Google.Protobuf.WellKnownTypes.Timestamp
+   at lambda_method(Closure , DateTime , Timestamp , ResolutionContext )
+   at lambda_method(Closure , Login , LoginReply , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Login , LoginReply , ResolutionContext )
+   at Theater.Mapper.BaseMapper`2..ctor(TSource source) in D:\code\Theater.Api\Theater.Mapper\BaseMapper.cs:line 21
+   at Theater.Grpc.Server.User.Mapper.Login.LoginToGLoginMapper..ctor(Login login) in D:\code\Theater.Api\Theater.Grpc.Server.User\Mapper\Login\LoginToGLoginMapper.cs:line 13
+   at Theater.Grpc.Server.User.Services.LoginService.GetLoginById(GetLoginByIdRequest request, ServerCallContext context) in D:\code\Theater.Api\Theater.Grpc.Server.User\Services\LoginService.cs:line 27
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.UnaryServerCallHandler`3.HandleCallAsyncCore(HttpContext httpContext, HttpContextServerCallContext serverCallContext)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.ServerCallHandlerBase`3.<HandleCallAsync>g__AwaitHandleCall|8_0(HttpContextServerCallContext serverCallContext, Method`2 method, Task handleCall)
+2021-06-23 13:51:19.3205|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 13:51:19.3348|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 64104.0337ms 200 application/grpc 
+2021-06-23 14:01:39.2544||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 14:01:42.4238||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 14:01:42.5010||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 14:01:42.5010||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 14:01:42.5010||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 14:01:52.6327|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 14:01:52.6948|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:02:39.5727|6|ERROR|Grpc.AspNetCore.Server.ServerCallHandler|Error when executing service method 'GetLoginById'. AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Login -> LoginReply
+Theater.Domain.User.Login -> Theater.Grpc.Server.Login.LoginReply
+
+Type Map configuration:
+Login -> LoginReply
+Theater.Domain.User.Login -> Theater.Grpc.Server.Login.LoginReply
+
+Destination Member:
+Logdate
+
+ ---> System.ArgumentException: Conversion from DateTime to Timestamp requires the DateTime kind to be Utc (Parameter 'dateTime')
+   at Google.Protobuf.WellKnownTypes.Timestamp.FromDateTime(DateTime dateTime)
+   at lambda_method(Closure , Login , LoginReply , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Login , LoginReply , ResolutionContext )
+   at Theater.Mapper.BaseMapper`2..ctor(TSource source) in D:\code\Theater.Api\Theater.Mapper\BaseMapper.cs:line 21
+   at Theater.Grpc.Server.User.Mapper.Login.LoginToGLoginMapper..ctor(Login login) in D:\code\Theater.Api\Theater.Grpc.Server.User\Mapper\Login\LoginToGLoginMapper.cs:line 13
+   at Theater.Grpc.Server.User.Services.LoginService.GetLoginById(GetLoginByIdRequest request, ServerCallContext context) in D:\code\Theater.Api\Theater.Grpc.Server.User\Services\LoginService.cs:line 27
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.UnaryServerCallHandler`3.HandleCallAsyncCore(HttpContext httpContext, HttpContextServerCallContext serverCallContext)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.ServerCallHandlerBase`3.<HandleCallAsync>g__AwaitHandleCall|8_0(HttpContextServerCallContext serverCallContext, Method`2 method, Task handleCall)
+2021-06-23 14:02:39.6430|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:02:39.6571|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 47025.8812ms 200 application/grpc 
+2021-06-23 14:02:51.3747|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 14:02:51.3747|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:03:07.1305|6|ERROR|Grpc.AspNetCore.Server.ServerCallHandler|Error when executing service method 'GetLoginById'. AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Login -> LoginReply
+Theater.Domain.User.Login -> Theater.Grpc.Server.Login.LoginReply
+
+Type Map configuration:
+Login -> LoginReply
+Theater.Domain.User.Login -> Theater.Grpc.Server.Login.LoginReply
+
+Destination Member:
+Logdate
+
+ ---> System.ArgumentException: Conversion from DateTime to Timestamp requires the DateTime kind to be Utc (Parameter 'dateTime')
+   at Google.Protobuf.WellKnownTypes.Timestamp.FromDateTime(DateTime dateTime)
+   at lambda_method(Closure , Login , LoginReply , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Login , LoginReply , ResolutionContext )
+   at Theater.Mapper.BaseMapper`2..ctor(TSource source) in D:\code\Theater.Api\Theater.Mapper\BaseMapper.cs:line 21
+   at Theater.Grpc.Server.User.Mapper.Login.LoginToGLoginMapper..ctor(Login login) in D:\code\Theater.Api\Theater.Grpc.Server.User\Mapper\Login\LoginToGLoginMapper.cs:line 13
+   at Theater.Grpc.Server.User.Services.LoginService.GetLoginById(GetLoginByIdRequest request, ServerCallContext context) in D:\code\Theater.Api\Theater.Grpc.Server.User\Services\LoginService.cs:line 27
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.UnaryServerCallHandler`3.HandleCallAsyncCore(HttpContext httpContext, HttpContextServerCallContext serverCallContext)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.ServerCallHandlerBase`3.<HandleCallAsync>g__AwaitHandleCall|8_0(HttpContextServerCallContext serverCallContext, Method`2 method, Task handleCall)
+2021-06-23 14:03:07.1305|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:03:07.1305|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 15765.7667ms 200 application/grpc 
+2021-06-23 14:03:20.7150|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 14:03:20.7150|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:03:24.1395|6|ERROR|Grpc.AspNetCore.Server.ServerCallHandler|Error when executing service method 'GetLoginById'. AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Login -> LoginReply
+Theater.Domain.User.Login -> Theater.Grpc.Server.Login.LoginReply
+
+Type Map configuration:
+Login -> LoginReply
+Theater.Domain.User.Login -> Theater.Grpc.Server.Login.LoginReply
+
+Destination Member:
+Logdate
+
+ ---> System.ArgumentException: Conversion from DateTime to Timestamp requires the DateTime kind to be Utc (Parameter 'dateTime')
+   at Google.Protobuf.WellKnownTypes.Timestamp.FromDateTime(DateTime dateTime)
+   at lambda_method(Closure , Login , LoginReply , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Login , LoginReply , ResolutionContext )
+   at Theater.Mapper.BaseMapper`2..ctor(TSource source) in D:\code\Theater.Api\Theater.Mapper\BaseMapper.cs:line 21
+   at Theater.Grpc.Server.User.Mapper.Login.LoginToGLoginMapper..ctor(Login login) in D:\code\Theater.Api\Theater.Grpc.Server.User\Mapper\Login\LoginToGLoginMapper.cs:line 13
+   at Theater.Grpc.Server.User.Services.LoginService.GetLoginById(GetLoginByIdRequest request, ServerCallContext context) in D:\code\Theater.Api\Theater.Grpc.Server.User\Services\LoginService.cs:line 27
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.UnaryServerCallHandler`3.HandleCallAsyncCore(HttpContext httpContext, HttpContextServerCallContext serverCallContext)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.ServerCallHandlerBase`3.<HandleCallAsync>g__AwaitHandleCall|8_0(HttpContextServerCallContext serverCallContext, Method`2 method, Task handleCall)
+2021-06-23 14:03:24.1395|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:03:24.1466|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 3431.6986ms 200 application/grpc 
+2021-06-23 14:03:31.6608|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 14:03:31.6608|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:05:06.4652|6|ERROR|Grpc.AspNetCore.Server.ServerCallHandler|Error when executing service method 'GetLoginById'. AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Login -> LoginReply
+Theater.Domain.User.Login -> Theater.Grpc.Server.Login.LoginReply
+
+Type Map configuration:
+Login -> LoginReply
+Theater.Domain.User.Login -> Theater.Grpc.Server.Login.LoginReply
+
+Destination Member:
+Logdate
+
+ ---> System.ArgumentException: Conversion from DateTime to Timestamp requires the DateTime kind to be Utc (Parameter 'dateTime')
+   at Google.Protobuf.WellKnownTypes.Timestamp.FromDateTime(DateTime dateTime)
+   at lambda_method(Closure , Login , LoginReply , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Login , LoginReply , ResolutionContext )
+   at Theater.Mapper.BaseMapper`2..ctor(TSource source) in D:\code\Theater.Api\Theater.Mapper\BaseMapper.cs:line 21
+   at Theater.Grpc.Server.User.Mapper.Login.LoginToGLoginMapper..ctor(Login login) in D:\code\Theater.Api\Theater.Grpc.Server.User\Mapper\Login\LoginToGLoginMapper.cs:line 13
+   at Theater.Grpc.Server.User.Services.LoginService.GetLoginById(GetLoginByIdRequest request, ServerCallContext context) in D:\code\Theater.Api\Theater.Grpc.Server.User\Services\LoginService.cs:line 27
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.UnaryServerCallHandler`3.HandleCallAsyncCore(HttpContext httpContext, HttpContextServerCallContext serverCallContext)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.ServerCallHandlerBase`3.<HandleCallAsync>g__AwaitHandleCall|8_0(HttpContextServerCallContext serverCallContext, Method`2 method, Task handleCall)
+2021-06-23 14:05:06.4652|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:05:06.4732|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 94812.4457ms 200 application/grpc 
+2021-06-23 14:05:41.1414|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 14:05:41.1414|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:06:07.6819|6|ERROR|Grpc.AspNetCore.Server.ServerCallHandler|Error when executing service method 'GetLoginById'. AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Login -> LoginReply
+Theater.Domain.User.Login -> Theater.Grpc.Server.Login.LoginReply
+
+Type Map configuration:
+Login -> LoginReply
+Theater.Domain.User.Login -> Theater.Grpc.Server.Login.LoginReply
+
+Destination Member:
+Logdate
+
+ ---> System.ArgumentException: Conversion from DateTime to Timestamp requires the DateTime kind to be Utc (Parameter 'dateTime')
+   at Google.Protobuf.WellKnownTypes.Timestamp.FromDateTime(DateTime dateTime)
+   at lambda_method(Closure , Login , LoginReply , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Login , LoginReply , ResolutionContext )
+   at Theater.Mapper.BaseMapper`2..ctor(TSource source) in D:\code\Theater.Api\Theater.Mapper\BaseMapper.cs:line 21
+   at Theater.Grpc.Server.User.Mapper.Login.LoginToGLoginMapper..ctor(Login login) in D:\code\Theater.Api\Theater.Grpc.Server.User\Mapper\Login\LoginToGLoginMapper.cs:line 13
+   at Theater.Grpc.Server.User.Services.LoginService.GetLoginById(GetLoginByIdRequest request, ServerCallContext context) in D:\code\Theater.Api\Theater.Grpc.Server.User\Services\LoginService.cs:line 27
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.UnaryServerCallHandler`3.HandleCallAsyncCore(HttpContext httpContext, HttpContextServerCallContext serverCallContext)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.ServerCallHandlerBase`3.<HandleCallAsync>g__AwaitHandleCall|8_0(HttpContextServerCallContext serverCallContext, Method`2 method, Task handleCall)
+2021-06-23 14:06:07.6819|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:06:07.6938|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 26552.4507ms 200 application/grpc 
+2021-06-23 14:06:18.6653|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 14:06:18.6653|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:07:35.8950|6|ERROR|Grpc.AspNetCore.Server.ServerCallHandler|Error when executing service method 'GetLoginById'. AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Login -> LoginReply
+Theater.Domain.User.Login -> Theater.Grpc.Server.Login.LoginReply
+
+Type Map configuration:
+Login -> LoginReply
+Theater.Domain.User.Login -> Theater.Grpc.Server.Login.LoginReply
+
+Destination Member:
+Logdate
+
+ ---> System.ArgumentException: Conversion from DateTime to Timestamp requires the DateTime kind to be Utc (Parameter 'dateTime')
+   at Google.Protobuf.WellKnownTypes.Timestamp.FromDateTime(DateTime dateTime)
+   at lambda_method(Closure , Login , LoginReply , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Login , LoginReply , ResolutionContext )
+   at Theater.Mapper.BaseMapper`2..ctor(TSource source) in D:\code\Theater.Api\Theater.Mapper\BaseMapper.cs:line 21
+   at Theater.Grpc.Server.User.Mapper.Login.LoginToGLoginMapper..ctor(Login login) in D:\code\Theater.Api\Theater.Grpc.Server.User\Mapper\Login\LoginToGLoginMapper.cs:line 13
+   at Theater.Grpc.Server.User.Services.LoginService.GetLoginById(GetLoginByIdRequest request, ServerCallContext context) in D:\code\Theater.Api\Theater.Grpc.Server.User\Services\LoginService.cs:line 27
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.UnaryServerCallHandler`3.HandleCallAsyncCore(HttpContext httpContext, HttpContextServerCallContext serverCallContext)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.ServerCallHandlerBase`3.<HandleCallAsync>g__AwaitHandleCall|8_0(HttpContextServerCallContext serverCallContext, Method`2 method, Task handleCall)
+2021-06-23 14:07:35.8950|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:07:35.8950|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 77237.9825ms 200 application/grpc 
+2021-06-23 14:15:23.3564||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 14:15:28.8869||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 14:15:28.9044||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 14:15:28.9044||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 14:15:28.9044||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 14:15:52.4261|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 14:15:52.5628|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:16:01.3983|6|ERROR|Grpc.AspNetCore.Server.ServerCallHandler|Error when executing service method 'GetLoginById'. System.ArgumentException: Conversion from DateTime to Timestamp requires the DateTime kind to be Utc (Parameter 'dateTime')
+   at Google.Protobuf.WellKnownTypes.Timestamp.FromDateTime(DateTime dateTime)
+   at Theater.Grpc.Server.User.Services.LoginService.GetLoginById(GetLoginByIdRequest request, ServerCallContext context) in D:\code\Theater.Api\Theater.Grpc.Server.User\Services\LoginService.cs:line 30
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.UnaryServerCallHandler`3.HandleCallAsyncCore(HttpContext httpContext, HttpContextServerCallContext serverCallContext)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.ServerCallHandlerBase`3.<HandleCallAsync>g__AwaitHandleCall|8_0(HttpContextServerCallContext serverCallContext, Method`2 method, Task handleCall)
+2021-06-23 14:16:01.4812|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:16:01.4920|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 9066.7415ms 200 application/grpc 
+2021-06-23 14:16:15.2095|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 14:16:15.2095|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:17:30.6649|6|ERROR|Grpc.AspNetCore.Server.ServerCallHandler|Error when executing service method 'GetLoginById'. System.ArgumentException: Conversion from DateTime to Timestamp requires the DateTime kind to be Utc (Parameter 'dateTime')
+   at Google.Protobuf.WellKnownTypes.Timestamp.FromDateTime(DateTime dateTime)
+   at Theater.Grpc.Server.User.Services.LoginService.GetLoginById(GetLoginByIdRequest request, ServerCallContext context) in D:\code\Theater.Api\Theater.Grpc.Server.User\Services\LoginService.cs:line 30
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.UnaryServerCallHandler`3.HandleCallAsyncCore(HttpContext httpContext, HttpContextServerCallContext serverCallContext)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.ServerCallHandlerBase`3.<HandleCallAsync>g__AwaitHandleCall|8_0(HttpContextServerCallContext serverCallContext, Method`2 method, Task handleCall)
+2021-06-23 14:17:30.6649|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:17:30.6649|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 75465.1563ms 200 application/grpc 
+2021-06-23 14:18:45.4101||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 14:18:50.1718||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 14:18:50.1874||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 14:18:50.1919||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 14:18:50.1919||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 14:19:10.1139|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 14:19:10.1929|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:19:24.4648|6|ERROR|Grpc.AspNetCore.Server.ServerCallHandler|Error when executing service method 'GetLoginById'. System.ArgumentException: Conversion from DateTime to Timestamp requires the DateTime kind to be Utc (Parameter 'dateTime')
+   at Google.Protobuf.WellKnownTypes.Timestamp.FromDateTime(DateTime dateTime)
+   at Theater.Grpc.Server.User.Services.LoginService.GetLoginById(GetLoginByIdRequest request, ServerCallContext context) in D:\code\Theater.Api\Theater.Grpc.Server.User\Services\LoginService.cs:line 30
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.UnaryServerCallHandler`3.HandleCallAsyncCore(HttpContext httpContext, HttpContextServerCallContext serverCallContext)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.ServerCallHandlerBase`3.<HandleCallAsync>g__AwaitHandleCall|8_0(HttpContextServerCallContext serverCallContext, Method`2 method, Task handleCall)
+2021-06-23 14:19:24.5348|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:19:24.5454|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 14432.0922ms 200 application/grpc 
+2021-06-23 14:19:58.8952||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 14:20:03.6105||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 14:20:03.6295||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 14:20:03.6295||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 14:20:03.6444||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 14:20:18.2768|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 14:20:18.3374|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:20:41.9398|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:20:41.9474|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 23671.0929ms 200 application/grpc 
+2021-06-23 14:21:22.3038||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 14:21:26.6618||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 14:21:26.6775||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 14:21:26.6775||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 14:21:26.6775||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 14:22:03.9351|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 14:22:03.9940|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:22:10.2965|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:22:10.3022|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 6368.1429ms 200 application/grpc 
+2021-06-23 14:24:48.8348||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 14:24:53.0834||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 14:24:53.1021||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 14:24:53.1021||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 14:24:53.1021||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 14:25:12.3403|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 14:25:12.3939|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:25:17.2527|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:25:17.2646|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 4923.5754ms 200 application/grpc 
+2021-06-23 14:36:13.1776||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 14:36:16.7932||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 14:36:16.8105||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 14:36:16.8105||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 14:36:16.8105||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 14:36:52.3137|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 14:36:52.3783|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:36:59.1101|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:36:59.1219|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 6809.0662ms 200 application/grpc 
+2021-06-23 14:37:35.0128||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 14:37:39.4790||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 14:37:39.5029||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 14:37:39.5058||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 14:37:39.5058||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 14:37:57.9190|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 14:37:57.9798|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:38:02.4203|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:38:02.4263|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 4508.5914ms 200 application/grpc 
+2021-06-23 14:39:15.0581||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 14:39:19.8635||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 14:39:19.8787||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 14:39:19.8787||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 14:39:19.8787||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 14:39:26.9507|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 14:39:27.0270|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:39:33.9695|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:39:33.9788|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 7028.7146ms 200 application/grpc 
+2021-06-23 14:45:48.0744||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 14:45:53.0267||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 14:45:53.0433||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 14:45:53.0433||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 14:45:53.0545||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 14:45:55.1937|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 14:45:55.2459|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:46:01.3179|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:46:01.3179|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 6135.5915ms 200 application/grpc 
+2021-06-23 14:50:44.4332||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 14:50:47.3048||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 14:50:47.3213||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 14:50:47.3213||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 14:50:47.3213||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 14:51:04.8856|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 14:51:04.9611|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:51:11.4172|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:51:11.4276|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 6542.5871ms 200 application/grpc 
+2021-06-23 14:53:52.6834||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 14:53:58.8637||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 14:53:58.8860||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 14:53:58.8860||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 14:53:58.8860||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 14:54:00.6650|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 14:54:00.7621|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:54:06.2824|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:54:06.2915|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 5628.4811ms 200 application/grpc 
+2021-06-23 14:55:23.6298||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 14:55:28.4861||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 14:55:28.5055||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 14:55:28.5055||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 14:55:28.5055||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 14:55:30.5795|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 14:55:30.6566|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:55:35.5250|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:55:35.5250|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 4954.7931ms 200 application/grpc 
+2021-06-23 14:56:46.1270||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 14:56:50.6415||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 14:56:50.6544||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 14:56:50.6544||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 14:56:50.6544||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 14:57:15.5458|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 14:57:15.6634|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:57:20.3634|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:57:20.3720|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 4826.0374ms 200 application/grpc 
+2021-06-23 14:59:50.2752||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 14:59:54.3947||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 14:59:54.3947||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 14:59:54.3947||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 14:59:54.4107||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 14:59:56.7549|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 14:59:56.8292|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 14:59:59.9989|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 15:00:00.0067|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 3253.3337ms 200 application/grpc 
+2021-06-23 15:00:26.2674|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 15:00:26.2704|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 15:02:02.5389||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 15:02:10.2894||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 15:02:10.3094||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 15:02:10.3094||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 15:02:10.3094||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 15:02:11.8165|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 15:02:11.9206|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 15:03:16.5151|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 15:03:16.5270|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 64713.0723ms 200 application/grpc 
+2021-06-23 15:04:10.8872||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 15:04:16.0964||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 15:04:16.1146||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 15:04:16.1146||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 15:04:16.1146||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 15:04:22.0972|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 15:04:22.1525|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 15:04:48.2841|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 15:04:48.2923|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 26195.9969ms 200 application/grpc 
+2021-06-23 15:05:03.3430|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 15:05:03.3430|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 15:05:56.8142|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 15:05:56.8194|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 53476.3336ms 200 application/grpc 
+2021-06-23 15:11:52.2748||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-23 15:11:54.8259||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-23 15:11:54.8460||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-23 15:11:54.8460||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-23 15:11:54.8460||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-23 15:12:00.0048|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-23 15:12:00.0722|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 15:12:02.1465|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-23 15:12:02.1465|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 2150.7578ms 200 application/grpc 

@@ -20,13 +20,21 @@ namespace Theater.Grpc.Client.User
         {
             using (var channel = GrpcChannel.ForAddress(this.url))
             {
-                var client = new User.UserClient(channel);
-                var reply = await client.GetUserByUserNameAsync(new GetUserByUserNameRequest 
+                try
                 {
-                    Username = username,
-                    Password = password
-                });
-                return new UserMapper(reply).Destination;
+                    var client = new User.UserClient(channel);
+                    var request = new GetUserByUserNameRequest
+                    {
+                        Username = username,
+                        Password = password
+                    };
+                    var reply = await client.GetUserByUserNameAsync(request);
+                    return new UserMapper(reply).Destination;
+                }
+                catch(Exception e) 
+                {
+                    throw e;
+                }
             }
         }
 

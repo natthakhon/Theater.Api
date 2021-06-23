@@ -12,9 +12,9 @@ namespace Theater.Grpc.Client.User
     {
         private string url;
 
-        public LoginClient(string url)
+        public LoginClient(IClientConnection clientConnection)
         {
-            this.url = url;
+            this.url = clientConnection.url;
         }
         public Task<Domain.User.Login> CreateAsync(Domain.User.Login model)
         {

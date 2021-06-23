@@ -34,6 +34,7 @@ namespace Theater.Grpc.Server.User
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapGrpcService<UserService>();
+                endpoints.MapGrpcService<LoginService>();
 
                 endpoints.MapGet("/", async context =>
                 {

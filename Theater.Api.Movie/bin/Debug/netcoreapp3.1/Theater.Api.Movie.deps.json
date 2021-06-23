@@ -40,6 +40,7 @@
           "Theater.CQRS": "1.0.0",
           "Theater.Data.Sqlite.Movie": "1.0.0",
           "Theater.Domain": "1.0.0",
+          "Theater.Grpc.Client.User": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -245,7 +246,7 @@
           "System.Resources.Reader": "4.1.2.0",
           "System.Resources.ResourceManager": "4.1.2.0",
           "System.Resources.Writer": "4.1.2.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.0.6.0",
+          "System.Runtime.CompilerServices.Unsafe.Reference": "4.0.6.0",
           "System.Runtime.CompilerServices.VisualC": "4.1.2.0",
           "System.Runtime": "4.2.2.0",
           "System.Runtime.Extensions": "4.2.2.0",
@@ -370,6 +371,65 @@
         },
         "compile": {
           "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {}
+        }
+      },
+      "Google.Protobuf/3.17.3": {
+        "dependencies": {
+          "System.Memory": "4.5.3",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.17.3.0",
+            "fileVersion": "3.17.3.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Protobuf.dll": {}
+        }
+      },
+      "Grpc.Core.Api/2.37.0": {
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Grpc.Core.Api.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.37.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Grpc.Core.Api.dll": {}
+        }
+      },
+      "Grpc.Net.Client/2.38.0": {
+        "dependencies": {
+          "Grpc.Net.Common": "2.38.0",
+          "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
+          "System.Diagnostics.DiagnosticSource": "5.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Grpc.Net.Client.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.38.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/Grpc.Net.Client.dll": {}
+        }
+      },
+      "Grpc.Net.Common/2.38.0": {
+        "dependencies": {
+          "Grpc.Core.Api": "2.37.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Grpc.Net.Common.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.38.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/Grpc.Net.Common.dll": {}
         }
       },
       "MediatR/9.0.0": {
@@ -976,6 +1036,7 @@
       },
       "System.Memory/4.5.3": {},
       "System.Reflection.Emit/4.7.0": {},
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {},
       "System.Text.Encodings.Web/5.0.0": {
         "runtime": {
           "lib/netcoreapp3.0/System.Text.Encodings.Web.dll": {
@@ -1048,6 +1109,21 @@
         },
         "compile": {
           "Theater.Domain.dll": {}
+        }
+      },
+      "Theater.Grpc.Client.User/1.0.0": {
+        "dependencies": {
+          "Google.Protobuf": "3.17.3",
+          "Grpc.Net.Client": "2.38.0",
+          "Theater.Domain": "1.0.0",
+          "Theater.Mapper": "1.0.0",
+          "Theater.Repository": "1.0.0"
+        },
+        "runtime": {
+          "Theater.Grpc.Client.User.dll": {}
+        },
+        "compile": {
+          "Theater.Grpc.Client.User.dll": {}
         }
       },
       "Theater.Mapper/1.0.0": {
@@ -2302,7 +2378,7 @@
         },
         "compileOnly": true
       },
-      "System.Runtime.CompilerServices.Unsafe/4.0.6.0": {
+      "System.Runtime.CompilerServices.Unsafe.Reference/4.0.6.0": {
         "compile": {
           "System.Runtime.CompilerServices.Unsafe.dll": {}
         },
@@ -2716,6 +2792,34 @@
       "path": "fluentvalidation.dependencyinjectionextensions/10.1.0",
       "hashPath": "fluentvalidation.dependencyinjectionextensions.10.1.0.nupkg.sha512"
     },
+    "Google.Protobuf/3.17.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vBUga9diexJgv9JPNYcs9AZ/5rPKpPCPSWqcqevF6e9KKzv0JwQdz58dSb7nm1xWeeCVB/Umr03cQ5ulF1RNLw==",
+      "path": "google.protobuf/3.17.3",
+      "hashPath": "google.protobuf.3.17.3.nupkg.sha512"
+    },
+    "Grpc.Core.Api/2.37.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ubqW2nTpiHyDudYGVXM+Vjh6WbgsI1fVQxsDK14/GnyPgiNMuNl8+GQcAYp5QPhAk5H4fjHJPI+KvbpVk8z6iQ==",
+      "path": "grpc.core.api/2.37.0",
+      "hashPath": "grpc.core.api.2.37.0.nupkg.sha512"
+    },
+    "Grpc.Net.Client/2.38.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5SvCXCIYe2pHv0xn55M0Fy5GmOJEFNYAZT2mih4cRtv+Tzkyj70CPJ80Kgqc/RI5KLkspDIeTl36equxRBXOKg==",
+      "path": "grpc.net.client/2.38.0",
+      "hashPath": "grpc.net.client.2.38.0.nupkg.sha512"
+    },
+    "Grpc.Net.Common/2.38.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZFmGJPYK1hMRDRtCdFcG/xrX5KZ2vDNBHS+Mu1Eijp9ekdfKJE/yVGxnIRKgISNFCWJ7zTSL8tpH/galMETtNA==",
+      "path": "grpc.net.common/2.38.0",
+      "hashPath": "grpc.net.common.2.38.0.nupkg.sha512"
+    },
     "MediatR/9.0.0": {
       "type": "package",
       "serviceable": true,
@@ -3101,6 +3205,13 @@
       "path": "system.reflection.emit/4.7.0",
       "hashPath": "system.reflection.emit.4.7.0.nupkg.sha512"
     },
+    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
+      "path": "system.runtime.compilerservices.unsafe/4.5.2",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+    },
     "System.Text.Encodings.Web/5.0.0": {
       "type": "package",
       "serviceable": true,
@@ -3138,6 +3249,11 @@
       "sha512": ""
     },
     "Theater.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Theater.Grpc.Client.User/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -4177,7 +4293,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Runtime.CompilerServices.Unsafe/4.0.6.0": {
+    "System.Runtime.CompilerServices.Unsafe.Reference/4.0.6.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

@@ -14,6 +14,7 @@ namespace Theater.Data.Sqlite.User.Mapper
         protected override void Reconfig(IMapperConfigurationExpression mapperConfigurationExpression)
         {
             mapperConfigurationExpression.CreateMap<Login, dom.Login>();
+            mapperConfigurationExpression.CreateMap<User, dom.User>();
         }
     }
 }

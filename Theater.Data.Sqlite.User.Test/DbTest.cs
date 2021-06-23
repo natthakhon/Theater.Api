@@ -125,5 +125,7 @@ namespace Theater.Data.Sqlite.User.Test
             var addedUseru = await userRepository.CreateAsync(user);
             var getWrongUser = await userRepository.GetUserByUserNameAsync(user.UserName, "12345");
         }
+
+
     }
 }

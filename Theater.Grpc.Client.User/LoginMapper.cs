@@ -12,7 +12,8 @@ namespace Theater.Grpc.Client.User
 
         protected override void Reconfig(IMapperConfigurationExpression mapperConfigurationExpression)
         {
-            mapperConfigurationExpression.CreateMap<Login.LoginReply, dom.Login>();
+            mapperConfigurationExpression.CreateMap<Login.LoginReply, dom.Login>()
+                .ForMember(dest => dest.LogDate,act => act.MapFrom(source =>source.Logdate.ToDateTime()));
             mapperConfigurationExpression.CreateMap<UserReply, dom.User>();
         }
     }
