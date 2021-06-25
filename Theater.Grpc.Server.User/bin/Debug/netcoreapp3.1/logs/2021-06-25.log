@@ -1,0 +1,27 @@
+2021-06-25 11:04:56.2649||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-25 11:05:05.2563||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-25 11:05:05.2793||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-25 11:05:05.2793||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-25 11:05:05.2793||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-25 11:10:16.1284||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-25 11:10:22.8781||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-25 11:10:22.8910||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-25 11:10:22.8910||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-25 11:10:22.8910||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-25 11:11:37.3235|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-25 11:11:37.3745|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-25 11:11:40.7292|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-25 11:11:40.7292|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 3413.9013ms 200 application/grpc 
+2021-06-25 13:07:54.4834||DEBUG|Theater.Grpc.Server.User.Program|Application Starting Up 
+2021-06-25 13:07:59.8950||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2021-06-25 13:07:59.9122||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-25 13:07:59.9122||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-25 13:07:59.9122||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\code\Theater.Api\Theater.Grpc.Server.User 
+2021-06-25 13:08:34.8141|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-25 13:08:34.8714|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-25 13:08:37.2089|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-25 13:08:37.2162|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 2402.2252ms 200 application/grpc 
+2021-06-25 13:08:37.3795|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/Theater.Grpc.Login.Login/GetLoginById application/grpc  
+2021-06-25 13:08:37.3795|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-25 13:08:37.4664|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'gRPC - /Theater.Grpc.Login.Login/GetLoginById' 
+2021-06-25 13:08:37.4664|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 88.3507ms 200 application/grpc 

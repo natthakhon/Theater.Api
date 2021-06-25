@@ -8,5 +8,6 @@ namespace Theater.Domain.Movie
     {
         public string TimeStart { set; get; }
         public string TimeEnd { set; get; }
+        public List<Seat> Seats { set; get; }
     }
 }

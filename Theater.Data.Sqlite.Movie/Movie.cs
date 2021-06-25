@@ -13,6 +13,7 @@ namespace Theater.Data.Sqlite.Movie
         [Required]
         [MaxLength(50)]
         public string Name { get; set; }
+        public int Length { set; get; }
         public DateTime CreateDate { get; set; }
         public DateTime? UpdateDate { get; set; }
     }

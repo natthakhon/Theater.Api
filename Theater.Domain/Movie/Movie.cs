@@ -7,5 +7,6 @@ namespace Theater.Domain.Movie
     public class Movie
     {
         public string MovieName { set; get; }
+        public int Length { set; get; }
     }
 }

@@ -17,7 +17,8 @@ namespace Theater.Data.Sqlite.Movie.Test
             MovieRepository repository = new MovieRepository();
             DOM.Movie movie = new DOM.Movie
             {
-                MovieName = name
+                MovieName = name,
+                Length=120
             };
             var m = await repository.CreateAsync(movie);
             Assert.IsTrue(repository.IsMovieExisted(m.MovieName).Result);
@@ -30,7 +31,8 @@ namespace Theater.Data.Sqlite.Movie.Test
             MovieRepository repository = new MovieRepository();
             DOM.Movie movie = new DOM.Movie
             {
-                MovieName = name
+                MovieName = name,
+                Length=120
             };
             var m = await repository.CreateAsync(movie);
             Assert.IsTrue(repository.IsMovieExisted(m.MovieName).Result);

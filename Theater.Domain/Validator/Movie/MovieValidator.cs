@@ -16,6 +16,10 @@ namespace Theater.Domain.Validator.Movie
             RuleFor(p => p.MovieName)
                 .Must(name => !movieCheck.IsMovieExisted(name).Result)
                 .WithMessage("Movie is already existed");
+
+            RuleFor(p => p.Length)
+                .GreaterThanOrEqualTo(1)
+                .WithMessage("Invalid length");
         }
     }
 }
