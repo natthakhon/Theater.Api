@@ -16,10 +16,9 @@ namespace Theater.Grpc.Client.User.Test
         [TestMethod]
         public async Task TestUserClient()
         {
-            UserClient userClient = new UserClient(this.url);
-            var user = await userClient.GetUserByUserNameAsync("nattlao","Natthakhon@1800");
-            Assert.IsNotNull(user);
-        }        
+
+
+        }
 
     }
 }
