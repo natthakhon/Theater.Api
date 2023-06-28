@@ -2224,56 +2224,56 @@
   },
   "packageFolders": {
     "C:\\Users\\nattl\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\code\\Theater.Api\\Theater.Api.User\\Theater.Api.User.csproj",
+      "projectUniqueName": "C:\\Users\\nattl\\Source\\Repos\\Theater.Api\\Theater.Api.User\\Theater.Api.User.csproj",
       "projectName": "Theater.Api.User",
-      "projectPath": "D:\\code\\Theater.Api\\Theater.Api.User\\Theater.Api.User.csproj",
+      "projectPath": "C:\\Users\\nattl\\Source\\Repos\\Theater.Api\\Theater.Api.User\\Theater.Api.User.csproj",
       "packagesPath": "C:\\Users\\nattl\\.nuget\\packages\\",
-      "outputPath": "D:\\code\\Theater.Api\\Theater.Api.User\\obj\\",
+      "outputPath": "C:\\Users\\nattl\\Source\\Repos\\Theater.Api\\Theater.Api.User\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\nattl\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Users\\nattl\\.nuget\\packages": {},
+        "C:\\Users\\nattl\\AppData\\Local\\Programs\\UiPath\\Studio\\Packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\code\\Theater.Api\\Theater.Api.Base\\Theater.Api.Base.csproj": {
-              "projectPath": "D:\\code\\Theater.Api\\Theater.Api.Base\\Theater.Api.Base.csproj"
+            "C:\\Users\\nattl\\Source\\Repos\\Theater.Api\\Theater.Api.Base\\Theater.Api.Base.csproj": {
+              "projectPath": "C:\\Users\\nattl\\Source\\Repos\\Theater.Api\\Theater.Api.Base\\Theater.Api.Base.csproj"
             },
-            "D:\\code\\Theater.Api\\Theater.CQRS\\Theater.CQRS.csproj": {
-              "projectPath": "D:\\code\\Theater.Api\\Theater.CQRS\\Theater.CQRS.csproj"
+            "C:\\Users\\nattl\\Source\\Repos\\Theater.Api\\Theater.CQRS\\Theater.CQRS.csproj": {
+              "projectPath": "C:\\Users\\nattl\\Source\\Repos\\Theater.Api\\Theater.CQRS\\Theater.CQRS.csproj"
             },
-            "D:\\code\\Theater.Api\\Theater.Data.Sqlite.User\\Theater.Data.Sqlite.User.csproj": {
-              "projectPath": "D:\\code\\Theater.Api\\Theater.Data.Sqlite.User\\Theater.Data.Sqlite.User.csproj"
+            "C:\\Users\\nattl\\Source\\Repos\\Theater.Api\\Theater.Data.Sqlite.User\\Theater.Data.Sqlite.User.csproj": {
+              "projectPath": "C:\\Users\\nattl\\Source\\Repos\\Theater.Api\\Theater.Data.Sqlite.User\\Theater.Data.Sqlite.User.csproj"
             },
-            "D:\\code\\Theater.Api\\Theater.Domain\\Theater.Domain.csproj": {
-              "projectPath": "D:\\code\\Theater.Api\\Theater.Domain\\Theater.Domain.csproj"
+            "C:\\Users\\nattl\\Source\\Repos\\Theater.Api\\Theater.Domain\\Theater.Domain.csproj": {
+              "projectPath": "C:\\Users\\nattl\\Source\\Repos\\Theater.Api\\Theater.Domain\\Theater.Domain.csproj"
             },
-            "D:\\code\\Theater.Api\\Theater.NLogger\\Theater.NLogger.csproj": {
-              "projectPath": "D:\\code\\Theater.Api\\Theater.NLogger\\Theater.NLogger.csproj"
+            "C:\\Users\\nattl\\Source\\Repos\\Theater.Api\\Theater.NLogger\\Theater.NLogger.csproj": {
+              "projectPath": "C:\\Users\\nattl\\Source\\Repos\\Theater.Api\\Theater.NLogger\\Theater.NLogger.csproj"
             },
-            "D:\\code\\Theater.Api\\Theater.Repository\\Theater.Repository.csproj": {
-              "projectPath": "D:\\code\\Theater.Api\\Theater.Repository\\Theater.Repository.csproj"
+            "C:\\Users\\nattl\\Source\\Repos\\Theater.Api\\Theater.Repository\\Theater.Repository.csproj": {
+              "projectPath": "C:\\Users\\nattl\\Source\\Repos\\Theater.Api\\Theater.Repository\\Theater.Repository.csproj"
             }
           }
         }
@@ -2323,7 +2323,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

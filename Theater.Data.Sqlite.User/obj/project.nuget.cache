@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6IvOzavRqFfbklp2XsaF+I9alQ0Bt1PC3/DAK3Mc9Nlk/AmNXpLfFKTK1ouFyjif74pIpp3YW+/06CgZVX/kIQ==",
+  "dgSpecHash": "3PfqIYhX2G5D72CyxvjK5gXICxFm/cNMk8dwIaCwky4P+RE5hQxxm90lB51hYp95dektugT3j8cYQwzRatoeZw==",
   "success": true,
-  "projectFilePath": "D:\\code\\Theater.Api\\Theater.Data.Sqlite.User\\Theater.Data.Sqlite.User.csproj",
+  "projectFilePath": "C:\\Users\\nattl\\Source\\Repos\\Theater.Api\\Theater.Data.Sqlite.User\\Theater.Data.Sqlite.User.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nattl\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\nattl\\.nuget\\packages\\fluentvalidation\\10.0.4\\fluentvalidation.10.0.4.nupkg.sha512",

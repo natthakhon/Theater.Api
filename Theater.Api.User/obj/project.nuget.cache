@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "keN2OG4PrYsdoecpkP85Rj8CS97MP7P4+cSuAsDa5bH2BnTMQxRPM0OPzbP7hK2MljPw/OGjAs3ucD10eqbIPA==",
+  "dgSpecHash": "09kQPzd08qFJLyi0nO4c/8IoigCu+l3hPgboZhQq/HFkY4lyMSZpaDFbrCzOPU4dpnzxt0BQMC5yKnE2JBk+Wg==",
   "success": true,
-  "projectFilePath": "D:\\code\\Theater.Api\\Theater.Api.User\\Theater.Api.User.csproj",
+  "projectFilePath": "C:\\Users\\nattl\\Source\\Repos\\Theater.Api\\Theater.Api.User\\Theater.Api.User.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nattl\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\nattl\\.nuget\\packages\\fluentvalidation\\10.1.0\\fluentvalidation.10.1.0.nupkg.sha512",
